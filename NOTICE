@@ -1,0 +1,41 @@
+DNA Research Recipes — Kinprove Claude Skill — Third-party content notice
+
+This Skill package contains prompts and original documentation authored by
+Kinprove and licensed under the Functional Source License 1.1 (MIT Future
+License) — FSL-1.1-MIT — see LICENSE. Copyright 2026 Kinprove.
+
+The six recipes are original Kinprove-authored distillations of genetic-
+genealogy judgment. Facts, methods, and community teaching that a recipe cites
+but does NOT reproduce (for example the Leeds Method, WATO / "What Are The
+Odds", the Genealogical Proof Standard) need only source attribution and are
+credited in each recipe's recipes/<slug>.sources.md — they are not carved out
+here.
+
+The FSL-1.1-MIT license in LICENSE applies to Kinprove's original code and
+documentation. It does NOT relicense any third-party data that a recipe
+reproduces; such data keeps its own upstream license, carved out below.
+
+-----------------------------------------------------------------------------
+TODO (finalized at export, before the gated public release)
+-----------------------------------------------------------------------------
+This block is a placeholder to be completed from the per-recipe rights
+inventories (recipes/<slug>.rights.json) produced during the Stage-0
+normalization and rendered by the export step. Populate it ONLY with recipes
+that REPRODUCE copyrightable third-party DATA (e.g. relationship-to-cM range
+tables adapted from the Shared cM Project v4.0). Cited-but-not-reproduced
+methods/facts do NOT belong here.
+
+Model each real carve-out on the following shape (mirrors the sibling
+kinprove-genealogist NOTICE), and DELETE this TODO block if the final rights
+inventory flags nothing to reproduce:
+
+  This package includes content derived from the Shared cM Project v4.0 by
+  Blaine Bettinger, licensed under Creative Commons Attribution 4.0
+  International (CC BY 4.0). Specifically, <file/section> adapts those v4.0
+  ranges. CC BY 4.0 requires attribution and a notice of changes.
+  Attribution: "Adapted from the Shared cM Project v4.0 by Blaine Bettinger
+  (https://thegeneticgenealogist.com/, CC BY 4.0)". Changes from the v4.0
+  source: <describe reformatting / pairing>.
+  A full copy of the CC BY 4.0 license is at:
+  https://creativecommons.org/licenses/by/4.0/
+-----------------------------------------------------------------------------
