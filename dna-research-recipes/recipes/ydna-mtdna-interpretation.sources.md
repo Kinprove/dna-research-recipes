@@ -20,8 +20,11 @@
 16. *All About AI – What It Is, What It Isn't, and Why It Matters* — Roberta Estes (DNAeXplained), 2026-06-25 — <https://dna-explained.com/2026/06/25/all-about-ai-what-it-is-what-it-isnt-and-why-it-matters/> — Rights: cited reference; phylogenetic-tree caution adapted in Kinprove's own words (not reproduced).
 17. *Holiday Genealogy & DNA Q&A* — GeneaVlogger, 2025-12-26 — <https://www.youtube.com/watch?v=VQgE0u9SGSU> — Rights: cited reference, not reproduced.
 18. *The Secrets In My DNA with Richard Hill* — Legacy Tree Genealogists, 2026-01-08 — <https://www.youtube.com/watch?v=Qa0vYIjLyak> — Rights: cited reference, not reproduced.
+19. *mtDNA Matches Introduction* — FamilyTreeDNA Help Center, accessed 2026-07-18 — <https://help.familytreedna.com/hc/en-us/articles/360004592756-mtDNA-Matches-Introduction> — Rights: cited reference, not reproduced.
+20. *Concepts – Genetic Distance* — Roberta Estes (DNAeXplained), 2016-06-29 — <https://dna-explained.com/2016/06/29/concepts-genetic-distance/> — Rights: cited reference, not reproduced.
+21. *Sarah Rash's and Perhaps Mary Warren's Mitochondrial DNA – 52 Ancestors #359* — Roberta Estes (DNAeXplained), 2022-05-22 — <https://dna-explained.com/2022/05/22/sarah-rashs-and-perhaps-mary-warrens-mitochondrial-dna-52-ancestors-359/> — Rights: cited reference, not reproduced.
 
 ## Credits
 
-- Roberta Estes, 'All About AI – What It Is, What It Isn't, and Why It Matters', DNAeXplained, 2026-06-25 — <https://dna-explained.com/2026/06/25/all-about-ai-what-it-is-what-it-isnt-and-why-it-matters/> — FSL-1.1-MIT (adapted)
+- Roberta Estes, 'All About AI – What It Is, What It Isn't, and Why It Matters', DNAeXplained, 2026-06-25 — FSL-1.1-MIT (adapted)
 - Kinprove — original distillation and synthesis — FSL-1.1-MIT (kinprove-original)
