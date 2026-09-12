@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
-description: Expert judgment for DNA genealogy research — practitioner failure modes, delegate-vs-never-trust boundaries, and the reasoning arcs a confident answer gets wrong. Use when helping with unknown-parentage / adoptee cases, WATO hypothesis placement, DNA match clustering to an ancestral couple, Y-DNA / mtDNA interpretation, X-DNA / phasing judgment, evidence correlation and proof, or applying AI/LLMs to DNA and records work. Complements what you already know about fundamentals; the recipes carry the non-obvious judgment an unaided answer gets wrong.
-  Triggers on "unknown parentage", "adoptee birth parent", "who is my biological father/grandfather", "WATO", "What Are The Odds", "DNA Painter hypothesis", "place an unknown ancestor", "cluster DNA matches to an ancestral couple", "AI for DNA research", "ChatGPT/Claude for genealogy", "AI DNA source citations", "AI Leeds chart", "AI transcription", "AI handwriting recognition / HTR", "FamilySearch Full-Text Search", "translate a handwritten record", "correct AI-indexed records", "evaluate an AI record hint", "colorize or restore an old photo", "Y-DNA", "mtDNA", "haplogroup", "genetic distance", "TMRCA", "prove a relationship", "separating same-name identities", "is this the same person", "resolve conflicting records", "negative evidence", "genealogical proof standard", "combine DNA and documents into one proof", "X-DNA match", "X chromosome match", "X-DNA threshold", "visual phasing", "chromosome phasing", "phase a DNA kit", "GEDmatch phasing", "Lazarus reconstruction", "half-sister or aunt".
+description: >-
+  Expert judgment for DNA genealogy: practitioner failure modes, AI verification boundaries, and source-grounded reasoning. Use for unknown parentage or adoptee research; WATO / What Are The Odds and DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or other endogamous matches; segment attribution and targeted relative testing; AI/ChatGPT/Claude for DNA, citations, records, transcription, HTR, translation, FamilySearch Full-Text Search, record hints, or photo restoration; Y-DNA haplogroups and Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, Lazarus reconstruction, or half-sister versus aunt; proving relationships, separating same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, or combining DNA with documents. Read the matching recipe for task-specific judgment beyond the fundamentals.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -36,7 +36,8 @@ skip well-documented fundamentals (you already hold those) and version-specific 
   collapse / any multi-path match.
 
 - **`recipes/ai-for-dna-research.md`** — Using an AI assistant *reliably* on DNA/genealogy work:
-  what to delegate freely, what to never trust, and the prompt patterns that work.
+  what to delegate freely, what to never trust, and the prompt patterns that work. Includes
+  endogamous match prioritization, segment attribution, and targeted testing of outmarrying branches.
   *Use for:* any "can AI/ChatGPT/Claude help me with my DNA / tree / citations", **or** whenever
   you (the assistant) are about to compute or assert something in this domain.
   *Core guardrail:* never fabricate cM→relationship odds (route to the Shared cM Project / DNA
