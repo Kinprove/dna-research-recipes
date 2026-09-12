@@ -14,6 +14,8 @@
 10. *Ethnicity and Physical Features are NOT Accurate Predictors of Parentage or Heritage* — Roberta Estes (DNAeXplained), 2017-07-02 — <https://dna-explained.com/2017/07/02/ethnicity-and-physical-features-are-not-accurate-predictors-of-parentage-or-heritage/> — Rights: cited reference, not reproduced.
 11. *Why is my percentage for a region higher (or lower) than my family tree suggests it should be?* — Ancestry Support, n.d. (accessed 2026-07-18) — <https://www.ancestry.com/cs/dna-help/ethnicity/expectations> — Rights: cited reference, not reproduced.
 12. *Why are My Ethnicity Estimate Different Than Expected?* — MyHeritage Help Center, 2025-11-16 — <https://www.myheritage.com/help/en/articles/12852702-why-are-my-ethnicity-estimate-different-than-expected> — Rights: cited reference, not reproduced.
+13. *Chromosome mapping and endogamy* — Lara Diamond (guest post, DNA Painter), 2022-01-30 — <https://blog.dnapainter.com/blog/chromosome-mapping-and-endogamy/> — Rights: cited reference, not reproduced.
+14. *Strategies for Overcoming Endogamy* — Nicole Elder Dyer (Family Locket), 2023-01-05 — <https://familylocket.com/strategies-for-overcoming-endogamy/> — Rights: cited reference, not reproduced.
 
 ## Credits
 

@@ -29,6 +29,14 @@ AI is a **language-prediction system, not a reasoning authority** — it produce
 - **Final evidentiary judgment.** Proof validation is human work; AI drafts, you rule. (Denyse Allen)
 - **Source-type classification without explicit rules.** Ask AI to classify sources as *original / derivative / authored* and it will (a) confuse them with *primary / secondary* (which classify the *information*, a different axis), and (b) invent its own logic — unless you define the rules first. (Family Locket, 2026-03; the framework is Elizabeth Shown Mills methodology, so this is a real, checkable failure mode.)
 
+## Endogamous matches: separate prioritization from ancestral attribution
+
+These autosomal tactics address Ashkenazi and other endogamous pedigrees; a threshold chosen for one purpose does not establish a relationship or an ancestor.
+
+- **A documented cousin does not identify the source of every shared segment.** In Lara Diamond's example, her mother's first cousin connected through the maternal grandfather, yet some shared 7–10 cM segments overlapped the maternal grandmother's mapped lines. Other small segments agreed with the documented connection. Preserve the known relationship, but leave ambiguous segments unassigned instead of painting every overlap onto that couple. For Ashkenazi chromosome mapping, Diamond recommends a 10 cM minimum and describes 15 cM as reducing misattribution at the cost of losing some valid segments. These are her mapping heuristics, not universal detection thresholds or proof that a retained segment came from the named couple. (Diamond, 2022-01-30)
+- **Use filtered totals to prioritize investigation, not as corrected relationship probabilities.** Keep the original total and segment list; alongside them record the longest segment and a separately labeled total after a chosen minimum-segment filter. Dyer describes 10–15 cM filters for endogamous analysis and ranking by longest segment together with total sharing. Compare which matches remain promising, without treating an excluded segment as disproved. Do not feed the filtered sum into ordinary Shared cM/WATO probabilities as an endogamy correction: filtering changes the input without supplying a matching probability model or eliminating multiple inheritance paths. (Dyer, 2023-01-05; WATO assumptions: `unknown-parentage-wato.md`)
+- **Look for a documented descendant whose later branch married outside the community.** Dyer relays Paul Woodbury's term *genetic pioneers*: such a branch can help distinguish the target connection from competing endogamous sharing. Select by documented descent, not a low ethnicity percentage. Weigh that advantage against generational distance and the chance the descendant inherited useful DNA; do not automatically prefer a much more distant tester. This is a targeted-testing lead, not certification of a single relationship path or restored WATO assumptions. General coverage across relatives belongs to `unknown-parentage-wato.md`; small-segment validity and pileup checks belong to `xdna-phasing-judgment.md`. (Dyer, 2023-01-05)
+
 ## Prompt-craft that practitioners found works (the reusable core)
 
 1. **Provide complete inputs, don't expect inference.** Give the citation fields / the transcription / the screenshot — not "here's a link, cite it."
@@ -37,6 +45,7 @@ AI is a **language-prediction system, not a reasoning authority** — it produce
 4. **Define the rules or it invents them.** Any domain logic (source analysis, grouping criteria) must be stated explicitly first.
 5. **Manage the context window.** Long chats degrade and hit limits even on paid plans — split into fresh chats and reload the current state rather than one endless thread. (Family Locket, Leeds video)
 6. **Specificity drives quality.** The more precise the ask and the format, the better the output.
+7. **Separate an endogamous match's research priority from its segment assignments.** Request original and filtered metrics with the filter stated, the documented relationship, and which individual segments remain unassigned.
 
 ## Worked mini-examples (workflow logic, not clicks)
 
