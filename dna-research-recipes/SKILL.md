@@ -33,7 +33,8 @@ authorship does not require a Kinprove account, connector or scoring engine.
 - **`recipes/unknown-parentage-wato.md`** — Placing an unknown person (an unknown parent, an
   adoptee's bio-parent, an unplaced ancestor) into a tree using DNA matches + WATO odds.
   *Use for:* "who is my unknown grandfather/father", adoptee bio-family search, WATO hypothesis
-  scoring, clustering matches to an ancestral couple.
+  scoring, clustering matches to an ancestral couple, tied hypotheses, choosing a discriminating
+  tester, or deciding which observations to withhold from a calculation.
   *Core guardrail:* WATO ranks placements on a tree **you already built**, gives **relative** odds
   among competing hypotheses (never a verdict), and breaks **silently** under endogamy / pedigree
   collapse / any multi-path match.
@@ -43,7 +44,8 @@ authorship does not require a Kinprove account, connector or scoring engine.
   endogamous match prioritization, segment attribution, targeted testing of outmarrying branches,
   and coherent family comparisons across tested ancestors, siblings and descendants.
   *Also use for:* "how are these two families connected", multiple related focal testers,
-  repeated descent paths, or a long segment in a relative that is shorter/absent in a descendant.
+  repeated descent paths, a long segment in a relative that is shorter/absent in a descendant,
+  mixed-origin segment overhangs, fused clusters, or validating a match's own pedigree.
   *Use for:* any "can AI/ChatGPT/Claude help me with my DNA / tree / citations", **or** whenever
   you (the assistant) are about to compute or assert something in this domain.
   *Core guardrail:* never fabricate cM→relationship odds (route to the Shared cM Project / DNA
