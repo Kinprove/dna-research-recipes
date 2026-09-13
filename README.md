@@ -8,15 +8,19 @@ skip well-documented fundamentals and volatile UI click-paths.
 
 Authored and maintained by [Kinprove](https://kinprove.io).
 
+The research methods work across DNA platforms and with exported data. A Kinprove account,
+connector or scoring engine is optional.
+
 ## What's inside
 
-A single skill, `dna-research-recipes`, with five recipes:
+A single skill, `dna-research-recipes`, with six recipes:
 
 | Recipe | Use it for |
 | --- | --- |
 | `unknown-parentage-wato` | Placing an unknown person into a tree with DNA matches + WATO odds; adoptee / unknown-parent search; clustering matches to an ancestral couple. |
-| `ai-for-dna-research` | Using an AI assistant reliably on DNA/genealogy work — what to delegate, what to never trust, cM→relationship guardrails. |
+| `ai-for-dna-research` | Reliable AI-assisted DNA research; comparing endogamous families across branches and generations; dependent evidence, segment attribution and cM→relationship guardrails. |
 | `ydna-mtdna-interpretation` | Reading Y-DNA and mtDNA results (haplogroup, Y-STR genetic distance, mtDNA match) for a genealogical-timeframe relationship. |
+| `xdna-phasing-judgment` | X-DNA and parental/visual phasing; segment validity, inheritance constraints and attribution limits. |
 | `ai-for-documentary-records` | Using an AI assistant reliably on documentary/records work — handwriting transcription & translation, full-text finding aids, AI record hints, image restoration. |
 | `evidence-proof-judgment` | Correlating evidence & proving identity — same-name conflation, conflicting records, negative evidence, combining DNA and documents into one proof. |
 

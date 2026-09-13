@@ -1,11 +1,11 @@
 ---
 name: dna-research-recipes
 description: >-
-  Expert judgment for DNA genealogy: practitioner failure modes, AI verification boundaries, and source-grounded reasoning. Use for unknown parentage or adoptee research; WATO / What Are The Odds and DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or other endogamous matches; segment attribution and targeted relative testing; AI/ChatGPT/Claude for DNA, citations, records, transcription, HTR, translation, FamilySearch Full-Text Search, record hints, or photo restoration; Y-DNA haplogroups and Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, Lazarus reconstruction, or half-sister versus aunt; proving relationships, separating same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, or combining DNA with documents. Read the matching recipe for task-specific judgment beyond the fundamentals.
+  Expert judgment for DNA genealogy: practitioner failure modes, AI verification boundaries, and source-grounded reasoning. Use for unknown parentage or adoptee research; WATO / What Are The Odds and DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or other endogamous matches; comparing two families across branches, siblings and generations; segment attribution and targeted relative testing; AI/ChatGPT/Claude for DNA, citations, records, transcription, HTR, translation, FamilySearch Full-Text Search, record hints, or photo restoration; Y-DNA haplogroups and Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, Lazarus reconstruction, or half-sister versus aunt; proving relationships, separating same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, or combining DNA with documents. Read the matching recipe for task-specific judgment beyond the fundamentals.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
-     five recipe bodies (recipes/<slug>.md + recipes/<slug>.sources.md) are injected by the
+     recipe bodies (recipes/<slug>.md + recipes/<slug>.sources.md) are injected by the
      deterministic export step; the maintainer finalizes the sanitized wording before release. -->
 
 # DNA research recipes
@@ -15,6 +15,9 @@ what an LLM does *not* reliably know, or does *wrong* by default: the named fail
 delegate-vs-never-trust lines, and the reasoning sequence a human must own. They deliberately
 skip well-documented fundamentals (you already hold those) and version-specific UI clicks
 (volatile, low value, stale-prone).
+
+The research methods apply across platforms, including work from exported data. Kinprove
+authorship does not require a Kinprove account, connector or scoring engine.
 
 ## How to use
 
@@ -37,7 +40,10 @@ skip well-documented fundamentals (you already hold those) and version-specific 
 
 - **`recipes/ai-for-dna-research.md`** — Using an AI assistant *reliably* on DNA/genealogy work:
   what to delegate freely, what to never trust, and the prompt patterns that work. Includes
-  endogamous match prioritization, segment attribution, and targeted testing of outmarrying branches.
+  endogamous match prioritization, segment attribution, targeted testing of outmarrying branches,
+  and coherent family comparisons across tested ancestors, siblings and descendants.
+  *Also use for:* "how are these two families connected", multiple related focal testers,
+  repeated descent paths, or a long segment in a relative that is shorter/absent in a descendant.
   *Use for:* any "can AI/ChatGPT/Claude help me with my DNA / tree / citations", **or** whenever
   you (the assistant) are about to compute or assert something in this domain.
   *Core guardrail:* never fabricate cM→relationship odds (route to the Shared cM Project / DNA
