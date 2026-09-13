@@ -8,6 +8,10 @@
 4. *How many matches are needed to answer a research question?* — Family Locket (YouTube), 2024-03-18 — <https://www.youtube.com/watch?v=eaZc9H7sIkA> — Rights: cited reference, not reproduced.
 5. *RLP 387: Revisiting the Father of Cynthia (Dillard) Royston — Part 1* — Family Locket (YouTube), 2025-12-08 — <https://www.youtube.com/watch?v=eVEFJ0DRkSU> — **Part 1 of a multi-part revisiting series**; do not attribute the full slate of findings/eliminations to this single episode. Rights: cited reference, not reproduced.
 6. *Why Ask Ancestry DNA Matches to Share DNA Results* — Family Locket (YouTube), 2026-02-12 — <https://www.youtube.com/watch?v=zK-TalaEUZ0> — Rights: cited reference, not reproduced.
+7. *Focus mode in What are the Odds? (WATO)* — Jonny Perl (DNA Painter), 2022-04-28 — <https://blog.dnapainter.com/blog/focus-mode-in-what-are-the-odds-wato/> — Rights: cited reference, not reproduced.
+8. *Jan and the Complex Pedigree Analysis* — The DNA Geek, 2023-09-29 — <https://thednageek.com/jan-and-the-complex-pedigree-analysis/> — Rights: cited reference, not reproduced.
+9. *DNA as Negative Evidence, Revisited* — The DNA Geek, 2022-08-14 — <https://thednageek.com/dna-as-negative-evidence-revisited/> — Rights: cited reference, not reproduced.
+10. *Which WATO Probabilities are Best* — Family Locket (YouTube), 2025-03-12 — <https://www.youtube.com/watch?v=Pj-Hi_DgDUQ> — Rights: cited reference, not reproduced.
 
 ## Credits
 
