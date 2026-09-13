@@ -16,6 +16,10 @@
 12. *Why are My Ethnicity Estimate Different Than Expected?* — MyHeritage Help Center, 2025-11-16 — <https://www.myheritage.com/help/en/articles/12852702-why-are-my-ethnicity-estimate-different-than-expected> — Rights: cited reference, not reproduced.
 13. *Chromosome mapping and endogamy* — Lara Diamond (guest post, DNA Painter), 2022-01-30 — <https://blog.dnapainter.com/blog/chromosome-mapping-and-endogamy/> — Rights: cited reference, not reproduced.
 14. *Strategies for Overcoming Endogamy* — Nicole Elder Dyer (Family Locket), 2023-01-05 — <https://familylocket.com/strategies-for-overcoming-endogamy/> — Rights: cited reference, not reproduced.
+15. *How Multiple Relationships Affect DNA Match Analysis* — Nicole Elder Dyer (Family Locket), 2022-09-24 — <https://familylocket.com/how-multiple-relationships-affect-dna-match-analysis/> — Rights: cited reference, not reproduced.
+16. *Multiple Relationships in an African-American Case Study* — Allison Kotter (Family Locket), 2022-10-01 — <https://familylocket.com/multiple-relationships-in-an-african-american-case-study/> — Rights: cited reference, not reproduced.
+17. *Power-Up Your DNA Analyses* — The DNA Geek, 2024-07-01 — <https://thednageek.com/power-up-your-dna-analyses/> — Rights: cited reference, not reproduced.
+18. *Struggles with Smithville* — The DNA Geek, 2025-10-30 — <https://thednageek.com/struggles-with-smithville/> — Rights: cited reference, not reproduced.
 
 ## Credits
 
