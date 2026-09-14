@@ -24,6 +24,11 @@
 20. *Concepts – Genetic Distance* — Roberta Estes (DNAeXplained), 2016-06-29 — <https://dna-explained.com/2016/06/29/concepts-genetic-distance/> — Rights: cited reference, not reproduced.
 21. *Sarah Rash's and Perhaps Mary Warren's Mitochondrial DNA – 52 Ancestors #359* — Roberta Estes (DNAeXplained), 2022-05-22 — <https://dna-explained.com/2022/05/22/sarah-rashs-and-perhaps-mary-warrens-mitochondrial-dna-52-ancestors-359/> — Rights: cited reference, not reproduced.
 
+22. *Why Don’t Our Y-DNA Haplogroups Match?* — Roberta Estes (DNAeXplained), 2024-05-02 — <https://dna-explained.com/2024/05/02/why-dont-our-y-dna-haplogroups-match/> — Rights: cited reference, not reproduced.
+23. *Interpreting Y-DNA Test Results: Y-DNA Haplogroups* — Katy Rowe-Schurwanz (FamilyTreeDNA), 2024-07-02 — <https://blog.familytreedna.com/interpreting-y-dna-test-results-haplogroups/> — Rights: cited reference, not reproduced.
+24. *Why Did My Y-DNA Haplogroup Change?* — Katy Rowe-Schurwanz (FamilyTreeDNA), 2024-09-05 — <https://blog.familytreedna.com/my-y-dna-haplogroup-changed/> — Rights: cited reference, not reproduced.
+25. *Big Y Lifetime Analysis: The Myth of the Manual Review* — Katy Rowe-Schurwanz (FamilyTreeDNA), 2023-11-22 — <https://blog.familytreedna.com/big-y-manual-review-lifetime-analysis/> — Rights: cited reference, not reproduced.
+
 ## Credits
 
 - Roberta Estes, 'All About AI – What It Is, What It Isn't, and Why It Matters', DNAeXplained, 2026-06-25 — FSL-1.1-MIT (adapted)

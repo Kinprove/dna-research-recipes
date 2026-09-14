@@ -62,6 +62,24 @@ Base rate cuts **both** ways: a commonly-cited **~5% per generation** misattribu
 - **Stronger corroboration (upgrades a flag toward a finding):** (a) a **known male relative who Y-tested and does *not* match you** — a genuine red flag; (b) the non-surname match also being a **close autosomal (Family Finder) match** ⇒ recent connection, investigate; (c) **Big Y** to date *when* the branch/surname split occurred; (d) testing additional documented direct-line descendants to confirm or eliminate. (Your DNA Guide, 2025-10; GeneaVlogger, 2026-05)
 - **Never:** "your haplogroup doesn't match your surname line, so there was an NPE," or "no one with your surname matches, therefore NPE."
 
+## When Y haplogroups differ: compare calls, then choose the next tester
+
+**Resolve what differs before calling it a paternal-line contradiction.** Work from each tester's documented male-line descent and actual results, using this comparison sequence.
+
+1. **Compare the connected branches, not the labels alone.** Record the test type, reported assignment and tree/date. A broad assignment can contain a relative's downstream branch. Estes also describes a father and son who both sequenced: a new variant inherited by the son's descendants produced a younger named branch without breaking their paternal relationship. Different labels can therefore persist even at the same test level. Trace the actual connection; vertical screen position is not ancestry. (Estes, 2024-05-02; Rowe-Schurwanz, 2024-07-02)
+2. **Build a per-SNP table before excluding a branch.** For each informative variant, retain the report's positive, negative, no-call or untested state and distinguish **measured** from **presumed from the tree**. A tree-inferred negative is not an independent measurement confirming that placement. An omitted row is initially unknown: FamilyTreeDNA's documented haplotree view can omit downstream Big Y negatives that are available in the detailed results. Inspect those results before treating the omission as untested or negative. No-call means no resolved result, not an ancestral allele. Preserve coverage/quality information and reconcile variant identifiers and coordinates before comparing. (Rowe-Schurwanz, 2024-07-02; 2024-09-05)
+3. **State the remaining conflict at the right level.** Compatible placements do not by themselves establish the specific relationship; reliable incompatible lineage-defining calls require sample, calling and pedigree checks. A single newly acquired downstream variant is not equivalent to belonging to an incompatible paternal lineage. Route a disputed call for qualified review or suitable confirmation; do not turn a display discrepancy into a localized NPE. (Estes, 2024-05-02; comparison synthesis)
+
+The output is **tester → documented path → test/tree → SNP → reported state → measured or inferred → unresolved check**. Keep the source report so a later tree update does not overwrite what was observed.
+
+### Choose a tester who can split the unresolved SNP block
+
+**Name the question before recruiting.** Several equivalent SNPs share a block because the available results have not resolved their order. They are distinct variants, not interchangeable names for one mutation. Do not distribute them among successive named ancestors from their display order. (Rowe-Schurwanz, 2024-07-02)
+
+- **Naming shared variants and ordering them are different gains.** A close patrilineal relative may establish that private variants are shared, allowing placement on the tree while leaving them together in one block. To resolve an older split, seek a documented male-line descendant through another son of the relevant ancestor; the useful result would separate shared upstream variants from downstream ones. Choose an assay that can resolve the relevant sites. Such a cousin creates an opportunity for a split, not a guarantee. (Rowe-Schurwanz, 2023-11-22; selection synthesis)
+- **Read a proposed split against the calls.** Positive results for some block variants and reliable ancestral results for others can support subdivision. No-calls cannot supply the negative half. Even a supported split does not by itself identify the named man in whom each mutation arose. (Rowe-Schurwanz, 2023-11-22; 2024-09-05)
+- **An unchanged label is not a failed experiment.** Inspect the variant evidence. It may add shared variants without resolving their order, or leave the placement unchanged. FamilyTreeDNA describes tree refinement as evidence-driven aggregate analysis; do not promise every kit an individual manual review followed by a changed haplogroup on a fixed schedule. (Rowe-Schurwanz, 2023-11-22)
+
 ## Prompt-craft (how to keep an assistant honest here)
 
 1. **Assign nothing; route it.** For any haplogroup/tree question, output "check FTDNA Discover / Mitotree" — do **not** name a haplogroup or its meaning from memory. (The Anzick failure is precisely a from-memory assignment.)
@@ -70,7 +88,8 @@ Base rate cuts **both** ways: a commonly-cited **~5% per generation** misattribu
 4. **Name the positions before ranking mtDNA matches by GD.** Don't call a GD0 "closer" than a GD1/GD2 without checking which positions produced each count — a GD1/GD2 whose differences sit on unstable/fast-mutating positions can be as relevant as a GD0, whose own apparent exactness can just as easily hide a real difference at an *excluded* position (309/315, 522/523 by convention) that never entered the count. Never state 16519 (or 16189/16193) as GD-excluded — they're down-weighted for haplogroup purposes only and still count toward GD; only 309/315 (and 522/523 by convention) are excluded.
 5. **Force the alternative-explanations list before any NPE language.** If a contradiction/absence appears, enumerate untested-descendants, sequencing error, same-name, wrong-generation, pre-surname — *then* ask what corroboration exists. Use "flag / needs corroboration," never "proves."
 6. **Separate the STR-surname question from the SNP-branch question.** Surname clustering (STR projects) answers "who might share a recent paternal line"; terminal SNP / Big Y answers "how recent." Don't let one stand in for the other.
-7. **Every output is a hypothesis to verify** against the actual vendor tools, autosomal DNA, and documents — the shared spine with `ai-for-dna-research.md`.
+7. **For differing Y labels or a proposed branch split, request the per-SNP table above.** Separate measured calls from tree inferences; state whether the next tester could name a shared variant, resolve its order, or only check a recent transmission.
+8. **Every output is a hypothesis to verify** against the actual vendor tools, autosomal DNA, and documents — the shared spine with `ai-for-dna-research.md`.
 
 ## Pitfalls worth internalizing (least-obvious, most-LLM-usable)
 

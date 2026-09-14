@@ -13,6 +13,9 @@
 9. *Tie-Breaker: Navigating Unexpected Results and Untangling Complex Relationships* — FamilyTreeDNA ("Match Game" series, part 3), 2026-03-17 — <https://www.youtube.com/watch?v=C0ywUYIFlfg> — Rights: cited reference, not reproduced.
 10. *Head-to-Head: Tackling Your Unknown Matches with DNA Visualization* — FamilyTreeDNA ("Match Game" series, part 2), 2026-03-17 — <https://www.youtube.com/watch?v=j5-ScN_DL-c> — Rights: cited reference, not reproduced.
 
+11. *Reconstructing Grammy’s DNA* — Tanner Tolman (DNA Painter), 2023-06-22 — <https://dnapainter.com/blog/grammys-dna-reconstruction/> — Rights: cited reference, not reproduced.
+12. *What You NEED TO KNOW Before Recreating Deceased Ancestor's DNA* — Family History Fanatics, 2022-06-01 — <https://www.youtube.com/watch?v=VEmq-nF4rPQ> — Rights: cited reference, not reproduced.
+
 ## Credits
 
 - Kinprove — original distillation and synthesis — FSL-1.1-MIT (kinprove-original)

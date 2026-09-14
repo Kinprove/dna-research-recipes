@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Expert judgment for DNA genealogy: practitioner failure modes, AI verification boundaries, and source-grounded reasoning. Use for unknown parentage or adoptee research; WATO / What Are The Odds and DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or other endogamous matches; comparing two families across branches, siblings and generations; segment attribution and targeted relative testing; AI/ChatGPT/Claude for DNA, citations, records, transcription, HTR, translation, FamilySearch Full-Text Search, record hints, or photo restoration; Y-DNA haplogroups and Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, Lazarus reconstruction, or half-sister versus aunt; proving relationships, separating same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, or combining DNA with documents. Read the matching recipe for task-specific judgment beyond the fundamentals.
+  Expert judgment for DNA genealogy: practitioner failure modes, AI verification boundaries, and source-grounded reasoning. Use for unknown parentage or adoptee research; WATO / What Are The Odds and DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or other endogamous matches; comparing two families across branches, siblings and generations; segment attribution and targeted relative testing; AI/ChatGPT/Claude for DNA, citations, records, transcription, HTR, translation, FamilySearch Full-Text Search, record hints, or photo restoration; Y-DNA haplogroups, SNP no-calls, equivalent SNP blocks, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, Lazarus reconstruction, or half-sister versus aunt; proving relationships, separating same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, or combining DNA with documents. Read the matching recipe for task-specific judgment beyond the fundamentals.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -56,7 +56,9 @@ authorship does not require a Kinprove account, connector or scoring engine.
   establish about a *genealogical-timeframe* relationship, and where confident interpretation
   crosses into fabrication. The Y-STR/mtDNA complement to `ai-for-dna-research.md` (autosomal cM).
   *Use for:* "what does my haplogroup / Y-STR match / mtDNA match mean", "how many generations back
-  is genetic distance N", "does this haplogroup contradiction prove a non-paternity event".
+  is genetic distance N", "does this haplogroup contradiction prove a non-paternity event",
+  differing Y labels, measured versus inferred SNP results, or choosing a tester to split an
+  unresolved SNP block.
   *Core guardrail:* never assign a haplogroup or compute a GD→generations/TMRCA point estimate from
   memory (route to FTDNA Discover / TiP report / Match Time Tree, quote a resolution-dependent
   **range**); an exact match at low resolution is **unresolved**, not recent; a haplogroup
@@ -66,7 +68,8 @@ authorship does not require a Kinprove account, connector or scoring engine.
   segment, an X match, or a phased chromosome map can actually confirm or eliminate, and where
   confident-sounding analysis is actually fabrication.
   *Use for:* "is this X-DNA match trustworthy", "what's the minimum X cM threshold", "phase my kit
-  against a parent or siblings", "half-sister or aunt", "does this X match rule out a father".
+  against a parent or siblings", "half-sister or aunt", "does this X match rule out a father",
+  reconstructed-kit quality, artificial homozygosity, or interpreting matches to a synthetic kit.
   *Core guardrail:* never invent a small-segment or X-DNA false-positive rate or cM threshold — cite
   the specific company/study, since they diverge by design and by pair-sex; phasing reduces but never
   eliminates pseudosegments on either side; an X-DNA result consistent with a hypothesis is a
