@@ -28,6 +28,10 @@
 23. *Interpreting Y-DNA Test Results: Y-DNA Haplogroups* — Katy Rowe-Schurwanz (FamilyTreeDNA), 2024-07-02 — <https://blog.familytreedna.com/interpreting-y-dna-test-results-haplogroups/> — Rights: cited reference, not reproduced.
 24. *Why Did My Y-DNA Haplogroup Change?* — Katy Rowe-Schurwanz (FamilyTreeDNA), 2024-09-05 — <https://blog.familytreedna.com/my-y-dna-haplogroup-changed/> — Rights: cited reference, not reproduced.
 25. *Big Y Lifetime Analysis: The Myth of the Manual Review* — Katy Rowe-Schurwanz (FamilyTreeDNA), 2023-11-22 — <https://blog.familytreedna.com/big-y-manual-review-lifetime-analysis/> — Rights: cited reference, not reproduced.
+26. *Interpreting Y-DNA Test Results: Y-DNA Matches* — Katy Rowe-Schurwanz (FamilyTreeDNA), 2024-08-20 — <https://blog.familytreedna.com/interpreting-y-dna-test-results-y-dna-matches/> — Rights: cited reference, not reproduced.
+27. *Using Autosomal DNA in Genealogical Research* — Katy Rowe-Schurwanz (FamilyTreeDNA), 2026-04-09 — <https://blog.familytreedna.com/using-autosomal-dna-genealogy/> — Rights: cited reference, not reproduced.
+28. *How to Use mtDNA for Genealogy Research* — Katy Rowe-Schurwanz (FamilyTreeDNA), 2026-04-24 — <https://blog.familytreedna.com/using-mtdna-genealogy-research/> — Rights: cited reference, not reproduced.
+29. *Scientific Details: A Deeper Dive Into Age Estimates* — FamilyTreeDNA, 2022-09-19 — <https://blog.familytreedna.com/tmrca-age-estimates-scientific-details/> — Rights: cited reference, not reproduced.
 
 ## Credits
 

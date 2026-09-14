@@ -26,12 +26,20 @@ What each test level can *bound*, and where confidence collapses:
 
 ### 1 — NEVER emit a Y-STR genetic-distance → generations/TMRCA point estimate
 
-Do **not** say "GD 2 at Y-67 ≈ 5 generations." A GD is a count of differing markers (GD 5 at Y-111 = 5 of 111 differ, 106 match), and **STR mutation is random, marker-specific, and roughly ~1 per 5 transmissions** — a rule-of-thumb, *not* a constant. So the *same* GD 5 can mean five separate mutations across five generations (a recent shared ancestor — second-great-grandparents) **or** slow accumulation across many more; and a line can go generations with **zero** new mutations. (GeneaVlogger, 2026-06/2026-05)
+Do **not** say "GD 2 at Y-67 ≈ 5 generations" or "GD 5 at Y-111 means exactly five markers differ." **GD is a score under the comparison's marker rules.** FamilyTreeDNA describes step-wise scoring for most STRs: a difference at one marker can contribute more than one step. Multi-copy STRs use different rules; in its DYS464 example, extra copies can leave GD at zero. Neither GD nor a count of differing markers reconstructs how many mutation events occurred. Back mutations and parallel mutations obscure that history. (Rowe-Schurwanz, 2024-08-20; STR mutation behavior above)
+
+Before interpreting GD, retain the tested panel, the level compared, the reported score and the marker values when available. Compare the shared panel, not one tester's Y-111 results against another's Y-37 label. Apply the reporting laboratory's rules for single-copy markers, multi-copy markers and null/deletion results; an unresolved result is not an allele value of zero. If only the aggregate GD is available, the differing loci and mutation history remain unknown. Do not invent them by subtracting GD from the panel size. (Rowe-Schurwanz, 2024-08-20; comparison synthesis)
 
 The honest output is a **resolution-dependent probability distribution**, which is exactly what FTDNA's **TiP report** (Y-37/Y-111, plus legacy Y-67) and **Match Time Tree** (Big Y-700) produce. Concrete shape: a real TiP estimate of "common ancestor born **1500–1850**" contained the documented truth (**1798**) inside the range; the vendor's single "1650"-type figure is just *the mean of a wide band*, not an answer. (FTDNA, 2026-03; GeneaVlogger, 2026-06)
 
 - **Trust / route:** the TiP report or Match Time Tree, quoted **as a range that widens at lower marker counts**. Recommend upgrading Y-37→Y-111→Big Y-700 to *narrow* it.
 - **Never:** a self-computed point estimate, or treating the vendor's midpoint as the relationship.
+
+#### When TMRCA conflicts with a dated pedigree
+
+**Investigate the disagreement before excluding the pedigree.** In FamilyTreeDNA's 2022 Stewart example, the documented birth date fell outside the original 95% confidence interval; revised dating brought the estimate close to it. This illustrates model error, not permission to dismiss an inconvenient genetic result. The same technical account describes branch-specific rates and coverage adjustments: a fixed number of years per SNP cannot reproduce those estimates. (FamilyTreeDNA, 2022-09-19)
+
+Record the dated tree node or tester pair, interval and confidence level, estimator, report date and available model/version information. Check that the estimate and documentary date refer to the same proposed ancestor, and inspect the descent paths. For a Big Y or SNP-tree estimate, inspect informative SNP calls and relevant sequence coverage. For an STR/TiP estimate, recheck the shared panel, marker values, laboratory GD scoring and retained report inputs described above. Compare an updated estimate with the retained earlier report. If disagreement persists, seek qualified review of the dating and pedigree evidence. Do not tune a mutation rate to fit the preferred ancestor or silently discard either result. This procedure combines the dating example with the STR and SNP comparison checks in this recipe.
 
 ### 2 — NEVER read an exact match at low resolution as "recent"
 
@@ -83,13 +91,15 @@ The output is **tester → documented path → test/tree → SNP → reported st
 ## Prompt-craft (how to keep an assistant honest here)
 
 1. **Assign nothing; route it.** For any haplogroup/tree question, output "check FTDNA Discover / Mitotree" — do **not** name a haplogroup or its meaning from memory. (The Anzick failure is precisely a from-memory assignment.)
-2. **Demand the range, ban the point.** When asked "how many generations is GD *n*?", answer with the resolution-dependent *range* from the TiP report / Match Time Tree, state the marker level, and say the band **widens at fewer markers** — never a single number.
+2. **Separate GD from loci, events and time.** State the compared panel and scoring rules; never infer the number of differing markers or historical mutations from GD alone. For "how many generations?", use the report's resolution-dependent range, not an invented conversion or a single date.
 3. **Name the resolution ceiling before interpreting a match.** First establish the Y-STR level (Y-37, Y-111, or legacy Y-67) vs Big Y-700, or mtDNA HVR vs full-sequence — the same match means different things per level; interpreting without the level invites the exact-match-is-recent fabrication.
 4. **Name the positions before ranking mtDNA matches by GD.** Don't call a GD0 "closer" than a GD1/GD2 without checking which positions produced each count — a GD1/GD2 whose differences sit on unstable/fast-mutating positions can be as relevant as a GD0, whose own apparent exactness can just as easily hide a real difference at an *excluded* position (309/315, 522/523 by convention) that never entered the count. Never state 16519 (or 16189/16193) as GD-excluded — they're down-weighted for haplogroup purposes only and still count toward GD; only 309/315 (and 522/523 by convention) are excluded.
 5. **Force the alternative-explanations list before any NPE language.** If a contradiction/absence appears, enumerate untested-descendants, sequencing error, same-name, wrong-generation, pre-surname — *then* ask what corroboration exists. Use "flag / needs corroboration," never "proves."
 6. **Separate the STR-surname question from the SNP-branch question.** Surname clustering (STR projects) answers "who might share a recent paternal line"; terminal SNP / Big Y answers "how recent." Don't let one stand in for the other.
 7. **For differing Y labels or a proposed branch split, request the per-SNP table above.** Separate measured calls from tree inferences; state whether the next tester could name a shared variant, resolve its order, or only check a recent transmission.
-8. **Every output is a hypothesis to verify** against the actual vendor tools, autosomal DNA, and documents — the shared spine with `ai-for-dna-research.md`.
+8. **For a date conflict, retain both accounts.** Request the dated node/pair, interval, report version and documentary descent; distinguish incompatible variant evidence from a disagreement with a dating model.
+9. **For a match across test types, name the path each result supports.** Do not attach the autosomal connection to the Y/mt line solely because the same pair matches on both tests.
+10. **Every output is a hypothesis to verify** against the actual vendor tools, autosomal DNA, and documents — the shared spine with `ai-for-dna-research.md`.
 
 ## Pitfalls worth internalizing (least-obvious, most-LLM-usable)
 
@@ -99,8 +109,13 @@ The output is **tester → documented path → test/tree → SNP → reported st
 - **Phylogenetic trees and migration maps are tester-dependent.** Branch definitions and dates differ between platforms, and geography tools (e.g. Globetrekker) mislead when few relevant men have tested — more testers can substantially shift the inferred geography. Never present the current tree as fixed truth. (GeneaVlogger, 2026-05; DNAeXplained, 2026-05)
 - **mtDNA is a weak genealogical instrument by design** — slow mutation, fewer testers, wide match ranges. Great for *eliminating* a direct-maternal-line hypothesis, poor for *pinning* a relationship.
 
-## Corroboration & cross-check discipline (Y/mt never stands alone)
+## Combining tests: establish which ancestral path each supports
 
-- **Pair every Y/mt result with autosomal + documents.** Y-DNA/mtDNA prove *a* direct paternal/maternal line and a rough timeframe; autosomal DNA and the paper trail localize *which* ancestor and *when*. A Big-Y or mtDNA finding that isn't reconciled with autosomal matches and records is an untested hypothesis. (GeneaVlogger, 2026-05; Legacy Tree, 2026-06)
+**A pair matching on autosomal DNA and Y-DNA or mtDNA does not automatically have one shared connection explaining both.** The autosomal relationship can be recent on one branch while the direct paternal or maternal connection is much older on another. This matters especially when several paths connect the families. (Rowe-Schurwanz, 2026-04-09; 2026-04-24)
+
+For each result, record **test and observation → eligible inheritance path → proposed ancestor → unresolved attribution**. Trace the relevant direct paternal or maternal descent for both testers; separately retain every documented autosomal path. Use tested relatives and segment/transmission evidence to investigate which path explains the autosomal sharing, following [the multiple-path workflow](ai-for-dna-research.md#untangle-multiple-paths-without-discarding-the-useful-evidence). A documented cousin relationship does not assign every segment. Until the connection is resolved, do not count the two test types as two confirmations of the named ancestor. This is an application of the sources' separate-line warning, not a combined probability model.
+
+**Fictional example:** two documented paternal cousins also have matching full mtDNA results. The mtDNA match leaves a separate maternal-line question; it does not turn their known paternal relationship into a maternal one. Conversely, absent detectable autosomal sharing does not by itself exclude a sufficiently distant direct-line relationship. (Inheritance illustration; autosomal limitation: Rowe-Schurwanz, 2026-04-24)
+
 - **Hypothesis-test by targeted testing.** To confirm/eliminate an unknown direct-line ancestor, test **known direct-line descendants of candidate families** (paternal → Y; maternal → mtDNA) — a purpose-built corroboration, not a database-luck wait. (Legacy Tree, 2026-06)
 - **FTDNA is the only consumer company giving Y-DNA/mtDNA *matches*** (23andMe gives high-level haplogroups, no matching); the **Million Mito Project** sharpened mtDNA dating enough to place some subclade MRCAs in a genealogical window (e.g. K1a9b1 ~early 1600s) — so *some* mtDNA questions are now tractable, but only at full-sequence and only with corroboration. (GeneaVlogger, 2026-04)
