@@ -57,8 +57,9 @@ authorship does not require a Kinprove account, connector or scoring engine.
   crosses into fabrication. The Y-STR/mtDNA complement to `ai-for-dna-research.md` (autosomal cM).
   *Use for:* "what does my haplogroup / Y-STR match / mtDNA match mean", "how many generations back
   is genetic distance N", "does this haplogroup contradiction prove a non-paternity event",
-  differing Y labels, measured versus inferred SNP results, or choosing a tester to split an
-  unresolved SNP block.
+  differing Y labels, measured versus inferred SNP results, choosing a tester to split an
+  unresolved SNP block, TMRCA disagreement with a dated pedigree, or a pair matching on both
+  autosomal DNA and Y-DNA/mtDNA through potentially different ancestral lines.
   *Core guardrail:* never assign a haplogroup or compute a GD→generations/TMRCA point estimate from
   memory (route to FTDNA Discover / TiP report / Match Time Tree, quote a resolution-dependent
   **range**); an exact match at low resolution is **unresolved**, not recent; a haplogroup
