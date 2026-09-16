@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Expert judgment for DNA genealogy: practitioner failure modes, AI verification boundaries, and source-grounded reasoning. Use for unknown parentage or adoptee research; WATO / What Are The Odds and DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or other endogamous matches; comparing two families across branches, siblings and generations; segment attribution and targeted relative testing; AI/ChatGPT/Claude for DNA, citations, records, transcription, HTR, translation, FamilySearch Full-Text Search, record hints, or photo restoration; Y-DNA haplogroups, SNP no-calls, equivalent SNP blocks, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, Lazarus reconstruction, or half-sister versus aunt; proving relationships, separating same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, or combining DNA with documents. Read the matching recipe for task-specific judgment beyond the fundamentals.
+  Expert judgment for DNA genealogy: practitioner failure modes, AI verification boundaries, and source-grounded reasoning. Use for unknown parentage or adoptee research; WATO / What Are The Odds and DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; comparing two families across branches, siblings and generations; segment attribution and targeted relative testing; AI/ChatGPT/Claude for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints, photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, or half-sister versus aunt; proving relationships, same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, or combining DNA with documents; a Russian-Empire Jewish ancestor under another surname or patronymic, revision lists, приписка, recruit evasion. Read the matching recipe before advising.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -95,6 +95,21 @@ authorship does not require a Kinprove account, connector or scoring engine.
   genealogical conclusion.
   *Core guardrail:* the human owns every ruling (merge/separate, conflict resolution, exhaustiveness, the final
   "therefore proven"); the model assembles and drafts but NEVER concludes.
+- **`recipes/russian-empire-jewish-identity-attribution.md`** — A Russian-Empire Jewish ancestor who turns up
+  under a given name, patronymic or surname that fits neither candidate branch: the inverse of same-name
+  collapse (one person, several names), read through the imperial record system — revision lists (ревизские
+  сказки), family lists (посемейные списки), metrical books and recruit files as ledgers of *registration*
+  (приписка), not vital records — with the naming and re-registration mechanisms (double names, head-of-household
+  patronymics, heir naming, stepchild, fostered orphan, levy evasion, son-in-law surname, surname split,
+  conversion) carried as competing hypotheses, and the "prediction must differ" test before any DNA is asked to
+  choose between branches of one endogamous family.
+  *Use for:* "which brother was his father", a boy registered in a relative's household, a wife's child from a
+  first marriage, a family hiding a son from the recruit levy / cantonists, brothers under different surnames,
+  a patronymic that is the grandfather's or the husband's name, a person missing from a revision list, or
+  DNA that "can't tell the two branches apart" under Ashkenazi endogamy plus repeated pedigree collapse.
+  *Core guardrail:* chain the household before you judge the name; find the приписка before you search a
+  town; write which tester's result would DIFFER under the two hypotheses before touching a match list — if
+  none differs, say "undecidable with current testers" and name the tester who would decide it.
 
 ## What a recipe is (and isn't)
 
