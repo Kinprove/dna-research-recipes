@@ -13,7 +13,7 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with six recipes:
+A single skill, `dna-research-recipes`, with seven recipes:
 
 | Recipe | Use it for |
 | --- | --- |
@@ -23,6 +23,7 @@ A single skill, `dna-research-recipes`, with six recipes:
 | `xdna-phasing-judgment` | X-DNA and parental/visual phasing; segment validity, inheritance constraints and attribution limits. |
 | `ai-for-documentary-records` | Using an AI assistant reliably on documentary/records work — handwriting transcription & translation, full-text finding aids, AI record hints, image restoration. |
 | `evidence-proof-judgment` | Correlating evidence & proving identity — same-name conflation, conflicting records, negative evidence, combining DNA and documents into one proof. |
+| `russian-empire-jewish-identity-attribution` | A Russian-Empire Jewish ancestor under a different name, patronymic or surname — revision lists, family lists and metrical books as ledgers of registration (приписка), re-registration mechanisms as competing hypotheses, and what DNA can still decide between branches of one endogamous family. |
 
 Read the recipe file in full before advising; the value is in the specifics.
 
