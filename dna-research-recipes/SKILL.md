@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Expert judgment for DNA genealogy: practitioner failure modes, AI verification boundaries, and source-grounded reasoning. Use for unknown parentage or adoptee research; WATO / What Are The Odds and DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; comparing two families across branches, siblings and generations; segment attribution and targeted relative testing; AI/ChatGPT/Claude for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints, photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, or half-sister versus aunt; proving relationships, same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, or combining DNA with documents; a Russian-Empire Jewish ancestor under another surname or patronymic, revision lists, приписка, recruit evasion. Read the matching recipe before advising.
+  Genealogy judgment: practitioner failure modes, AI verification and source-grounded reasoning. Use for unknown parentage or adoptees; WATO / DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; comparing families across branches, siblings and generations; segment attribution and targeted relative testing; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; proving relationships, same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, combining DNA with documents; a Russian-Empire Jewish ancestor under another surname or patronymic, revision lists, приписка, recruit evasion; JewishGen queries, name variants, wives' natal families or married daughters. Read the matching recipe before advising.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -110,6 +110,17 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* chain the household before you judge the name; find the приписка before you search a
   town; write which tester's result would DIFFER under the two hypotheses before touching a match list — if
   none differs, say "undecidable with current testers" and name the tester who would decide it.
+
+- **`recipes/jewishgen-search-family-reconstruction.md`** — Retrieving JewishGen family records when
+  names, ages, towns or a woman's surname are uncertain. Build explicit name-variant and mixed-field
+  search batches, distinguish registration from residence, and look for wives' natal families or
+  married daughters through children's records and household comparisons.
+  *Use for:* JewishGen exact, partial, phonetic or fuzzy searches; double names and patronymics;
+  conflicting ages or delayed registration; a missing marriage record, unknown maiden name or
+  daughter who disappears under a married surname.
+  *Core guardrail:* verify each collection's field and search-method semantics; a name, age or
+  household match creates a candidate, and a recruitment explanation remains a hypothesis until
+  independent records support it.
 
 ## What a recipe is (and isn't)
 
