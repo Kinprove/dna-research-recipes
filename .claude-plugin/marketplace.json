@@ -1,0 +1,26 @@
+{
+  "name": "kinprove",
+  "owner": {
+    "name": "Kinprove",
+    "email": "hola@kinprove.io"
+  },
+  "description": "Kinprove's public catalog of DNA-research recipe skills for AI agents.",
+  "plugins": [
+    {
+      "name": "dna-research-recipes",
+      "source": "./",
+      "strict": false,
+      "skills": ["./dna-research-recipes"],
+      "description": "Expert judgment layers for genetic-genealogy work: named failure modes, delegate-vs-never-trust boundaries, and the reasoning sequences a confident AI answer gets wrong (unknown parentage/WATO, Y-DNA/mtDNA, AI for DNA & records, evidence & proof).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Kinprove",
+        "email": "hola@kinprove.io"
+      },
+      "license": "FSL-1.1-MIT",
+      "homepage": "https://github.com/Kinprove/dna-research-recipes",
+      "repository": "https://github.com/Kinprove/dna-research-recipes",
+      "keywords": ["genealogy", "dna", "genetic-genealogy", "wato", "unknown-parentage", "y-dna", "mtdna"]
+    }
+  ]
+}
