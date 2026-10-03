@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  DNA and genealogy judgment and practical workflows. Use for unknown parentage or adoptees; WATO and DNA Painter; Leeds, AutoClusters and ancestral couples; Ashkenazi and endogamous matches, family comparisons across branches and generations, segment attribution and targeted testing; MyHeritage DNA kit assignment, match filters, labels, notes, shared matches, triangulation and Theory of Family Relativity; AI for DNA, citations, handwriting, transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR distance and mtDNA; X-DNA thresholds, phasing, GEDmatch, half-sister versus aunt; proving relationships, identity, conflicting records, negative evidence and the Genealogical Proof Standard; Russian-Empire Jewish surnames, patronymics, revision lists, приписка and recruit evasion; JewishGen name variants, wives' natal families and married daughters. Read the matching recipe before advising.
+  DNA and genealogy judgment, workflows and search recovery. Use for unknown parentage/adoptees; WATO or DNA Painter; Leeds, AutoClusters and ancestral couples; Ashkenazi/endogamous family comparisons across branches, siblings and generations; segment attribution and relative testing; MyHeritage DNA kit assignment, filters, labels, notes, shared matches, triangulation and Theory of Family Relativity; MyHeritage historical records, coverage, languages and OCR; AI for DNA, citations, transcription, translation, FamilySearch Full-Text Search, hints and photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR distance and mtDNA; X-DNA thresholds, visual/parental phasing, GEDmatch, half-sister versus aunt; identity proof, conflicting records, negative evidence and the Genealogical Proof Standard; Russian-Empire Jewish surnames, patronymics, revision lists, приписка and recruit evasion; JewishGen queries, Beider name variants, wives' natal families and married daughters. Read the matching recipe before advising.
 ---
 
 # DNA research recipes
@@ -126,6 +126,24 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* verify each collection's field and search-method semantics; a name, age or
   household match creates a candidate, and a recruitment explanation remains a hypothesis until
   independent records support it.
+
+- **`recipes/beider-given-name-variants.md`** — Expanding documentary searches with recorded
+  Ashkenazi given-name forms from the male and female J-Roots Beider indexes.
+  *Use for:* an unfamiliar or approximate Cyrillic given name, compound names, alternate
+  spellings, ambiguous article labels, or documenting a DNA match's family under another name form.
+  *Core guardrail:* query offline with `scripts/lookup_beider_name.py --name` for up to 20
+  article groups by default, including similar candidates when an exact match exists; then
+  retrieve a selected article's recorded variants with `--key`. Comparison ignores spaces
+  and supported hyphens/dashes; keep compound component searches separate. Distinguish
+  unavailable local data from an absent entry. Approximate matches are spelling suggestions,
+  not source-backed synonyms; article membership never proves identity or kinship.
+
+- **`recipes/myheritage-historical-record-search.md`** — Recovering MyHeritage historical
+  records hidden by collection coverage, query fields, name variants, languages or OCR.
+  *Use for:* no-result searches, Collection Catalog, relative pivots, historical jurisdictions,
+  newspaper keywords/OldNews or an index that must lead onward to an original record.
+  *Core guardrail:* diagnose coverage and field meaning before tightening; change one constraint
+  at a time, preserve original text, and treat structured or translated values as search leads.
 
 ## What a recipe is (and isn't)
 
