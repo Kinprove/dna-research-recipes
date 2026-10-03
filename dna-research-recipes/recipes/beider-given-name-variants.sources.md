@@ -11,10 +11,12 @@
 
 The parentheses refer to articles in Alexander Beider's dictionary. This recipe uses the
 forum indexes as finding aids; it does not claim to have consulted every dictionary article.
-The full indexes remain with their source. Forum prose and complete tables are not reproduced.
-Kinprove authored the workflow and lookup helper; the factual name/article examples retain
-attribution to the index compilers and dictionary author.
+The bundled JSON contains the factual recorded-name/article mappings, with their source
+URLs and snapshot metadata. Forum prose and discussion replies are not included.
+Kinprove authored the workflow and lookup helper; the mappings and factual examples retain
+attribution to the index compiler and dictionary author and are not relicensed by Kinprove.
 
 ## Credits
 
+- Nison — male and female Beider indexes, J-Roots Forum, first posts p32424 and p32423; dictionary articles by Alexander Beider — No explicit upstream data licence stated; not covered by Kinprove's FSL-1.1-MIT (adapted)
 - Kinprove — original workflow and interpretation guidance; factual name/article examples attributed to the J-Roots Beider indexes — FSL-1.1-MIT (kinprove-original)

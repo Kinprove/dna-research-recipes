@@ -12,11 +12,17 @@ absence from an index does not invalidate a documented spelling.
 
 ## Load only the requested name
 
-The complete indexes are **external resources**, described in
+The recorded-name and dictionary-article mappings are bundled in
 [`../resources/beider-name-indexes.json`](../resources/beider-name-indexes.json).
-Do not preload either index, paste a whole forum page into context, or read all variant
-groups when this recipe is selected. The lookup helper fetches and parses the requested
-index inside its process; only a bounded result enters the conversation.
+Do not load the JSON file or every variant group into the conversation when this recipe
+is selected. The lookup helper reads the local JSON inside its process and returns only
+the requested name's bounded result. Lookup works offline; source URLs record attribution
+and are not fetched during a query.
+
+The bundled snapshot contains 1,647 male and 814 female name/article associations from
+complete first-post archive captures dated 2024-12-25, retrieved on 2026-10-03. The JSON
+records the archive URLs, capture dates and source hashes; it does not claim to reflect
+later forum edits.
 
 Run from this skill's directory:
 
@@ -30,8 +36,9 @@ is already known. Each result includes the source, all matching article keys, th
 variant count and whether the returned variants were truncated. The default limit is 20;
 request more only for the current name, up to 50. No full-index output mode is provided.
 
-If the source cannot be read, report **source unavailable**. A successful lookup with no
-entry means **not in this index**, not "this name did not exist" or "this person is absent."
+If the bundled JSON is missing or invalid, report **source unavailable**. A successful
+lookup with no entry means **not in this index**, not "this name did not exist" or
+"this person is absent."
 
 ## What the index changes in a search
 
@@ -41,7 +48,7 @@ The index describes traditional Jewish names from sixteenth- through nineteenth-
 documents in several languages; names that became traditional only after 1917 are outside
 its stated scope. It does not supply a universal map of Soviet or American name substitutions.
 
-These compact examples illustrate why the lookup matters; fetch the needed group for work:
+These compact examples illustrate why the lookup matters; query the needed local group:
 
 | Index | Recorded forms | Dictionary article |
 | --- | --- | --- |
