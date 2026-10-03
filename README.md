@@ -13,7 +13,7 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with eight recipes:
+A single skill, `dna-research-recipes`, with nine recipes:
 
 | Recipe | Use it for |
 | --- | --- |
@@ -25,8 +25,21 @@ A single skill, `dna-research-recipes`, with eight recipes:
 | `evidence-proof-judgment` | Correlating evidence & proving identity — same-name conflation, conflicting records, negative evidence, combining DNA and documents into one proof. |
 | `russian-empire-jewish-identity-attribution` | A Russian-Empire Jewish ancestor under a different name, patronymic or surname — revision lists, family lists and metrical books as ledgers of registration (приписка), re-registration mechanisms as competing hypotheses, and what DNA can still decide between branches of one endogamous family. |
 | `jewishgen-search-family-reconstruction` | JewishGen name variants and mixed-field searches; uncertain ages, residence versus registration, wives' natal families and married daughters without a marriage record. |
+| `beider-given-name-variants` | Bounded lookups of Ashkenazi given-name variants in the J-Roots Beider indexes, preserving ambiguous article mappings and the distinction between search candidates and identity proof. |
 
 Read the recipe file in full before advising; the value is in the specifics.
+
+The Beider recipe includes a Python 3.10+ lookup helper that uses only the standard library.
+Run it from the installed skill directory; it retrieves an external index and prints only
+the requested name's variants, with a result limit and explicit source-availability status:
+
+```sh
+cd dna-research-recipes
+python3 scripts/lookup_beider_name.py --sex male --name "Гершель"
+```
+
+The package includes source links rather than copies of the complete indexes. Internet
+access is required for lookups.
 
 ## Install
 

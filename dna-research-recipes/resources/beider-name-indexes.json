@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "indexes": {
+    "male": {
+      "title": "Мужские имена — индекс Бейдера",
+      "url": "https://forum.j-roots.info/viewtopic.php?t=2060#p32424",
+      "post_id": "p32424",
+      "fallback_urls": ["https://www.forum.j-roots.info/viewtopic.php?t=2060#p32424"]
+    },
+    "female": {
+      "title": "Женские имена — индекс Бейдера",
+      "url": "https://forum.j-roots.info/viewtopic.php?f=98&t=2059#p32423",
+      "post_id": "p32423",
+      "fallback_urls": ["https://www.forum.j-roots.info/viewtopic.php?t=2059#p32423"]
+    }
+  }
+}
