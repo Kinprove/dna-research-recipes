@@ -10,6 +10,19 @@ permissions:
   contents: read
 
 jobs:
+  beider-lookup:
+    name: Beider lookup regression tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run offline lookup tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python -B -m unittest discover -s dna-research-recipes/tests -p 'test_*.py'
+
   validate:
     name: Plugin validate (--strict)
     runs-on: ubuntu-latest
