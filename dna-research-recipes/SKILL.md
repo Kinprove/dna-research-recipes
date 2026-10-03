@@ -124,11 +124,14 @@ authorship does not require a Kinprove account, connector or scoring engine.
 
 - **`recipes/beider-given-name-variants.md`** — Expanding documentary searches with recorded
   Ashkenazi given-name forms from the male and female J-Roots Beider indexes.
-  *Use for:* an unfamiliar Cyrillic given name, alternate spellings, ambiguous dictionary
-  article labels, or documenting a DNA match's family under another recorded name form.
-  *Core guardrail:* query the bundled JSON offline with `scripts/lookup_beider_name.py`;
-  return only the requested group and distinguish unavailable local data from an absent entry.
-  Shared article membership supplies search candidates, never identity or kinship proof.
+  *Use for:* an unfamiliar or approximate Cyrillic given name, compound names, alternate
+  spellings, ambiguous article labels, or documenting a DNA match's family under another name form.
+  *Core guardrail:* query offline with `scripts/lookup_beider_name.py --name` for up to 20
+  article groups by default, including similar candidates when an exact match exists; then
+  retrieve a selected article's recorded variants with `--key`. Comparison ignores spaces
+  and supported hyphens/dashes; keep compound component searches separate. Distinguish
+  unavailable local data from an absent entry. Approximate matches are spelling suggestions,
+  not source-backed synonyms; article membership never proves identity or kinship.
 
 ## What a recipe is (and isn't)
 

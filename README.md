@@ -25,18 +25,26 @@ A single skill, `dna-research-recipes`, with nine recipes:
 | `evidence-proof-judgment` | Correlating evidence & proving identity — same-name conflation, conflicting records, negative evidence, combining DNA and documents into one proof. |
 | `russian-empire-jewish-identity-attribution` | A Russian-Empire Jewish ancestor under a different name, patronymic or surname — revision lists, family lists and metrical books as ledgers of registration (приписка), re-registration mechanisms as competing hypotheses, and what DNA can still decide between branches of one endogamous family. |
 | `jewishgen-search-family-reconstruction` | JewishGen name variants and mixed-field searches; uncertain ages, residence versus registration, wives' natal families and married daughters without a marriage record. |
-| `beider-given-name-variants` | Bounded lookups of Ashkenazi given-name variants in the J-Roots Beider indexes, preserving ambiguous article mappings and the distinction between search candidates and identity proof. |
+| `beider-given-name-variants` | Find article candidates for exact or approximate Cyrillic given names, then retrieve the selected article's recorded variants; preserve ambiguous memberships and distinguish search leads from identity proof. |
 
 Read the recipe file in full before advising; the value is in the specifics.
 
 The Beider recipe includes a Python 3.10+ lookup helper that uses only the standard library.
-Run it from the installed skill directory; it reads the bundled JSON and prints only
-the requested name's variants, with a result limit and explicit data-availability status:
+Search the bundled JSON for article candidates, inspect the matches, then use a selected
+article's key to retrieve its recorded variants. Run from the installed skill directory:
 
 ```sh
 cd dna-research-recipes
-python3 scripts/lookup_beider_name.py --sex male --name "Гершель"
+python3 scripts/lookup_beider_name.py --sex male --name "Довыд"
+python3 scripts/lookup_beider_name.py --sex male --key DOVID
 ```
+
+Name searches return up to 20 article groups by default, including similar candidates
+when an exact match exists. Whole-name comparison ignores spaces and supported hyphens/dashes;
+compound inputs also have separate component searches with their own bounds. Approximate
+matches are spelling suggestions, not source-backed synonyms of an unlisted input.
+Check the original document before choosing an article. `--key` returns its recorded
+variants, bounded separately; unavailable local data remains distinct from an absent entry.
 
 Lookup works offline. The bundled JSON contains 1,647 male and 814 female name/article
 associations from complete first-post archive captures dated 2024-12-25, retrieved on
