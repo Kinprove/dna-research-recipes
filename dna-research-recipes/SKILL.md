@@ -1,20 +1,16 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment: practitioner failure modes, AI verification and source-grounded reasoning. Use for unknown parentage or adoptees; WATO / DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; comparing families across branches, siblings and generations; segment attribution and targeted relative testing; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; proving relationships, same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, combining DNA with documents; a Russian-Empire Jewish ancestor under another surname or patronymic, revision lists, приписка, recruit evasion; JewishGen queries, name variants, wives' natal families or married daughters. Read the matching recipe before advising.
+  Genealogy judgment and practical workflows: practitioner failure modes, AI verification and source-grounded reasoning. Use for unknown parentage or adoptees; WATO / DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; comparing families across branches, siblings and generations; segment attribution and targeted relative testing; MyHeritage DNA kit assignment, match filters, labels, notes, shared matches, triangulation, Theory of Family Relativity and follow-up; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; proving relationships, same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, combining DNA with documents; a Russian-Empire Jewish ancestor under another surname or patronymic, revision lists, приписка, recruit evasion; JewishGen queries, name variants, wives' natal families or married daughters. Read the matching recipe before advising.
 ---
-
-<!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
-     recipe bodies (recipes/<slug>.md + recipes/<slug>.sources.md) are injected by the
-     deterministic export step; the maintainer finalizes the sanitized wording before release. -->
 
 # DNA research recipes
 
-Distilled, fact-checked **judgment layers** for genetic-genealogy work. Each recipe targets
+Distilled, fact-checked **judgment and practical workflows** for genetic-genealogy work. Each recipe targets
 what an LLM does *not* reliably know, or does *wrong* by default: the named failure modes, the
-delegate-vs-never-trust lines, and the reasoning sequence a human must own. They deliberately
-skip well-documented fundamentals (you already hold those) and version-specific UI clicks
-(volatile, low value, stale-prone).
+delegate-vs-never-trust lines, the reasoning sequence a human must own, and the records needed
+to resume an investigation. Judgment recipes focus on reasoning; platform playbooks provide
+ordered actions and investigator-created schemas with dated platform-documentation checks.
 
 The research methods apply across platforms, including work from exported data. Kinprove
 authorship does not require a Kinprove account, connector or scoring engine.
@@ -29,6 +25,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
 4. If no recipe matches, answer normally — don't force-fit.
 
 ## Recipes
+
+- **`recipes/myheritage-dna-match-investigation.md`** — Nine practical MyHeritage DNA workflows:
+  select the right kit, preserve theories before reassignment, build filtered shortlists, use
+  labels and notes, capture pair-specific shared-match values, compare triangulation subsets,
+  audit theory connections, recover private-tree leads, contact matches and resume dated packets.
+  *Use for:* MyHeritage DNA match investigation, kit relinking, largest-segment sorting,
+  labels/favorites, Shared DNA Matches, Theory of Family Relativity or an investigation follow-up.
+  *Core guardrail:* keep kit identity, access, filter state, pair-specific values and exact
+  comparison sets explicit; an unshown measurement is not zero, and a theory is a path to review.
 
 - **`recipes/unknown-parentage-wato.md`** — Placing an unknown person (an unknown parent, an
   adoptee's bio-parent, an unplaced ancestor) into a tree using DNA matches + WATO odds.
@@ -129,8 +134,8 @@ authorship does not require a Kinprove account, connector or scoring engine.
   transcript figure (a specific cM number, a percentage) as a rule.
 - **Judgment, not fundamentals.** Recipes carry the non-obvious judgment an unaided answer gets
   wrong, not the well-documented basics you already produce reliably.
-- **Not a manual.** No click-by-click UI. If the user needs the buttons, send them to the tool's
-  own docs; the recipe carries the judgment around the tool.
+- **Platform procedures are dated.** Playbooks pair concrete actions with source-linked records.
+  Verify available controls for the selected kit/account and preserve the actual observation scope.
 
 ## Attribution
 
