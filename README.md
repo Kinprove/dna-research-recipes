@@ -132,3 +132,4 @@ FSL-1.1-MIT (Functional Source License 1.1, MIT Future License) — see [`LICENS
 Copyright 2026 Kinprove. Each version converts to the MIT license two years after its release.
 Third-party attributions and any reproduced-data carve-outs are in [`NOTICE`](NOTICE) and each
 recipe's `recipes/<slug>.sources.md`.
+The skill folder includes copies of `LICENSE` and `NOTICE` for ZIP uploads and standalone installs.
