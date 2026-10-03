@@ -1,0 +1,10 @@
+[
+  {
+    "passage_ref": "entire recipe body (title through Changelog)",
+    "source_id": "kinprove-distillation",
+    "origin": "kinprove-original",
+    "source_ref": "Kinprove — original distillation and synthesis",
+    "license": "FSL-1.1-MIT",
+    "rationale": "Original Kinprove prose distilling 23andMe match-research workflows from attributed practitioner reports and current official documentation. No third-party text or data tables are reproduced. Worksheets and prompt patterns are original synthesis; numeric clustering values are attributed vendor examples, not relationship proof thresholds."
+  }
+]
