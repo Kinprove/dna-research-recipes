@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment and AI verification. Use for unknown parentage or adoptees; WATO / DNA Painter placement; ancestral-couple clustering; Ashkenazi or endogamous matches; comparing families, branches and generations; segment attribution and relative testing; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; proving relationships, same-name identities, conflicts, negative evidence, the Genealogical Proof Standard, DNA with documents; Russian-Empire Jewish name changes, revision lists, приписка, recruit evasion; JewishGen variants, natal families or married daughters; Ancestry missed records, search scope, Card Catalog, collection coverage, wildcards, book indexes or census browsing. Read the matching recipe before advising.
+  Genealogy judgment, workflows and AI verification. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clustering; Ashkenazi/endogamous matches, family comparisons, segment attribution and relative testing; Y-DNA haplogroups, SNP no-calls, Y-STR distance, mtDNA; X-DNA thresholds/phasing, GEDmatch, half-sister versus aunt; identity, conflicting records, negative evidence, Genealogical Proof Standard and DNA with documents; transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families and married daughters; MyHeritage record recovery; HebrewBooks OCR/catalogue, short mobile queries, Shafeh, printed indexes and viewer pages; Ancestry missed records, search scope, Card Catalog, collection coverage, wildcards, book indexes and census browsing. Read the matching recipe before advising.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -121,6 +121,33 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* verify each collection's field and search-method semantics; a name, age or
   household match creates a candidate, and a recruitment explanation remains a hypothesis until
   independent records support it.
+
+- **`recipes/beider-given-name-variants.md`** — Expanding documentary searches with recorded
+  Ashkenazi given-name forms from the male and female J-Roots Beider indexes.
+  *Use for:* an unfamiliar or approximate Cyrillic given name, compound names, alternate
+  spellings, ambiguous article labels, or documenting a DNA match's family under another name form.
+  *Core guardrail:* query offline with `scripts/lookup_beider_name.py --name` for up to 20
+  article groups by default, including similar candidates when an exact match exists; then
+  retrieve a selected article's recorded variants with `--key`. Comparison ignores spaces
+  and supported hyphens/dashes; keep compound component searches separate. Distinguish
+  unavailable local data from an absent entry. Approximate matches are spelling suggestions,
+  not source-backed synonyms; article membership never proves identity or kinship.
+
+- **`recipes/myheritage-historical-record-search.md`** — Recovering MyHeritage historical
+  records hidden by collection coverage, query fields, name variants, languages or OCR.
+  *Use for:* no-result searches, Collection Catalog, relative pivots, historical jurisdictions,
+  newspaper keywords/OldNews or an index that must lead onward to an original record.
+  *Core guardrail:* diagnose coverage and field meaning before tightening; change one constraint
+  at a time, preserve original text, and treat structured or translated values as search leads.
+
+- **`recipes/hebrewbooks-search-recovery.md`** — Recover HebrewBooks names or passages
+  missed by OCR, catalogue spelling or a query that never reached search.
+  *Use for:* Hebrew OCR letter confusions, catalogue versus full-text searches, short
+  mobile queries, inaccessible routes, Shafeh title searches, given-name indexes and
+  viewer versus printed page numbers.
+  *Core guardrail:* distinguish an unsubmitted query or access error from a completed
+  search with no hits. Keep OCR test strings separate from historical names, and record
+  the book ID, viewer page, printed locator and edition separately.
 
 - **`recipes/ancestry-record-search-recovery.md`** — Recovering archival records missed by an
   Ancestry search. Diagnose scope and coverage before relaxing dates, places or names; use
