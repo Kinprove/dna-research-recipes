@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment, workflows and AI verification. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clustering; Ashkenazi/endogamous matches, family comparisons, segment attribution and relative testing; Y-DNA haplogroups, SNP no-calls, Y-STR distance, mtDNA; X-DNA thresholds/phasing, GEDmatch, half-sister versus aunt; identity, conflicting records, negative evidence, Genealogical Proof Standard and DNA with documents; transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families and married daughters; MyHeritage record recovery; HebrewBooks OCR/catalogue, short mobile queries, Shafeh, printed indexes and viewer pages; Ancestry missed records, search scope, Card Catalog, collection coverage, wildcards, book indexes and census browsing. Read the matching recipe before advising.
+  Genealogy judgment, workflows and AI verification. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clustering; Ashkenazi/endogamous matches, family comparisons, segment attribution and relative testing; Y-DNA haplogroups, SNP no-calls, Y-STR distance, mtDNA; X-DNA thresholds/phasing, GEDmatch, half-sister versus aunt; identity, conflicting records, negative evidence, Genealogical Proof Standard and DNA with documents; transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families and married daughters; MyHeritage record recovery; HebrewBooks OCR/catalogue, short mobile queries, Shafeh, printed indexes and viewer pages; Newspapers.com coverage/OCR; Ancestry missed records, search scope, Card Catalog, collection coverage, wildcards, book indexes and census browsing. Read the matching recipe before advising.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -148,6 +148,16 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* distinguish an unsubmitted query or access error from a completed
   search with no hits. Keep OCR test strings separate from historical names, and record
   the book ID, viewer page, printed locator and edition separately.
+
+- **`recipes/newspapers-com-search-recovery.md`** — Recovering newspaper notices when issue
+  coverage, printed names or OCR hide an ancestor on Newspapers.com. Search initials, married
+  names, associates, occupations and addresses; follow travel, social and legal notices across
+  relevant newspapers, then verify the original notice.
+  *Use for:* a failed newspaper name search, an unknown maiden name, a missing obituary,
+  immigration or family-reconstruction leads, incomplete issue coverage, or unreadable OCR.
+  *Core guardrail:* a page-level hit can join different notices; verify each person, relationship,
+  event date and place in its actual notice. A failed query is not evidence that an event never
+  happened, and a second index of the same newspaper image is not independent corroboration.
 
 - **`recipes/ancestry-record-search-recovery.md`** — Recovering archival records missed by an
   Ancestry search. Diagnose scope and coverage before relaxing dates, places or names; use
