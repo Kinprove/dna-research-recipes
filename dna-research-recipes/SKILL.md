@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment, DNA workflows and AI verification. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral couple clustering; Ashkenazi/endogamous matches, family comparisons, segment attribution and relative testing; Y-DNA haplogroups, SNP no-calls, Y-STR distance, mtDNA; X-DNA thresholds/phasing, GEDmatch, half-sister versus aunt; identity, conflicting records, negative evidence, Genealogical Proof Standard and DNA with documents; transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families and married daughters; MyHeritage DNA kits, filters, labels, notes, shared matches, triangulation and Theory of Family Relativity; MyHeritage record recovery; Newspapers.com coverage/OCR; HebrewBooks catalogue/OCR, Shafeh and printed indexes. Read the matching recipe before advising.
+  Genealogy judgment, workflows and AI verification. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clustering; Ashkenazi/endogamous matches, family comparisons, segment attribution and relative testing; Y-DNA haplogroups, SNP no-calls, Y-STR distance, mtDNA; X-DNA thresholds/phasing, GEDmatch, half-sister versus aunt; identity, conflicting records, negative evidence, Genealogical Proof Standard and DNA with documents; transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families and married daughters; MyHeritage record recovery; Newspapers.com coverage/OCR; Ancestry search scope, collection coverage and census browsing; HebrewBooks catalogue/OCR, Shafeh and printed indexes; MyHeritage DNA kit assignment, filters, labels, notes, shared matches, triangulation and Theory of Family Relativity. Read the matching recipe before advising.
 ---
 
 # DNA research recipes
@@ -163,6 +163,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* distinguish an unsubmitted query or access error from a completed
   search with no hits. Keep OCR test strings separate from historical names, and record
   the book ID, viewer page, printed locator and edition separately.
+
+- **`recipes/ancestry-record-search-recovery.md`** — Recovering archival records missed by an
+  Ancestry search. Diagnose scope and coverage before relaxing dates, places or names; use
+  collection descriptions, original book indexes, census districts and the holding archive.
+  *Use for:* an attached census disappearing from results, narrow Card Catalog matches,
+  birthplace/residence confusion, conservative wildcard batches, name-free searches, book
+  page versus image numbers, enumeration-district browsing, or index-only records.
+  *Core guardrail:* search results generate candidates; a zero-result query does not prove
+  absence, and the original document must support identity before filing a relationship.
 
 ## What a recipe is (and isn't)
 
