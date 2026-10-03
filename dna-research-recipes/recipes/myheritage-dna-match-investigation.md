@@ -28,7 +28,10 @@ working loop and records, rather than another clustering or cM interpretation me
    relationship, each path and its component links, displayed confidence, review status and date.
    **MyHeritage says reassignment permanently deletes existing Theory of Family Relativity data.**
 5. For a genealogy kit, use Manage DNA kits → kit menu → Re-assign kit to a different person,
-   selecting the correct existing profile where available. Recheck the association after saving.
+   selecting the correct existing profile where available. Before the final Save, verify that
+   you have that person's permission to manage their DNA data and check the permission box.
+   Stop if permission is missing. Record the permission reference and attestation date in the
+   session header, then save and recheck the association.
    The documented reassignment procedure does not apply to DNA Health kits.
 
 **Output:** one session header plus a saved theory packet before any reassignment.
@@ -47,9 +50,13 @@ working loop and records, rather than another clustering or cM interpretation me
    variants. Combined filters use AND: adding a tree or label condition narrows the search.
    The Location filter describes the match's country of residence, not ancestral origin.
    Log the exact query and active filters for each pass; one pass is not whole-list coverage.
-4. For a distant-branch question, the tutorial's practical preset is Relationship → Extended
-   Family, then Sort by → Largest segments, where those controls are available. Inspect the
-   tree-bearing candidates and record the chosen sort; this preset is not a relationship cutoff.
+4. Use Relationship → Extended Family, then Sort by → Largest segments, where available, as an
+   optional pass for closer potential anchors. MyHeritage's Extended Family category covers first
+   cousins once removed through second cousins twice removed; third cousins and more distant
+   matches are in Distant Relatives. Before interpreting coverage or an empty result for a
+   distant-branch question, also run a Distant Relatives pass or remove the Relationship filter.
+   Log the remaining query and filters for that pass. Inspect tree-bearing candidates and record
+   the chosen sort.
    Save a manageable shortlist with match links, total shared cM, largest segment and segment count
    where displayed, tree availability, reason selected, and next action. A tree or relevant place
    can make a moderate match more useful for this question than an uninformative higher-cM match.
@@ -212,6 +219,10 @@ private workspace; the recipe and its examples contain no real match records.
 | Theory packet | `observed_at, focal_kit_ref, match_ref, match_url, theory_ref, proposed_relationship, common_ancestor_ref, path_refs, saved_evidence_refs, displayed_confidence, review_state, decision_reason` |
 | Theory connection | `observed_at, match_ref, theory_ref, path_ref, connection_ref, claim, profile_urls, underlying_source_ref, displayed_confidence, disposition, next_check` |
 | Correspondence | `match_ref, recipient_ref, draft_ref, approved_at, sent_at, question, reply_state, reply_source_ref, next_action` |
+
+For kit reassignment, extend the Session with `permission_ref` and `permission_attested_at`:
+a private reference to the assignee's permission and the date you attested to it in the form.
+These fields do not apply to sessions without reassignment.
 
 Completion means the selected workflow has its output record, source links, observation date and
 next action. An inaccessible tool stays recorded as inaccessible; it is never a completed check.
