@@ -13,7 +13,7 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with eight recipes:
+A single skill, `dna-research-recipes`, with nine recipes:
 
 | Recipe | Use it for |
 | --- | --- |
@@ -25,8 +25,31 @@ A single skill, `dna-research-recipes`, with eight recipes:
 | `evidence-proof-judgment` | Correlating evidence & proving identity — same-name conflation, conflicting records, negative evidence, combining DNA and documents into one proof. |
 | `russian-empire-jewish-identity-attribution` | A Russian-Empire Jewish ancestor under a different name, patronymic or surname — revision lists, family lists and metrical books as ledgers of registration (приписка), re-registration mechanisms as competing hypotheses, and what DNA can still decide between branches of one endogamous family. |
 | `jewishgen-search-family-reconstruction` | JewishGen name variants and mixed-field searches; uncertain ages, residence versus registration, wives' natal families and married daughters without a marriage record. |
+| `beider-given-name-variants` | Find article candidates for exact or approximate Cyrillic given names, then retrieve the selected article's recorded variants; preserve ambiguous memberships and distinguish search leads from identity proof. |
 
 Read the recipe file in full before advising; the value is in the specifics.
+
+The Beider recipe includes a Python 3.10+ lookup helper that uses only the standard library.
+Search the bundled JSON for article candidates, inspect the matches, then use a selected
+article's key to retrieve its recorded variants. Run from the installed skill directory:
+
+```sh
+cd dna-research-recipes
+python3 scripts/lookup_beider_name.py --sex male --name "Довыд"
+python3 scripts/lookup_beider_name.py --sex male --key DOVID
+```
+
+Name searches return up to 20 article groups by default, including similar candidates
+when an exact match exists. Whole-name comparison ignores spaces and supported hyphens/dashes;
+compound inputs also have separate component searches with their own bounds. Approximate
+matches are spelling suggestions, not source-backed synonyms of an unlisted input.
+Check the original document before choosing an article. `--key` returns its recorded
+variants, bounded separately; unavailable local data remains distinct from an absent entry.
+
+Lookup works offline. The bundled JSON contains 1,647 male and 814 female name/article
+associations from complete first-post archive captures dated 2024-12-25, retrieved on
+2026-10-03. Source URLs, archive URLs and hashes preserve provenance; the package does
+not claim to reflect later forum edits.
 
 ## Install
 
@@ -117,3 +140,4 @@ FSL-1.1-MIT (Functional Source License 1.1, MIT Future License) — see [`LICENS
 Copyright 2026 Kinprove. Each version converts to the MIT license two years after its release.
 Third-party attributions and any reproduced-data carve-outs are in [`NOTICE`](NOTICE) and each
 recipe's `recipes/<slug>.sources.md`.
+The skill folder includes copies of `LICENSE` and `NOTICE` for ZIP uploads and standalone installs.
