@@ -13,7 +13,7 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with nine recipes:
+A single skill, `dna-research-recipes`, with ten recipes:
 
 | Recipe | Use it for |
 | --- | --- |
@@ -26,6 +26,7 @@ A single skill, `dna-research-recipes`, with nine recipes:
 | `russian-empire-jewish-identity-attribution` | A Russian-Empire Jewish ancestor under a different name, patronymic or surname — revision lists, family lists and metrical books as ledgers of registration (приписка), re-registration mechanisms as competing hypotheses, and what DNA can still decide between branches of one endogamous family. |
 | `jewishgen-search-family-reconstruction` | JewishGen name variants and mixed-field searches; uncertain ages, residence versus registration, wives' natal families and married daughters without a marriage record. |
 | `beider-given-name-variants` | Find article candidates for exact or approximate Cyrillic given names, then retrieve the selected article's recorded variants; preserve ambiguous memberships and distinguish search leads from identity proof. |
+| `myheritage-historical-record-search` | MyHeritage collection coverage and query recovery; name and relative pivots, multilingual records, newspaper OCR/OldNews, and index-to-original follow-through. |
 
 Read the recipe file in full before advising; the value is in the specifics.
 
