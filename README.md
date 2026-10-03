@@ -1,10 +1,11 @@
 # DNA Research Recipes
 
-Distilled, fact-checked **judgment layers** for genetic-genealogy work, packaged as an
+Distilled, fact-checked **judgment and practical workflows** for genetic-genealogy work, packaged as an
 [Agent Skill](https://code.claude.com/docs/en/skills). Each recipe targets what an AI assistant
 does *not* reliably know, or does *wrong* by default: the named failure modes, the
-delegate-vs-never-trust boundaries, and the reasoning sequence a human must own. They deliberately
-skip well-documented fundamentals and volatile UI click-paths.
+delegate-vs-never-trust boundaries, the reasoning sequence a human must own, and the records
+needed to resume an investigation. Platform playbooks provide ordered actions and record schemas;
+check current controls against the linked vendor documentation.
 
 Authored and maintained by [Kinprove](https://kinprove.io).
 
@@ -13,10 +14,11 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with thirteen recipes:
+A single skill, `dna-research-recipes`, with fourteen recipes:
 
 | Recipe | Use it for |
 | --- | --- |
+| `myheritage-dna-match-investigation` | Nine MyHeritage DNA workflows and record schemas: kit association, filters, labels/notes, shared matches, triangulation subsets, theory review, private-tree leads, contact and comparable snapshots. |
 | `unknown-parentage-wato` | Placing an unknown person into a tree with DNA matches + WATO odds; adoptee / unknown-parent search; clustering matches to an ancestral couple. |
 | `ai-for-dna-research` | Reliable AI-assisted DNA research; comparing endogamous families across branches and generations; dependent evidence, segment attribution and cM→relationship guardrails. |
 | `ydna-mtdna-interpretation` | Reading Y-DNA and mtDNA results (haplogroup, Y-STR genetic distance, mtDNA match) for a genealogical-timeframe relationship. |
