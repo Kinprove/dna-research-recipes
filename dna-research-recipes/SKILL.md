@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment: practitioner failure modes, AI verification and source-grounded reasoning. Use for unknown parentage or adoptees; WATO / DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; comparing families across branches, siblings and generations; segment attribution and targeted relative testing; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; proving relationships, same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, combining DNA with documents; a Russian-Empire Jewish ancestor under another surname or patronymic, revision lists, приписка, recruit evasion; JewishGen queries, name variants, wives' natal families or married daughters. Read the matching recipe before advising.
+  Genealogy judgment and AI verification. Use for unknown parentage or adoptees; WATO / DNA Painter placement; ancestral-couple clustering; Ashkenazi or endogamous matches; comparing families, branches and generations; segment attribution and relative testing; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; proving relationships, same-name identities, conflicts, negative evidence, the Genealogical Proof Standard, DNA with documents; Russian-Empire Jewish name changes, revision lists, приписка, recruit evasion; JewishGen variants, natal families or married daughters; Ancestry missed records, search scope, Card Catalog, collection coverage, wildcards, book indexes or census browsing. Read the matching recipe before advising.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -121,6 +121,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* verify each collection's field and search-method semantics; a name, age or
   household match creates a candidate, and a recruitment explanation remains a hypothesis until
   independent records support it.
+
+- **`recipes/ancestry-record-search-recovery.md`** — Recovering archival records missed by an
+  Ancestry search. Diagnose scope and coverage before relaxing dates, places or names; use
+  collection descriptions, original book indexes, census districts and the holding archive.
+  *Use for:* an attached census disappearing from results, narrow Card Catalog matches,
+  birthplace/residence confusion, conservative wildcard batches, name-free searches, book
+  page versus image numbers, enumeration-district browsing, or index-only records.
+  *Core guardrail:* search results generate candidates; a zero-result query does not prove
+  absence, and the original document must support identity before filing a relationship.
 
 ## What a recipe is (and isn't)
 
