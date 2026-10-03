@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  DNA and genealogy judgment, workflows and search recovery. Use for unknown parentage/adoptees; WATO or DNA Painter; Leeds, AutoClusters and ancestral couples; Ashkenazi/endogamous family comparisons across branches, siblings and generations; segment attribution and relative testing; MyHeritage DNA kit assignment, filters, labels, notes, shared matches, triangulation and Theory of Family Relativity; MyHeritage historical records, coverage, languages and OCR; AI for DNA, citations, transcription, translation, FamilySearch Full-Text Search, hints and photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR distance and mtDNA; X-DNA thresholds, visual/parental phasing, GEDmatch, half-sister versus aunt; identity proof, conflicting records, negative evidence and the Genealogical Proof Standard; Russian-Empire Jewish surnames, patronymics, revision lists, приписка and recruit evasion; JewishGen queries, Beider name variants, wives' natal families and married daughters. Read the matching recipe before advising.
+  Genealogy judgment, practical DNA workflows and search recovery. Use for unknown parentage/adoptees; WATO, DNA Painter, Leeds and AutoClusters; endogamous family comparisons across branches and generations; segment attribution and testing; MyHeritage DNA kits, filters, labels, notes, shared matches, triangulation and Theory of Family Relativity; MyHeritage historical records; AI for DNA, citations, transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR distance and mtDNA; X-DNA thresholds, phasing, GEDmatch, half-sister versus aunt; identity proof, conflicting records, negative evidence and the Genealogical Proof Standard; Russian-Empire Jewish surnames, patronymics, revision lists, приписка and recruit evasion; JewishGen, Beider names, wives' natal families and married daughters; HebrewBooks OCR/catalogue recovery, short mobile queries, Shafeh, printed indexes and viewer pages. Read the matching recipe first.
 ---
 
 # DNA research recipes
@@ -144,6 +144,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
   newspaper keywords/OldNews or an index that must lead onward to an original record.
   *Core guardrail:* diagnose coverage and field meaning before tightening; change one constraint
   at a time, preserve original text, and treat structured or translated values as search leads.
+
+- **`recipes/hebrewbooks-search-recovery.md`** — Recover HebrewBooks names or passages
+  missed by OCR, catalogue spelling or a query that never reached search.
+  *Use for:* Hebrew OCR letter confusions, catalogue versus full-text searches, short
+  mobile queries, inaccessible routes, Shafeh title searches, given-name indexes and
+  viewer versus printed page numbers.
+  *Core guardrail:* distinguish an unsubmitted query or access error from a completed
+  search with no hits. Keep OCR test strings separate from historical names, and record
+  the book ID, viewer page, printed locator and edition separately.
 
 ## What a recipe is (and isn't)
 
