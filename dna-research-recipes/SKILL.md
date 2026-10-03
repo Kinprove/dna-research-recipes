@@ -126,8 +126,8 @@ authorship does not require a Kinprove account, connector or scoring engine.
   Ashkenazi given-name forms from the male and female J-Roots Beider indexes.
   *Use for:* an unfamiliar Cyrillic given name, alternate spellings, ambiguous dictionary
   article labels, or documenting a DNA match's family under another recorded name form.
-  *Core guardrail:* load only the requested name with `scripts/lookup_beider_name.py`;
-  preserve every matching article and distinguish an unavailable source from an absent entry.
+  *Core guardrail:* query the bundled JSON offline with `scripts/lookup_beider_name.py`;
+  return only the requested group and distinguish unavailable local data from an absent entry.
   Shared article membership supplies search candidates, never identity or kinship proof.
 
 ## What a recipe is (and isn't)

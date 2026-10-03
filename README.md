@@ -30,16 +30,18 @@ A single skill, `dna-research-recipes`, with nine recipes:
 Read the recipe file in full before advising; the value is in the specifics.
 
 The Beider recipe includes a Python 3.10+ lookup helper that uses only the standard library.
-Run it from the installed skill directory; it retrieves an external index and prints only
-the requested name's variants, with a result limit and explicit source-availability status:
+Run it from the installed skill directory; it reads the bundled JSON and prints only
+the requested name's variants, with a result limit and explicit data-availability status:
 
 ```sh
 cd dna-research-recipes
 python3 scripts/lookup_beider_name.py --sex male --name "Гершель"
 ```
 
-The package includes source links rather than copies of the complete indexes. Internet
-access is required for lookups.
+Lookup works offline. The bundled JSON contains 1,647 male and 814 female name/article
+associations from complete first-post archive captures dated 2024-12-25, retrieved on
+2026-10-03. Source URLs, archive URLs and hashes preserve provenance; the package does
+not claim to reflect later forum edits.
 
 ## Install
 
