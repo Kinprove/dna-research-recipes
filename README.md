@@ -14,7 +14,7 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with fourteen recipes:
+A single skill, `dna-research-recipes`, with fifteen recipes:
 
 | Recipe | Use it for |
 | --- | --- |
@@ -32,6 +32,7 @@ A single skill, `dna-research-recipes`, with fourteen recipes:
 | `newspapers-com-search-recovery` | Recovering newspaper notices hidden by issue gaps, printed names or OCR; relatives and alternate search routes; verifying people and events within the actual notice. |
 | `hebrewbooks-search-recovery` | Recover HebrewBooks names or passages missed by OCR or catalogue spelling; handle short mobile queries, Shafeh title searches, given-name indexes and viewer versus printed page numbers. |
 | `ancestry-record-search-recovery` | Recovering missed Ancestry records through search-scope checks, collection coverage, independent query relaxation, original book indexes and census browsing. |
+| `23andme-match-research` | Practical 23andMe match, permission, matrix, segment, export, ancestry, bucketing and research-tree workflows, with dated access and evidence limits. |
 
 Read the recipe file in full before advising; the value is in the specifics.
 

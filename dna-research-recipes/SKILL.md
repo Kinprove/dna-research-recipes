@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment, workflows and AI verification. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clustering; Ashkenazi/endogamous matches, family comparisons, segment attribution and relative testing; Y-DNA haplogroups, SNP no-calls, Y-STR distance, mtDNA; X-DNA thresholds/phasing, GEDmatch, half-sister versus aunt; identity, conflicting records, negative evidence, Genealogical Proof Standard and DNA with documents; transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families and married daughters; MyHeritage record recovery; Newspapers.com coverage/OCR; Ancestry search scope, collection coverage and census browsing; HebrewBooks catalogue/OCR, Shafeh and printed indexes; MyHeritage DNA kit assignment, filters, labels, notes, shared matches, triangulation and Theory of Family Relativity. Read the matching recipe before advising.
+  Genealogy judgment, workflows and AI checks. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clusters; Ashkenazi/endogamous matches, segments and relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photo trust; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry scope, collections and census browsing; HebrewBooks catalogue/OCR, Shafeh and indexes; MyHeritage DNA kits, filters, labels/notes, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix worksheets, permissions, segments, exports, ancestry painting, bucketing, reconstructed ancestors, shared-match charts and research trees. Read matching recipe.
 ---
 
 # DNA research recipes
@@ -172,6 +172,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
   page versus image numbers, enumeration-district browsing, or index-only records.
   *Core guardrail:* search results generate candidates; a zero-result query does not prove
   absence, and the original document must support identity before filing a relationship.
+
+- **`recipes/23andme-match-research.md`** — Twelve practical workflows for 23andMe
+  match research, permitted comparisons, numerical matrices and dated preservation.
+  *Use for:* match worksheets, connection permissions, selected-segment painting,
+  parent-side information, ancestry confidence/history, legacy bucketing,
+  reconstructed ancestors, extension exports/groups, manual shared-match charts,
+  or floating research-tree branches.
+  *Core guardrail:* verify actual access and quantity scope; keep shared-list
+  membership, matching intervals, ancestry estimates and documentary identity separate.
 
 ## What a recipe is (and isn't)
 
