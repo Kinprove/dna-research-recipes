@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment, practical DNA workflows and search recovery. Use for unknown parentage/adoptees; WATO, DNA Painter, Leeds and AutoClusters; endogamous family comparisons across branches and generations; segment attribution and testing; MyHeritage DNA kits, filters, labels, notes, shared matches, triangulation and Theory of Family Relativity; MyHeritage historical records; AI for DNA, citations, transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR distance and mtDNA; X-DNA thresholds, phasing, GEDmatch, half-sister versus aunt; identity proof, conflicting records, negative evidence and the Genealogical Proof Standard; Russian-Empire Jewish surnames, patronymics, revision lists, приписка and recruit evasion; JewishGen, Beider names, wives' natal families and married daughters; HebrewBooks OCR/catalogue recovery, short mobile queries, Shafeh, printed indexes and viewer pages. Read the matching recipe first.
+  Genealogy judgment, workflows and AI verification. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clustering; Ashkenazi/endogamous matches, family comparisons, segment attribution and relative testing; Y-DNA haplogroups, SNP no-calls, Y-STR distance, mtDNA; X-DNA thresholds/phasing, GEDmatch, half-sister versus aunt; identity, conflicting records, negative evidence, Genealogical Proof Standard and DNA with documents; transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families and married daughters; MyHeritage record recovery; Newspapers.com coverage/OCR; HebrewBooks catalogue/OCR, Shafeh and printed indexes; MyHeritage DNA kit assignment, filters, labels, notes, shared matches, triangulation and Theory of Family Relativity. Read the matching recipe before advising.
 ---
 
 # DNA research recipes
@@ -144,6 +144,16 @@ authorship does not require a Kinprove account, connector or scoring engine.
   newspaper keywords/OldNews or an index that must lead onward to an original record.
   *Core guardrail:* diagnose coverage and field meaning before tightening; change one constraint
   at a time, preserve original text, and treat structured or translated values as search leads.
+
+- **`recipes/newspapers-com-search-recovery.md`** — Recovering newspaper notices when issue
+  coverage, printed names or OCR hide an ancestor on Newspapers.com. Search initials, married
+  names, associates, occupations and addresses; follow travel, social and legal notices across
+  relevant newspapers, then verify the original notice.
+  *Use for:* a failed newspaper name search, an unknown maiden name, a missing obituary,
+  immigration or family-reconstruction leads, incomplete issue coverage, or unreadable OCR.
+  *Core guardrail:* a page-level hit can join different notices; verify each person, relationship,
+  event date and place in its actual notice. A failed query is not evidence that an event never
+  happened, and a second index of the same newspaper image is not independent corroboration.
 
 - **`recipes/hebrewbooks-search-recovery.md`** — Recover HebrewBooks names or passages
   missed by OCR, catalogue spelling or a query that never reached search.
