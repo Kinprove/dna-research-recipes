@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment: practitioner failure modes, AI verification and source-grounded reasoning. Use for unknown parentage or adoptees; WATO / DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; comparing families across branches, siblings and generations; segment attribution and targeted relative testing; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; proving relationships, same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, combining DNA with documents; a Russian-Empire Jewish ancestor under another surname or patronymic, revision lists, приписка, recruit evasion; JewishGen queries, name variants, wives' natal families or married daughters. Read the matching recipe before advising.
+  Genealogy judgment: failure modes, AI verification, source-grounded reasoning. Use for unknown parentage or adoptees; WATO / DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; families across branches, siblings and generations; segment attribution and targeted relative testing; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; relationships, same-name identities, conflicting records, negative evidence, Genealogical Proof Standard, DNA with documents; Russian-Empire Jewish surname or patronymic changes, revision lists, приписка, recruit evasion; JewishGen queries, name variants, wives' natal families or married daughters. Newspapers.com coverage, name/OCR recovery and notice attribution. Read the matching recipe before advising.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -121,6 +121,16 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* verify each collection's field and search-method semantics; a name, age or
   household match creates a candidate, and a recruitment explanation remains a hypothesis until
   independent records support it.
+
+- **`recipes/newspapers-com-search-recovery.md`** — Recovering newspaper notices when issue
+  coverage, printed names or OCR hide an ancestor on Newspapers.com. Search initials, married
+  names, associates, occupations and addresses; follow travel, social and legal notices across
+  relevant newspapers, then verify the original notice.
+  *Use for:* a failed newspaper name search, an unknown maiden name, a missing obituary,
+  immigration or family-reconstruction leads, incomplete issue coverage, or unreadable OCR.
+  *Core guardrail:* a page-level hit can join different notices; verify each person, relationship,
+  event date and place in its actual notice. A failed query is not evidence that an event never
+  happened, and a second index of the same newspaper image is not independent corroboration.
 
 ## What a recipe is (and isn't)
 
