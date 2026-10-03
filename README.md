@@ -13,7 +13,7 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with eleven recipes:
+A single skill, `dna-research-recipes`, with twelve recipes:
 
 | Recipe | Use it for |
 | --- | --- |
@@ -28,6 +28,7 @@ A single skill, `dna-research-recipes`, with eleven recipes:
 | `beider-given-name-variants` | Find article candidates for exact or approximate Cyrillic given names, then retrieve the selected article's recorded variants; preserve ambiguous memberships and distinguish search leads from identity proof. |
 | `myheritage-historical-record-search` | MyHeritage collection coverage and query recovery; name and relative pivots, multilingual records, newspaper OCR/OldNews, and index-to-original follow-through. |
 | `newspapers-com-search-recovery` | Recovering newspaper notices hidden by issue gaps, printed names or OCR; relatives and alternate search routes; verifying people and events within the actual notice. |
+| `hebrewbooks-search-recovery` | Recover HebrewBooks names or passages missed by OCR or catalogue spelling; handle short mobile queries, Shafeh title searches, given-name indexes and viewer versus printed page numbers. |
 
 Read the recipe file in full before advising; the value is in the specifics.
 

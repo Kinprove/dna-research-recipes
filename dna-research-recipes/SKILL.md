@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment, workflows and AI verification. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clustering; Ashkenazi/endogamous matches, family comparisons, segment attribution and relative testing; Y-DNA haplogroups, SNP no-calls, Y-STR distance, mtDNA; X-DNA thresholds/phasing, GEDmatch, half-sister versus aunt; identity, conflicting records, negative evidence, Genealogical Proof Standard and DNA with documents; transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families and married daughters; MyHeritage record recovery; Newspapers.com coverage/OCR. Read the matching recipe before advising.
+  Genealogy judgment, workflows and AI verification. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clustering; Ashkenazi/endogamous matches, family comparisons, segment attribution and relative testing; Y-DNA haplogroups, SNP no-calls, Y-STR distance, mtDNA; X-DNA thresholds/phasing, GEDmatch, half-sister versus aunt; identity, conflicting records, negative evidence, Genealogical Proof Standard and DNA with documents; transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families and married daughters; MyHeritage record recovery; Newspapers.com coverage/OCR; HebrewBooks catalogue/OCR, Shafeh and printed indexes. Read the matching recipe before advising.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -149,6 +149,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* a page-level hit can join different notices; verify each person, relationship,
   event date and place in its actual notice. A failed query is not evidence that an event never
   happened, and a second index of the same newspaper image is not independent corroboration.
+
+- **`recipes/hebrewbooks-search-recovery.md`** — Recover HebrewBooks names or passages
+  missed by OCR, catalogue spelling or a query that never reached search.
+  *Use for:* Hebrew OCR letter confusions, catalogue versus full-text searches, short
+  mobile queries, inaccessible routes, Shafeh title searches, given-name indexes and
+  viewer versus printed page numbers.
+  *Core guardrail:* distinguish an unsubmitted query or access error from a completed
+  search with no hits. Keep OCR test strings separate from historical names, and record
+  the book ID, viewer page, printed locator and edition separately.
 
 ## What a recipe is (and isn't)
 
