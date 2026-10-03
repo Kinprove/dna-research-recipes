@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment: source-grounded reasoning, AI verification and search recovery. Use for unknown parentage/adoptees; WATO or DNA Painter hypotheses; clustering matches to ancestral couples; Ashkenazi/endogamous family comparisons across branches, siblings and generations; segment attribution and relative testing; AI for DNA, citations, transcription, translation, FamilySearch Full-Text Search, record hints and photo restoration; Y-DNA haplogroups, SNP no-calls and Y-STR distance; mtDNA matches; X-DNA thresholds, visual/parental phasing, GEDmatch, half-sister versus aunt; identity proof, conflicting records, negative evidence, the Genealogical Proof Standard and combined DNA/documentary evidence; Russian-Empire Jewish surnames, patronymics, revision lists, приписка and recruit evasion; JewishGen queries, Beider name variants, wives' natal families and married daughters; MyHeritage historical records. Read the matching recipe before advising.
+  Genealogy judgment: source-grounded reasoning, AI verification and search recovery. Use for unknown parentage/adoptees; WATO or DNA Painter; ancestral couple clusters; Ashkenazi/endogamous families across branches and generations; segment attribution and relative testing; AI for DNA, citations, transcription, translation, FamilySearch Full-Text Search, record hints, photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR distance; mtDNA; X-DNA thresholds, visual/parental phasing, GEDmatch, half-sister versus aunt; identity proof, conflicting records, negative evidence, the Genealogical Proof Standard, DNA/documentary evidence; Russian-Empire Jewish surnames, patronymics, revision lists, приписка, recruit evasion; JewishGen queries, Beider names, wives' natal families, married daughters; MyHeritage historical records; HebrewBooks OCR/catalogue recovery, short mobile queries, Shafeh, printed indexes, viewer pages. Read the matching recipe first.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -139,6 +139,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
   newspaper keywords/OldNews or an index that must lead onward to an original record.
   *Core guardrail:* diagnose coverage and field meaning before tightening; change one constraint
   at a time, preserve original text, and treat structured or translated values as search leads.
+
+- **`recipes/hebrewbooks-search-recovery.md`** — Recover HebrewBooks names or passages
+  missed by OCR, catalogue spelling or a query that never reached search.
+  *Use for:* Hebrew OCR letter confusions, catalogue versus full-text searches, short
+  mobile queries, inaccessible routes, Shafeh title searches, given-name indexes and
+  viewer versus printed page numbers.
+  *Core guardrail:* distinguish an unsubmitted query or access error from a completed
+  search with no hits. Keep OCR test strings separate from historical names, and record
+  the book ID, viewer page, printed locator and edition separately.
 
 ## What a recipe is (and isn't)
 
