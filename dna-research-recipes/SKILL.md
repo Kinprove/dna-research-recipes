@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment: practitioner failure modes, AI verification and source-grounded reasoning. Use for unknown parentage or adoptees; WATO / DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; comparing families across branches, siblings and generations; segment attribution and targeted relative testing; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; proving relationships, same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, combining DNA with documents; a Russian-Empire Jewish ancestor under another surname or patronymic, revision lists, приписка, recruit evasion; JewishGen queries, name variants, wives' natal families or married daughters. Read the matching recipe before advising.
+  Genealogy judgment: practitioner failure modes, AI verification and source-grounded reasoning. Use for unknown parentage or adoptees; WATO / DNA Painter hypothesis placement; clustering matches to ancestral couples; Ashkenazi or endogamous matches; comparing families across branches, siblings and generations; segment attribution and targeted relative testing; AI for DNA, citations, records, transcription, translation, FamilySearch Full-Text Search, record hints or photo restoration; Y-DNA haplogroups, SNP no-calls, Y-STR genetic distance; mtDNA matches; X-DNA thresholds, visual or parental phasing, GEDmatch, half-sister versus aunt; proving relationships, same-name identities, conflicting records, negative evidence, the Genealogical Proof Standard, combining DNA with documents; a Russian-Empire Jewish ancestor under another surname or patronymic, revision lists, приписка, recruit evasion; JewishGen queries, name variants, wives' natal families or married daughters; HebrewBooks OCR and catalogue recovery, short mobile queries, Shafeh, printed indexes and viewer locators. Read the matching recipe before advising.
 ---
 
 <!-- SCAFFOLD (repo scaffold step): this public SKILL.md is authored as the skill index. The
@@ -121,6 +121,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* verify each collection's field and search-method semantics; a name, age or
   household match creates a candidate, and a recruitment explanation remains a hypothesis until
   independent records support it.
+
+- **`recipes/hebrewbooks-search-recovery.md`** — Recover HebrewBooks names or passages
+  missed by OCR, catalogue spelling or a query that never reached search.
+  *Use for:* Hebrew OCR letter confusions, catalogue versus full-text searches, short
+  mobile queries, inaccessible routes, Shafeh title searches, given-name indexes and
+  viewer versus printed page numbers.
+  *Core guardrail:* distinguish an unsubmitted query or access error from a completed
+  search with no hits. Keep OCR test strings separate from historical names, and record
+  the book ID, viewer page, printed locator and edition separately.
 
 ## What a recipe is (and isn't)
 
