@@ -12,7 +12,7 @@
       "strict": false,
       "skills": ["./dna-research-recipes"],
       "description": "Expert judgment layers for genetic-genealogy work: named failure modes, delegate-vs-never-trust boundaries, and the reasoning sequences a confident AI answer gets wrong (unknown parentage/WATO, Y-DNA/mtDNA, AI for DNA & records, evidence & proof).",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "author": {
         "name": "Kinprove",
         "email": "hola@kinprove.io"

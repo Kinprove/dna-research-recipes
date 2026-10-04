@@ -2,6 +2,7 @@
 name: dna-research-recipes
 description: >-
   Genealogy judgment and practical workflows. Use for unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text/Catalog/Tree, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator; Geni workflows; U.S. census.
+  Russian Empire emigrant-origin recovery, U.S. arrivals, Canadian transit, passenger manifests, contact leads and historical locality/archive handoff.
 ---
 
 # DNA research recipes
@@ -34,6 +35,16 @@ authorship does not require a Kinprove account, connector or scoring engine.
   or Simple Search, Source Linker cleanup, profile repair and Source Box reuse.
   *Core guardrail:* inspect actual images and identities; preserve query/view scope;
   verify report audience and visibility before treating an attachment as shared evidence.
+
+- **`recipes/russian-empire-emigrant-origin-recovery.md`** — Five workflows for tracing
+  an emigrant from destination records to an exact historical locality: reconcile arrival
+  clues, recover failed name searches, extract complete manifests, follow contact/travel
+  networks, and prepare a locality and archive handoff. Principally 1880–1924 U.S. arrivals,
+  including Canadian transit, across confessions.
+  *Use for:* conflicting arrival years, changing names, missing manifest pages, two contact
+  fields, separate family arrivals, residence/birthplace ambiguity or an unresolved origin town.
+  *Core guardrail:* preserve each person's record and place role; verify linked pages and
+  outcome evidence; direct U.S.-bound Canadian transit does not imply a Form 30A record.
 
 - **`recipes/us-census-practical-workflows.md`** — Nine practical U.S. census procedures:
   recover households, browse target-year districts, follow 1950 revisit sheets, compare
@@ -242,6 +253,13 @@ authorship does not require a Kinprove account, connector or scoring engine.
   Multiple Kit Analysis, Triangulation, parental phasing or Lazarus reconstruction.
   *Core guardrail:* preserve actual access, thresholds, pairwise intervals and fixed
   rosters; separate shared-list membership and generated-kit signals from pedigree proof.
+
+## Supporting references
+
+- [Research log and report](recipes/research-documentation.md) preserves searches, document
+  numbers, results and the analysis needed to resume an emigrant-origin investigation.
+- [Source citation record](recipes/source-citation.md) preserves repository, collection,
+  archive/film identifiers, item locators, images and access dates for each observation.
 
 ## What a recipe is (and isn't)
 
