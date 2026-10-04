@@ -1,0 +1,36 @@
+DNA Research Recipes — Kinprove Claude Skill — Third-party content notice
+
+This Skill package contains prompts and original documentation authored by
+Kinprove and licensed under the Functional Source License 1.1 (MIT Future
+License) — FSL-1.1-MIT — see LICENSE. Copyright 2026 Kinprove.
+
+The eighteen recipes are original Kinprove-authored distillations of genetic-
+genealogy judgment and practical workflows. Facts, methods, and community teaching that a recipe cites
+but does NOT reproduce (for example the Leeds Method, WATO / "What Are The
+Odds", the Genealogical Proof Standard) need only source attribution and are
+credited in each recipe's recipes/<slug>.sources.md — they are not carved out
+here.
+
+The FSL-1.1-MIT license in LICENSE applies to Kinprove's original code and
+documentation. It does NOT relicense any third-party data that a recipe
+reproduces; such data keeps its own upstream license, carved out below.
+
+-----------------------------------------------------------------------------
+Beider name-index data
+-----------------------------------------------------------------------------
+The factual recorded-name/article mappings in
+resources/beider-name-indexes.json (inside the skill folder) are adapted from
+Nison's male and female Beider indexes on J-Roots Forum:
+
+  https://forum.j-roots.info/viewtopic.php?t=2060#p32424
+  https://forum.j-roots.info/viewtopic.php?f=98&t=2059#p32423
+
+Dictionary articles are by Alexander Beider. Data was acquired on 2026-10-03
+from complete first-post archive captures dated 2024-12-25; archive URLs and
+source hashes are included in the JSON. Recorded names are normalized for
+case, whitespace and hyphens while article alternatives are preserved.
+Forum prose and discussion replies are excluded.
+
+No explicit upstream data licence was identified. Kinprove does not claim to
+relicense these mappings under FSL-1.1-MIT; that licence applies to Kinprove's
+original lookup code and documentation.
