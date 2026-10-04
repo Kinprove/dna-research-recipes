@@ -14,10 +14,11 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with nineteen recipes:
+A single skill, `dna-research-recipes`, with twenty recipes:
 
 | Recipe | Use it for |
 | --- | --- |
+| `usa-immigration-search-recovery` | Twelve U.S. immigration workflows: journeys, ports and borders, name variants, complete manifests, naturalizations, historical citizenship, federal files and image recovery. |
 | `dnapainter-practical-dna-workflows` | Six DNA Painter workflows: painting, map copies/transfers, Common/Inferred/Distinct Segment Generators and Coverage Estimator. |
 | `gedmatch-practical-dna-workflows` | Eight GEDmatch workflows: kit/run baselines, direct comparisons, checked three-kit cores, locus searches, fixed groups, triangulation, parental phasing and Lazarus input ledgers. |
 | `ftdna-practical-dna-workflows` | Four FTDNA workflows: paired match/segment exports, duplicate-name note handles, MyHeritage link confirmation and dated Family Matching inventories. |

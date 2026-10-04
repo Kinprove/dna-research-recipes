@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment and practical workflows. Use for unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator. Read matching recipe.
+  Genealogy workflows: unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator; US immigration/naturalization, border crossings. Read matching recipe.
 ---
 
 # DNA research recipes
@@ -213,6 +213,16 @@ authorship does not require a Kinprove account, connector or scoring engine.
   Multiple Kit Analysis, Triangulation, parental phasing or Lazarus reconstruction.
   *Core guardrail:* preserve actual access, thresholds, pairwise intervals and fixed
   rosters; separate shared-list membership and generated-kit signals from pedigree proof.
+
+- **`recipes/usa-immigration-search-recovery.md`** — Twelve historical U.S. immigration
+  workflows: reconstruct journeys, test port and border coverage, recover name variants,
+  pair departures with arrivals, read complete manifests, distinguish detention outcomes,
+  interpret dated verification marks, find naturalizations across courts, check historical
+  citizenship rules, locate federal files and recover broken image links.
+  *Use for:* passenger lists, Canada/Mexico crossing records, naturalization minute books,
+  C-files, A-files and AR-2 records.
+  *Core guardrail:* preserve the complete image context and actual collection coverage;
+  resolve citizenship rules and file custody for the person's dates before drawing conclusions.
 
 ## What a recipe is (and isn't)
 
