@@ -205,6 +205,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* verify the people, chromosome copy and genome build; keep measured
   comparisons, inferred intervals, coordinate unions and pedigree estimates distinguishable.
 
+- **`recipes/gedmatch-practical-dna-workflows.md`** — Eight GEDmatch workflows:
+  establish kit/run baselines, follow shortlist entries into direct comparisons, check
+  three-kit cores, bound locus searches, freeze tag/MKA groups, preserve triangulation,
+  and record parental-phasing or Lazarus input groups and generated-kit roles.
+  *Use for:* GEDmatch One-to-Many, One-to-One, match-both, Segment Search, tag groups,
+  Multiple Kit Analysis, Triangulation, parental phasing or Lazarus reconstruction.
+  *Core guardrail:* preserve actual access, thresholds, pairwise intervals and fixed
+  rosters; separate shared-list membership and generated-kit signals from pedigree proof.
+
 ## What a recipe is (and isn't)
 
 - **Fact-checked.** Each recipe separates independently verified claims from figures reported by a
