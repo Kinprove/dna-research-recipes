@@ -229,8 +229,8 @@ research has stalled at a generic USCIS request.
 3. For AR-2, check the Flexoline Index's current coverage, then follow NARA's
    AR-2 instructions. An indexed number can lack a corresponding form image;
    the form may have moved into an A-File.
-4. For records outside the located NARA holdings, consult current USCIS
-   instructions for the identified record type and available identifiers.
+4. For C-Files, use the USCIS Genealogy Program: a known valid certificate/file number allows a [Genealogy Records Request (G-1041A)](https://www.uscis.gov/sites/default/files/document/forms/g-1041ainstr.pdf); without that number, an Index Search Request (G-1041) may be needed first.
+   For other records outside the located NARA holdings, consult current USCIS instructions for the identified record type and available identifiers.
 
 **Output:** a request-ready locator packet and named custodian. **Check:** an
 A-number alone proves neither A-File custody nor AR-2 image availability. A
