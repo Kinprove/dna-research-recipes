@@ -180,10 +180,12 @@ unstacking an uncompleted merge has not been mistaken for reversing a completed 
 1. Preserve the original GEDCOM and identify its intended focus person. Search Geni first. When
    that person already exists and your permissions allow it, begin **Import GEDCOM** from that
    profile's Actions menu; match the correct GEDCOM record to the selected Geni profile. [H16]
-2. For a genuinely new, unconnected branch, use **Research → Create a Branch**. Use an existing
-   tree location when the connection is already established. Creating a branch does not make its
-   contents private; check the profile settings and keep speculative notes in the separate private
-   register or Workspace. [H1, H9]
+2. For a genuinely new, unconnected branch, use **Research → Create a Branch**. Enter the focus
+   person's details, tick **Import a GEDCOM for this person**, and save the form. In the importer,
+   select the GEDCOM record corresponding to that new profile. Use an existing tree location when
+   the connection is already established. Creating a branch does not make its contents private;
+   check the profile settings and keep speculative notes in the separate private register or
+   Workspace. [H1, H9, H16]
 3. Read the current importer restrictions and record the offered generation scope before starting.
    Geni limits historical imports and stops a branch when it finds candidate matches already in
    the tree. An import need not load the entire file in one operation. [H16]
