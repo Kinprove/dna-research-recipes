@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy workflows: unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator; Geni workflows; US immigration/naturalization, borders; U.S. census.
+  Genealogy workflows: unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text/Catalog/Tree, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator; Geni workflows; US census; US immigration/naturalization, borders.
 ---
 
 # DNA research recipes
@@ -25,6 +25,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
 4. If no recipe matches, answer normally — don't force-fit.
 
 ## Recipes
+
+- **`recipes/familysearch-practical-record-workflows.md`** — Seventeen FamilySearch operations:
+  recover Catalog/DGS holdings and image-only records, preserve view-scoped citations,
+  refine Full Text/Simple Search, clean up Source Linker attachments and same-name Tree repairs,
+  and share research reports with checked visibility and reader access.
+  *Use for:* FamilySearch howtos, Catalog/film/DGS crosswalks, unindexed images, Full Text
+  or Simple Search, Source Linker cleanup, profile repair and Source Box reuse.
+  *Core guardrail:* inspect actual images and identities; preserve query/view scope;
+  verify report audience and visibility before treating an attachment as shared evidence.
 
 - **`recipes/us-census-practical-workflows.md`** — Nine practical U.S. census procedures:
   recover households, browse target-year districts, follow 1950 revisit sheets, compare

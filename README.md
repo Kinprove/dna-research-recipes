@@ -14,11 +14,12 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with twenty-two recipes:
+A single skill, `dna-research-recipes`, with twenty-three recipes:
 
 | Recipe | Use it for |
 | --- | --- |
 | `usa-immigration-search-recovery` | Twelve U.S. immigration workflows: journeys, ports and borders, name variants, complete manifests, naturalizations, historical citizenship, federal files and image recovery. |
+| `familysearch-practical-record-workflows` | Seventeen FamilySearch workflows: Catalog/DGS recovery, image browsing and citations, Full Text/Simple Search, Source Linker cleanup, checked Tree repairs and report visibility. |
 | `us-census-practical-workflows` | Nine U.S. census procedures: household search pivots, enumeration-district browsing, 1950 revisit sheets, pre-1850 age bins, the 1890 gap, supplementary answers, family fields, mortality schedules and surname changes. |
 | `geni-practical-research-workflows` | Eight Geni workflows: name variants, relationship focus, fact-linked sources, projects, merge requests, tree conflicts, GEDCOM branches and scoped exports. |
 | `dnapainter-practical-dna-workflows` | Six DNA Painter workflows: painting, map copies/transfers, Common/Inferred/Distinct Segment Generators and Coverage Estimator. |
