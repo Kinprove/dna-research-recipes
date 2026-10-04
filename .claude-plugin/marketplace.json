@@ -9,8 +9,6 @@
     {
       "name": "genealogy-research-recipes",
       "source": "./",
-      "strict": false,
-      "skills": ["./genealogy-research-recipes"],
       "description": "Fact-checked genealogy research recipes: DNA evidence, record searches and proof judgment.",
       "author": {
         "name": "Kinprove",
