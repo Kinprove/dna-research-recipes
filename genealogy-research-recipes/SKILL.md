@@ -1,12 +1,12 @@
 ---
-name: dna-research-recipes
+name: genealogy-research-recipes
 description: >-
   Genealogy: unknown parentage/adoptees, WATO, ancestral couples; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls/Y-STR distance, mtDNA, X-DNA/phasing, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription/translation, hints/photos; Russian Empire names, revision lists, приписка, recruit evasion, emigrant-origin recovery (U.S. arrivals, Canadian transit, manifests, contacts, localities/archives); JewishGen, Beider, natal families; MyHeritage records/DNA/shared matches/triangulation/theories; Newspapers.com OCR; Ancestry records/DNA/Pro Tools/ThruLines; FamilySearch Catalog/DGS/Full Text/Simple Search/Tree; HebrewBooks OCR/Shafeh/indexes; 23andMe exports/permissions/painting/matrices/bucketing/reconstructed ancestors/research trees; FTDNA; DNA Painter painting/transfers/segment generators/coverage; GEDmatch comparisons/groups/triangulation/phasing/Lazarus; Geni; U.S. census; U.S. immigration/naturalization, borders.
 ---
 
-# DNA research recipes
+# Genealogy research recipes
 
-Distilled, fact-checked **judgment and practical workflows** for genetic-genealogy work. Each recipe targets
+Distilled, fact-checked **judgment and practical workflows** for genealogy work with DNA and records. Each recipe targets
 what an LLM does *not* reliably know, or does *wrong* by default: the named failure modes, the
 delegate-vs-never-trust lines, the reasoning sequence a human must own, and the records needed
 to resume an investigation. Judgment recipes focus on reasoning; platform playbooks provide
@@ -289,5 +289,5 @@ authorship does not require a Kinprove account, connector or scoring engine.
 ## Attribution
 
 These recipes are original Kinprove-authored distillations, licensed FSL-1.1-MIT (see `LICENSE`).
-Third-party facts and methods are credited in each recipe's `recipes/<slug>.sources.md`; any
+Third-party facts and methods are credited in each recipe's `sources/<slug>.md`; any
 reproduced third-party data is carved out in `NOTICE`.
