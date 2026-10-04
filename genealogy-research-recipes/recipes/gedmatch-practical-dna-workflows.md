@@ -201,7 +201,7 @@ the recipe does not change anyone's kit visibility or permissions.
 
 ## Hand off interpretation
 
-Use `dna-research-recipes` → `xdna-phasing-judgment.md` for segment trust, triangulation, X,
+Use `genealogy-research-recipes` → `xdna-phasing-judgment.md` for segment trust, triangulation, X,
 phasing and reconstructed-kit quality; `ai-for-dna-research.md` for endogamy, multiple descent
 paths and selecting relatives; `unknown-parentage-wato.md` for placement hypotheses; and
 `evidence-proof-judgment.md` for documentary identity and conclusions. Pass the preserved

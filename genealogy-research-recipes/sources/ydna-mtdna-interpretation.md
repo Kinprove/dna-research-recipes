@@ -1,6 +1,6 @@
 ## Sources (provenance + dates)
 
-> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation, except the phylogenetic-tree caution adapted from Roberta Estes (source 16 below) — see `ydna-mtdna-interpretation.rights.json`.
+> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation, except the phylogenetic-tree caution adapted from Roberta Estes (source 16 below).
 
 1. *GEDmatch Overhaul, Haplogroup Phylogenetic Trees Expanded…* — GeneaVlogger (Jared Ross), 2026-06-05 — <https://www.youtube.com/watch?v=m15lv2VJhqE> — Rights: cited reference, not reproduced.
 2. *Talking Genealogy, DNA Testing, & History (Live Q&A)* — GeneaVlogger, 2026-04-18 — <https://www.youtube.com/watch?v=PNtx-FUO3gw> — Rights: cited reference, not reproduced.

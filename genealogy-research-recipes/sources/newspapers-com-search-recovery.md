@@ -1,8 +1,7 @@
 ## Sources
 
 > Rights: third-party sources are cited for attribution and are not reproduced. The expression
-> and retrieval sequence are Kinprove's original distillation; see
-> `newspapers-com-search-recovery.rights.json`.
+> and retrieval sequence are Kinprove's original distillation.
 
 Practitioner examples support the search tactics; their historical interfaces are not a
 promise about current controls.

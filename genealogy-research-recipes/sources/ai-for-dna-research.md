@@ -1,6 +1,6 @@
 ## Sources (provenance + dates)
 
-> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation (see `ai-for-dna-research.rights.json`).
+> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation.
 
 1. *The AI Problems That Drive Genealogists Crazy (And How to Fix Them)* — Denyse Allen (YouTube), 2026-01-27 — <https://www.youtube.com/watch?v=-L40JRNmkYI> — Rights: cited reference, not reproduced.
 2. *How Can I Use AI in Creating DNA Source Citations* — Family Locket (YouTube), 2025-02-27 — <https://www.youtube.com/watch?v=Qn4M-wSCQA4> — Rights: cited reference, not reproduced.

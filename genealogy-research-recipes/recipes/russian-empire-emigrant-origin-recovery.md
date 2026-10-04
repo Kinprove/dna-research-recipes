@@ -21,7 +21,7 @@ until the movement and locality evidence resolve them. [S1–S4, H1]
 
 Use [research-documentation.md](research-documentation.md) for the research log and report,
 [source-citation.md](source-citation.md) for citations and
-[evidence-proof-judgment.md](../../dna-research-recipes/recipes/evidence-proof-judgment.md)
+[evidence-proof-judgment.md](../../genealogy-research-recipes/recipes/evidence-proof-judgment.md)
 for deciding identity and resolving conflicts. The tables below extend those artifacts with
 migration-specific information; they do not replace their interpretation rules.
 
@@ -84,7 +84,7 @@ Run a short, logged ladder:
    birthplace or nationality filter off the initial searches.
 2. Search a spouse, child or documented fellow traveler using their own recorded variants. A
    community case recovered the family list through a child's alternative spelling. [S3]
-   Use [beider-given-name-variants.md](../../dna-research-recipes/recipes/beider-given-name-variants.md)
+   Use [beider-given-name-variants.md](../../genealogy-research-recipes/recipes/beider-given-name-variants.md)
    for supported Jewish given-name variants; keep generated guesses separate.
 3. If the database supports it, search the known U.S. contact's name or address. Otherwise inspect
    that contact's appearances in candidate manifests manually. The contact can locate the traveler
@@ -155,7 +155,7 @@ When the direct traveler has only “Russia” in the birthplace field, a siblin
 naturalization record can supply a locality lead. Preserve the documented sibling relationship
 and the sibling's own place role: their birthplace is not automatically the target's birthplace.
 For destination/return newspaper searches, use the specific retrieval loops in
-[newspapers-com-search-recovery.md](../../dna-research-recipes/recipes/newspapers-com-search-recovery.md).
+[newspapers-com-search-recovery.md](../../genealogy-research-recipes/recipes/newspapers-com-search-recovery.md).
 For an obscured relative's birthplace or parentage, request the record that distinguishes the
 possibilities rather than collecting unrelated people with the surname.
 
@@ -178,11 +178,11 @@ localities, the JewishGen Communities Database supplies historical names/jurisdi
 Yiddish variants. Its omission of a village does not show that no Jews lived there; use its Gazetteer
 and relevant historical gazetteers/maps for additional candidates. [S6, H6]
 
-Use [jewishgen-search-family-reconstruction.md](../../dna-research-recipes/recipes/jewishgen-search-family-reconstruction.md)
+Use [jewishgen-search-family-reconstruction.md](../../genealogy-research-recipes/recipes/jewishgen-search-family-reconstruction.md)
 for the Jewish place/name search ladder. For every confession, identify the register jurisdiction
 or parish serving the event, then verify its surviving years and actual holding repository. Record
 registration society separately from residence or birthplace; use
-[russian-empire-jewish-identity-attribution.md](../../dna-research-recipes/recipes/russian-empire-jewish-identity-attribution.md)
+[russian-empire-jewish-identity-attribution.md](../../genealogy-research-recipes/recipes/russian-empire-jewish-identity-attribution.md)
 when imperial Jewish registration or household placement is the unresolved issue.
 
 **Artifact — competing localities:**
@@ -217,7 +217,7 @@ the starting record for an 1880–1924 overseas departure.
 
 An assistant can transcribe with uncertainties, normalize a working copy, build these tables and
 propose the next discriminating search. Check its readings against the original images using
-[ai-for-documentary-records.md](../../dna-research-recipes/recipes/ai-for-documentary-records.md).
+[ai-for-documentary-records.md](../../genealogy-research-recipes/recipes/ai-for-documentary-records.md).
 The researcher owns identity decisions and the archive handoff's locality conclusion. Keep current
 access requirements in the log rather than promising delivery times, fixed A-file eligibility or
 one access rule for every successor country.

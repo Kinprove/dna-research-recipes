@@ -17,8 +17,8 @@ Start with a research question, the relevant profile URLs, available source reco
 account's actual viewing/editing permissions. Preserve URLs as the working identity keys;
 display names alone cannot distinguish same-named people.
 
-These procedures own Geni operations. Use [Evidence and proof judgment](../../dna-research-recipes/recipes/evidence-proof-judgment.md)
-for identity decisions and relationship conclusions, and [Y-DNA and mtDNA interpretation](../../dna-research-recipes/recipes/ydna-mtdna-interpretation.md)
+These procedures own Geni operations. Use [Evidence and proof judgment](../../genealogy-research-recipes/recipes/evidence-proof-judgment.md)
+for identity decisions and relationship conclusions, and [Y-DNA and mtDNA interpretation](../../genealogy-research-recipes/recipes/ydna-mtdna-interpretation.md)
 for lineage-test interpretation. Follow your citation guide for record citations.
 A tree path or inherited haplogroup label does not replace those
 investigations.

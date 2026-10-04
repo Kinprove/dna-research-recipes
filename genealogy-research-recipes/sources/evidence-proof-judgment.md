@@ -1,6 +1,6 @@
 ## Sources (provenance + dates)
 
-> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation (see `evidence-proof-judgment.rights.json`).
+> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation.
 
 1. *RLP 399: Merging and Separating Identities with Jan Joyce* — Jan Joyce / Family Locket (Nicole Dyer), 2026-03-02 — <https://familylocket.com/rlp-399-merging-and-separating-identities-with-jan-joyce/> — Rights: cited reference, not reproduced.
 2. *From Chaos to Clarity: How Merging & Separating Identity Techniques Identified David Dewitt's Father* — Jan Joyce / Family Locket, 2026-02-24 — <https://familylocket.com/from-chaos-to-clarity-how-merging-separating-identity-techniques-identified-david-dewitts-father/> — Rights: cited reference, not reproduced.
