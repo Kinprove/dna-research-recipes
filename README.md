@@ -14,12 +14,13 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with twenty-three recipes:
+A single skill, `dna-research-recipes`, with twenty-four recipes:
 
 | Recipe | Use it for |
 | --- | --- |
 | `usa-immigration-search-recovery` | Twelve U.S. immigration workflows: journeys, ports and borders, name variants, complete manifests, naturalizations, historical citizenship, federal files and image recovery. |
 | `familysearch-practical-record-workflows` | Seventeen FamilySearch workflows: Catalog/DGS recovery, image browsing and citations, Full Text/Simple Search, Source Linker cleanup, checked Tree repairs and report visibility. |
+| `russian-empire-emigrant-origin-recovery` | Five emigrant-origin workflows: arrival chronology, failed-name recovery, complete manifests, contact/travel networks and historical locality/archive handoff; principally 1880–1924 U.S. arrivals, including Canadian transit. |
 | `us-census-practical-workflows` | Nine U.S. census procedures: household search pivots, enumeration-district browsing, 1950 revisit sheets, pre-1850 age bins, the 1890 gap, supplementary answers, family fields, mortality schedules and surname changes. |
 | `geni-practical-research-workflows` | Eight Geni workflows: name variants, relationship focus, fact-linked sources, projects, merge requests, tree conflicts, GEDCOM branches and scoped exports. |
 | `dnapainter-practical-dna-workflows` | Six DNA Painter workflows: painting, map copies/transfers, Common/Inferred/Distinct Segment Generators and Coverage Estimator. |
@@ -43,6 +44,10 @@ A single skill, `dna-research-recipes`, with twenty-three recipes:
 | `23andme-match-research` | Practical 23andMe match, permission, matrix, segment, export, ancestry, bucketing and research-tree workflows, with dated access and evidence limits. |
 
 Read the recipe file in full before advising; the value is in the specifics.
+
+The emigrant-origin recipe includes original supporting references for a
+[research log and report](dna-research-recipes/recipes/research-documentation.md) and a
+[source citation record](dna-research-recipes/recipes/source-citation.md).
 
 The Beider recipe includes a Python 3.10+ lookup helper that uses only the standard library.
 Search the bundled JSON for article candidates, inspect the matches, then use a selected
