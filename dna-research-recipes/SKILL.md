@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment, workflows and AI checks. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clusters; Ashkenazi/endogamous matches, segments and relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photo trust; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry scope, collections and census browsing; HebrewBooks catalogue/OCR, Shafeh and indexes; MyHeritage DNA kits, filters, labels/notes, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix worksheets, permissions, segments, exports, ancestry painting, bucketing, reconstructed ancestors, shared-match charts and research trees. Read matching recipe.
+  Genealogy judgment, workflows and AI checks. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clusters; Ashkenazi/endogamous matches, segments and relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photo trust; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records, DNA matches, Pro Tools and ThruLines; HebrewBooks catalogue/OCR, Shafeh and indexes; MyHeritage DNA kits, filters, labels/notes, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix worksheets, permissions, segments, exports, ancestry painting, bucketing, reconstructed ancestors, shared-match charts and research trees. Read matching recipe.
 ---
 
 # DNA research recipes
@@ -25,6 +25,14 @@ authorship does not require a Kinprove account, connector or scoring engine.
 4. If no recipe matches, answer normally — don't force-fit.
 
 ## Recipes
+
+- **`recipes/ancestry-dna-match-investigation.md`** — Eight practical AncestryDNA workflows:
+  use a target's closest relatives, build branch anchor tables, search collateral names,
+  organize groups and notes, correct tester links, audit labels and recover missing match rows.
+  *Use for:* AncestryDNA match investigation, Pro Tools Enhanced Shared Matches, colored dots,
+  linked trees, ThruLines, access-dependent gaps or connecting a match to another testing site.
+  *Core guardrail:* preserve dated access and pair-specific observations; shared matches are
+  clues rather than segment triangulation, and tree paths need documentary verification.
 
 - **`recipes/myheritage-dna-match-investigation.md`** — Nine practical MyHeritage DNA workflows:
   select the right kit, preserve theories before reassignment, build filtered shortlists, use
