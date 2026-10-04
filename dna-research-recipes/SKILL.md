@@ -223,6 +223,12 @@ authorship does not require a Kinprove account, connector or scoring engine.
   C-files, A-files and AR-2 records.
   *Core guardrail:* preserve the complete image context and actual collection coverage;
   resolve citizenship rules and file custody for the person's dates before drawing conclusions.
+  *Public companion route:* when this recipe names `russian-empire-immigration-research`,
+  use the public [Tracing Immigrant Origins outline](https://files.lib.byu.edu/family-history-library/research-outlines/NonGeographic/TracingImmigrantOrigins.pdf)
+  for finding the original hometown and selecting origin-side sources. Confirm the historical
+  jurisdiction and record language with current archive finding aids. For Jewish name and
+  registration/residence attribution, use the [Russian-Empire identity recipe](recipes/russian-empire-jewish-identity-attribution.md).
+  The U.S. workflows can also be used independently.
 
 ## What a recipe is (and isn't)
 
