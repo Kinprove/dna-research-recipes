@@ -14,7 +14,7 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with nineteen recipes:
+A single skill, `dna-research-recipes`, with twenty recipes:
 
 | Recipe | Use it for |
 | --- | --- |
