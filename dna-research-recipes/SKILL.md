@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment, workflows and AI checks. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clusters; Ashkenazi/endogamous matches, segments and relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photo trust; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records, DNA matches, Pro Tools and ThruLines; HebrewBooks catalogue/OCR, Shafeh and indexes; MyHeritage DNA kits, filters, labels/notes, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix worksheets, permissions, segments, exports, ancestry painting, bucketing, reconstructed ancestors, shared-match charts and research trees; FTDNA workflows. Read matching recipe.
+  Genealogy judgment and practical workflows. Use for unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator. Read matching recipe.
 ---
 
 # DNA research recipes
@@ -196,6 +196,14 @@ authorship does not require a Kinprove account, connector or scoring engine.
   transferred links that need confirmation, and dated parental-bucket inventories.
   *Core guardrail:* reconcile export scope before joining; hold out ambiguous names;
   confirm each tree link and preserve observed vendor assignments separately from pedigree proof.
+
+- **`recipes/dnapainter-practical-dna-workflows.md`** — Six practical DNA Painter operations:
+  paint measured matches, copy or merge maps of one tester, intersect phased inheritance,
+  calculate provisional missing intervals, combine coordinate spans and plan descendant tests.
+  *Use for:* Paint a new match, map duplication/CSV transfers, Common Segment Generator,
+  Inferred Segments Generator, Distinct Segment Generator or Coverage Estimator.
+  *Core guardrail:* verify the people, chromosome copy and genome build; keep measured
+  comparisons, inferred intervals, coordinate unions and pedigree estimates distinguishable.
 
 ## What a recipe is (and isn't)
 
