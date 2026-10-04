@@ -26,6 +26,22 @@ authorship does not require a Kinprove account, connector or scoring engine.
 
 ## Recipes
 
+- **`recipes/usa-immigration-search-recovery.md`** — Twelve historical U.S. immigration
+  workflows: reconstruct journeys, test port and border coverage, recover name variants,
+  pair departures with arrivals, read complete manifests, distinguish detention outcomes,
+  interpret dated verification marks, find naturalizations across courts, check historical
+  citizenship rules, locate federal files and recover broken image links.
+  *Use for:* passenger lists, Canada/Mexico crossing records, naturalization minute books,
+  C-files, A-files and AR-2 records.
+  *Core guardrail:* preserve the complete image context and actual collection coverage;
+  resolve citizenship rules and file custody for the person's dates before drawing conclusions.
+  *Public companion route:* when this recipe names `russian-empire-immigration-research`,
+  use the public [Tracing Immigrant Origins outline](https://files.lib.byu.edu/family-history-library/research-outlines/NonGeographic/TracingImmigrantOrigins.pdf)
+  for finding the original hometown and selecting origin-side sources. Confirm the historical
+  jurisdiction and record language with current archive finding aids. For Jewish name and
+  registration/residence attribution, use the [Russian-Empire identity recipe](recipes/russian-empire-jewish-identity-attribution.md).
+  The U.S. workflows can also be used independently.
+
 - **`recipes/familysearch-practical-record-workflows.md`** — Seventeen FamilySearch operations:
   recover Catalog/DGS holdings and image-only records, preserve view-scoped citations,
   refine Full Text/Simple Search, clean up Source Linker attachments and same-name Tree repairs,
@@ -259,22 +275,6 @@ authorship does not require a Kinprove account, connector or scoring engine.
   numbers, results and the analysis needed to resume an emigrant-origin investigation.
 - [Source citation record](recipes/source-citation.md) preserves repository, collection,
   archive/film identifiers, item locators, images and access dates for each observation.
-
-- **`recipes/usa-immigration-search-recovery.md`** — Twelve historical U.S. immigration
-  workflows: reconstruct journeys, test port and border coverage, recover name variants,
-  pair departures with arrivals, read complete manifests, distinguish detention outcomes,
-  interpret dated verification marks, find naturalizations across courts, check historical
-  citizenship rules, locate federal files and recover broken image links.
-  *Use for:* passenger lists, Canada/Mexico crossing records, naturalization minute books,
-  C-files, A-files and AR-2 records.
-  *Core guardrail:* preserve the complete image context and actual collection coverage;
-  resolve citizenship rules and file custody for the person's dates before drawing conclusions.
-  *Public companion route:* when this recipe names `russian-empire-immigration-research`,
-  use the public [Tracing Immigrant Origins outline](https://files.lib.byu.edu/family-history-library/research-outlines/NonGeographic/TracingImmigrantOrigins.pdf)
-  for finding the original hometown and selecting origin-side sources. Confirm the historical
-  jurisdiction and record language with current archive finding aids. For Jewish name and
-  registration/residence attribution, use the [Russian-Empire identity recipe](recipes/russian-empire-jewish-identity-attribution.md).
-  The U.S. workflows can also be used independently.
 
 ## What a recipe is (and isn't)
 
