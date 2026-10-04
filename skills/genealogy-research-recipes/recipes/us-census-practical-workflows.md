@@ -5,11 +5,11 @@ fields, or produce a comparison artifact. Preserve the original census locator a
 literal observations separate from calculations and proposed identities.
 
 Keep a wider research plan, query log and report alongside these census working records.
-Use [Ancestry search recovery](https://github.com/Kinprove/dna-research-recipes/blob/main/dna-research-recipes/recipes/ancestry-record-search-recovery.md)
-or [MyHeritage record search](https://github.com/Kinprove/dna-research-recipes/blob/main/dna-research-recipes/recipes/myheritage-historical-record-search.md)
+Use [Ancestry search recovery](https://github.com/Kinprove/genealogy-research-recipes/blob/main/skills/genealogy-research-recipes/recipes/ancestry-record-search-recovery.md)
+or [MyHeritage record search](https://github.com/Kinprove/genealogy-research-recipes/blob/main/skills/genealogy-research-recipes/recipes/myheritage-historical-record-search.md)
 for provider-specific search controls. This recipe supplies the census working records.
 Route identity, kinship and negative-evidence rulings to
-[evidence and proof judgment](https://github.com/Kinprove/dna-research-recipes/blob/main/dna-research-recipes/recipes/evidence-proof-judgment.md).
+[evidence and proof judgment](https://github.com/Kinprove/genealogy-research-recipes/blob/main/skills/genealogy-research-recipes/recipes/evidence-proof-judgment.md).
 
 ## Preserve the output schema
 

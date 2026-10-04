@@ -143,7 +143,7 @@ availability and coverage for the kit; if an export is unavailable, preserve the
 displayed evidence manually and mark that recipe's packet scope as `selected_matches`, never
 `complete_match_list`. For FTDNA, use the export manifest and joined-table schema above.
 Before adapting those schemas to another vendor, verify its available exports and fields.
-For side/path conflicts and additional descent paths, use `dna-research-recipes` →
+For side/path conflicts and additional descent paths, use `genealogy-research-recipes` →
 `ai-for-dna-research.md`. For segment validity, triangulation and X, use
-`dna-research-recipes` → `xdna-phasing-judgment.md`. The joined table and bucket snapshots are
+`genealogy-research-recipes` → `xdna-phasing-judgment.md`. The joined table and bucket snapshots are
 inputs to the relevant interpretation.

@@ -1,6 +1,6 @@
 ## Sources (provenance + dates)
 
-> Rights: third-party sources are cited for attribution and are not reproduced. The expression and retrieval sequence are Kinprove's original distillation; see `jewishgen-search-family-reconstruction.rights.json`.
+> Rights: third-party sources are cited for attribution and are not reproduced. The expression and retrieval sequence are Kinprove's original distillation.
 
 Practitioner material, read in the preserved source bodies:
 

@@ -1,8 +1,7 @@
 ## Sources (provenance + dates)
 
-> Original Kinprove procedural synthesis. Third-party passages are **not reproduced**. See the
-> adjacent [rights manifest](russian-empire-emigrant-origin-recovery.rights.json). Artifact schemas
-> and the example are original; practitioner procedures are attributed below.
+> Original Kinprove procedural synthesis. Third-party passages are **not reproduced**. Artifact
+> schemas and the example are original; practitioner procedures are attributed below.
 
 - **S1:** Ancestry, *Top Tips for Beginning Jewish Family History Research*, 2013-10-15 —
   [presentation](https://www.youtube.com/watch?v=Pf-olbDbZlY). Destination research, birthplace versus

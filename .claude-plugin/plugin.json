@@ -1,0 +1,12 @@
+{
+  "name": "genealogy-research-recipes",
+  "version": "1.0.0",
+  "description": "Fact-checked genealogy research recipes: DNA evidence, record searches and proof judgment.",
+  "author": {
+    "name": "Kinprove",
+    "email": "hola@kinprove.io"
+  },
+  "license": "FSL-1.1-MIT",
+  "homepage": "https://github.com/Kinprove/genealogy-research-recipes",
+  "repository": "https://github.com/Kinprove/genealogy-research-recipes"
+}

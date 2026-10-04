@@ -1,4 +1,4 @@
-# Canonical gitleaks configuration for the public dna-research-recipes skill.
+# Canonical gitleaks configuration for the public genealogy-research-recipes skill.
 #
 # This is the SINGLE source of truth. `export_public_recipe.py` byte-copies it
 # into the public checkout root as `.gitleaks.toml` and asserts SHA-256 equality
@@ -11,7 +11,7 @@
 # ruleset fail-closed. If a genuine false positive surfaces on the real 5-recipe
 # tree (Round 2 golden run), add a NARROW, commented allowlist entry here and let
 # the SHA-256-equality assertion propagate it to the public-repo copy.
-title = "dna-research-recipes secret-scan config"
+title = "genealogy-research-recipes secret-scan config"
 
 [extend]
 useDefault = true

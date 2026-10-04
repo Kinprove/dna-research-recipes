@@ -310,7 +310,7 @@ recording source attachments, image crosswalks or identity repairs.
 
 Use your project's research-documentation and source-citation workflows for the complete
 plan/log/report loop and citation forms. For transcription uncertainties, read
-`dna-research-recipes` → `ai-for-documentary-records.md`; for contested identity,
+`genealogy-research-recipes` → `ai-for-documentary-records.md`; for contested identity,
 relationship or absence conclusions, read
 `evidence-proof-judgment.md`. Carry the images, locators, inspected coverage and candidate comparison
 packet into that handoff.

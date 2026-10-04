@@ -1,6 +1,6 @@
 ## Sources (provenance + dates)
 
-> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation (see `russian-empire-jewish-identity-attribution.rights.json`).
+> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation.
 
 1. *Запись в метрической книге* — J-Roots Forum (feanor et al.), 2013-03-06 — <https://forum.j-roots.info/viewtopic.php?f=9&t=3733> — Rights: cited reference, not reproduced.
 2. *Нужно мнение коллег* — J-Roots Forum (innanes et al.), 2015-09-22 onward — <https://forum.j-roots.info/viewtopic.php?f=4&t=4667> — Rights: cited reference, not reproduced.

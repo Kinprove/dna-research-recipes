@@ -1,6 +1,5 @@
 ## Sources
 
-Rights are recorded in [23andme-match-research.rights.json](23andme-match-research.rights.json).
 The recipe is original distillation and synthesis; third-party methods and facts are cited,
 not reproduced. Practitioner reports below preserve their publication dates.
 

@@ -1,7 +1,6 @@
 ## Sources (provenance + dates)
 
-> Original Kinprove synthesis. Third-party passages are **not reproduced**. See the adjacent
-> [rights manifest](familysearch-practical-record-workflows.rights.json).
+> Original Kinprove synthesis. Third-party passages are **not reproduced**.
 
 - **S01:** *Step-by-Step GUIDE to FamilySearch Full-Text Searching   #FamilySearch #FullText*, published 2026-04-02 — [source](https://www.youtube.com/watch?v=mZc2-Z-TROw).
 - **S02:** *How to Use FamilySearch's Simple Search for Easier Full-Text Searching – Kathryn Grant 22 April 2026*, published 2026-04-24 — [source](https://www.youtube.com/watch?v=_szy7VbYPjE).

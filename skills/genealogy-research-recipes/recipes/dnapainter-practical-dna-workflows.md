@@ -10,7 +10,7 @@ The failure to prevent is treating everything DNA Painter draws or calculates as
 
 Use a named focal tester, authorized segment tables, known relatives and a specific question. A segment table needs chromosome and start/end positions; retain reported cM and SNP counts when available. Raw genotype files and a match's total cM alone are not chromosome-painting inputs. [S1, S2]
 
-Provider download procedures belong to the relevant provider's documentation; provider investigation belongs to its own recipe. For segment validity, triangulation, X-DNA and phasing judgment use [X-DNA and phasing judgment](../../dna-research-recipes/recipes/xdna-phasing-judgment.md). For unknown-person placement use [Unknown parentage and WATO](../../dna-research-recipes/recipes/unknown-parentage-wato.md). This recipe owns the subsequent DNA Painter operations.
+Provider download procedures belong to the relevant provider's documentation; provider investigation belongs to its own recipe. For segment validity, triangulation, X-DNA and phasing judgment use [X-DNA and phasing judgment](../../genealogy-research-recipes/recipes/xdna-phasing-judgment.md). For unknown-person placement use [Unknown parentage and WATO](../../genealogy-research-recipes/recipes/unknown-parentage-wato.md). This recipe owns the subsequent DNA Painter operations.
 
 Keep a small operation register beside the map:
 

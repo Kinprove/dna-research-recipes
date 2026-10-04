@@ -9,7 +9,7 @@ Choose the workflow that answers the current question; running all nine is unnec
 Use the companion **DNA data export** procedure for export schemas and **DNA match clustering**
 for Leeds, AutoClusters and network mechanics. These separate procedures are outside this
 playbook; check their availability in your research workspace before delegating those tasks.
-Use [DNA research judgment](../../dna-research-recipes/recipes/ai-for-dna-research.md) for
+Use [DNA research judgment](../../genealogy-research-recipes/recipes/ai-for-dna-research.md) for
 relationship inference, endogamy and evidence weighting. This playbook supplies the MyHeritage
 working loop and records, rather than another clustering or cM interpretation method.
 

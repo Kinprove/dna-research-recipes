@@ -1,6 +1,6 @@
 ## Sources (provenance + dates)
 
-> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation (see `ai-for-documentary-records.rights.json`). YouTube publish dates are shown where known and omitted rather than guessed where not; blog/article dates are shown where known.
+> Rights: every source below is a third-party work cited for attribution only — its content remains © its creator/publisher and is **not reproduced** here. The recipe text is Kinprove's own distillation. YouTube publish dates are shown where known and omitted rather than guessed where not; blog/article dates are shown where known.
 
 ### BYU Family History Library — YouTube
 
