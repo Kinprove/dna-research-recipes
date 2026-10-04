@@ -14,10 +14,11 @@ connector or scoring engine is optional.
 
 ## What's inside
 
-A single skill, `dna-research-recipes`, with sixteen recipes:
+A single skill, `dna-research-recipes`, with seventeen recipes:
 
 | Recipe | Use it for |
 | --- | --- |
+| `ftdna-practical-dna-workflows` | Four FTDNA workflows: paired match/segment exports, duplicate-name note handles, MyHeritage link confirmation and dated Family Matching inventories. |
 | `ancestry-dna-match-investigation` | Eight AncestryDNA workflows: closer-relative and branch-anchor searches, collateral names, groups/notes, tester links, label audits, missing rows and cross-site identity checks. |
 | `myheritage-dna-match-investigation` | Nine MyHeritage DNA workflows and record schemas: kit association, filters, labels/notes, shared matches, triangulation subsets, theory review, private-tree leads, contact and comparable snapshots. |
 | `unknown-parentage-wato` | Placing an unknown person into a tree with DNA matches + WATO odds; adoptee / unknown-parent search; clustering matches to an ancestral couple. |

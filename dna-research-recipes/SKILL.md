@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment, workflows and AI checks. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clusters; Ashkenazi/endogamous matches, segments and relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photo trust; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records, DNA matches, Pro Tools and ThruLines; HebrewBooks catalogue/OCR, Shafeh and indexes; MyHeritage DNA kits, filters, labels/notes, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix worksheets, permissions, segments, exports, ancestry painting, bucketing, reconstructed ancestors, shared-match charts and research trees. Read matching recipe.
+  Genealogy judgment, workflows and AI checks. Use for unknown parentage/adoptees; WATO/DNA Painter; ancestral-couple clusters; Ashkenazi/endogamous matches, segments and relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photo trust; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider given names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records, DNA matches, Pro Tools and ThruLines; HebrewBooks catalogue/OCR, Shafeh and indexes; MyHeritage DNA kits, filters, labels/notes, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix worksheets, permissions, segments, exports, ancestry painting, bucketing, reconstructed ancestors, shared-match charts and research trees; FTDNA workflows. Read matching recipe.
 ---
 
 # DNA research recipes
@@ -189,6 +189,13 @@ authorship does not require a Kinprove account, connector or scoring engine.
   or floating research-tree branches.
   *Core guardrail:* verify actual access and quantity scope; keep shared-list
   membership, matching intervals, ancestry estimates and documentary identity separate.
+
+- **`recipes/ftdna-practical-dna-workflows.md`** — Four FTDNA workflows for paired
+  match/segment exports, duplicate-name joins, MyHeritage tree links and Family Matching.
+  *Use for:* Family Finder CSV scope, opaque note handles, selected-match segment files,
+  transferred links that need confirmation, and dated parental-bucket inventories.
+  *Core guardrail:* reconcile export scope before joining; hold out ambiguous names;
+  confirm each tree link and preserve observed vendor assignments separately from pedigree proof.
 
 ## What a recipe is (and isn't)
 
