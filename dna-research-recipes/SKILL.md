@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment and practical workflows. Use for unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator; Geni workflows.
+  Genealogy judgment and practical workflows. Use for unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator; Geni workflows; U.S. census.
 ---
 
 # DNA research recipes
@@ -25,6 +25,17 @@ authorship does not require a Kinprove account, connector or scoring engine.
 4. If no recipe matches, answer normally — don't force-fit.
 
 ## Recipes
+
+- **`recipes/us-census-practical-workflows.md`** — Nine practical U.S. census procedures:
+  recover households, browse target-year districts, follow 1950 revisit sheets, compare
+  pre-1850 age bins, bridge the 1890 gap, extract supplements and family fields, search
+  mortality schedules, and follow surname changes.
+  *Use for:* a missing census household, an address without a name hit, sheet 71,
+  tick-mark counts, substitute censuses, sample lines, marriage/children fields,
+  mortality reporting windows, or formerly enslaved families under different surnames.
+  *Core guardrail:* preserve the original locator and literal observations; keep
+  calculated intervals and proposed identities separate, and route proof rulings to
+  `recipes/evidence-proof-judgment.md`.
 
 - **`recipes/geni-practical-research-workflows.md`** — Eight practical Geni workflows:
   recover name variants, preserve relationship focus, cite facts, choose projects, compare
