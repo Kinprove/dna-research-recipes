@@ -1,7 +1,7 @@
 ---
 name: dna-research-recipes
 description: >-
-  Genealogy judgment and practical workflows. Use for unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator. Read matching recipe.
+  Genealogy judgment and practical workflows. Use for unknown parentage/adoptees, WATO, ancestral-couple clusters; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls, Y-STR distance, mtDNA; X-DNA/phasing, GEDmatch, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription, translation, FamilySearch Full-Text Search, record hints, photos; Russian-Empire Jewish names, revision lists, приписка, recruit evasion; JewishGen, Beider names, natal families; MyHeritage records; Newspapers.com coverage/OCR; Ancestry records/DNA, Pro Tools, ThruLines; HebrewBooks OCR, Shafeh, indexes; MyHeritage DNA kits, labels, shared matches, triangulation, Theory of Family Relativity; 23andMe match/matrix exports, permissions, ancestry painting, bucketing, reconstructed ancestors, research trees; FTDNA workflows; DNA Painter painting/transfers, Common/Inferred/Distinct Segment Generators, Coverage Estimator; Geni workflows.
 ---
 
 # DNA research recipes
@@ -25,6 +25,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
 4. If no recipe matches, answer normally — don't force-fit.
 
 ## Recipes
+
+- **`recipes/geni-practical-research-workflows.md`** — Eight practical Geni workflows:
+  recover name variants, preserve relationship focus, cite facts, choose projects, compare
+  merge candidates, track tree conflicts, create GEDCOM branches and inspect scoped exports.
+  *Use for:* Geni language/alias fields, relationship paths, source documents, public projects
+  or private workspaces, merge requests, unmerge requests, GEDCOM imports and tree reports.
+  *Core guardrail:* preserve profile URLs and dated scope; distinguish tree assertions,
+  source-supported statements, pending requests and completed changes. Draft manager or
+  curator requests for human review, and inspect private content before sharing an export.
 
 - **`recipes/ancestry-dna-match-investigation.md`** — Eight practical AncestryDNA workflows:
   use a target's closest relatives, build branch anchor tables, search collateral names,
