@@ -1,0 +1,15 @@
+{
+  // Check-only lint config for the public repo. markdownlint-cli2 reads this file.
+  // Generated recipe files (recipes/<slug>.md, injected by the export step) must PASS
+  // this config as-is — fix the generator/source and regenerate, never format generated
+  // bytes. Re-tune only if a real recipe file trips a rule that is genuinely wrong.
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD033": false,
+    "MD041": false,
+    "MD024": { "siblings_only": true }
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules"]
+}
