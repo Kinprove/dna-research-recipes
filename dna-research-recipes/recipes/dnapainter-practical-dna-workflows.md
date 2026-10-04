@@ -27,7 +27,7 @@ This register is a recommended research artifact; it is not a DNA Painter import
 
 ## 1. Paint a measured match and inspect the saved result
 
-1. Create or open the focal tester's chromosome map. Select one identified relative with a usable pairwise segment table. Preserve the original table before editing or pasting.
+1. Create or open the focal tester's chromosome map. Select one identified relative with a usable pairwise segment table. Preserve the original table before editing or pasting. Require the incoming intervals and any existing painted intervals to use one verified genome build before painting. Convert differing coordinates to that common build outside DNA Painter and retain the originals and conversion record; stop if a build is unknown.
 2. Open **Paint a new match**, paste the segment table and use **Preview**. Compare the parsed chromosomes and interval endpoints with the original. Record the selected cM filter; parsing successfully does not mean every source row survived it. DNA Painter's documented ordinary painting default is 7 cM, adjustable in the form. [S1, S2]
 3. Enter the match identity and assign the supported parental side and ancestor or couple. If the connection is unresolved, use a provisional group. A group label describes your interpretation; it does not establish it. Save the match. [S1]
 4. Click a chromosome's number to open it and inspect all painted segments. In the closed view, groups higher in the key cover lower groups at overlapping positions. Dragging a group changes the visible layer, not its coordinates or evidential strength. [S3]
@@ -43,7 +43,7 @@ Choose the smallest transfer that answers the question. Duplicate the map for an
 2. For one match, click one of its segments, choose **View match**, then **Copy match segment data to clipboard**. Paste into the destination's **Paint a new match** form.
 3. For one interval, click the segment, then the chromosome number inside its popup; the clipboard receives that segment's data.
 4. For a map or subset, open settings → **All segment data**. Set or clear table filters deliberately, then choose **CSV file**. That CSV contains the table currently displayed. Import it through **Import segment data** where available. [S4]
-5. Record the source and destination map names, filters and expected row count. Check the imported interval count, identities and assignments against the exported table; inspect duplicate-looking intervals rather than assuming import deduplicated them.
+5. Record the source and destination map names, filters and expected row count. Before pasting or importing into a nonempty map, require the incoming and existing intervals to use one verified genome build; convert differing coordinates outside DNA Painter with a retained conversion record, or stop if a build is unknown. Check the imported interval count, identities and assignments against the exported table; inspect duplicate-looking intervals rather than assuming import deduplicated them.
 
 **Artifact:** original map, working copy or destination map, dated CSV and transfer register. **Checkpoint:** the subset is intentional and the destination still describes the correct tester. To derive a child's map from a parent's phased map, use the next workflow rather than copying the whole map.
 
@@ -90,7 +90,7 @@ Use the [Distinct Segment Generator](https://dnapainter.com/tools/dsg) when seve
 Use the [Coverage Estimator](https://dnapainter.com/tools/coverage) for a different question: how much of an ancestor's autosomal DNA is expected to be represented by tested descendants? It takes a descendancy tree and tester marks, not a segment union. [S9, H4]
 
 1. Start a tree with the ancestor as root; add the documented descendants or import a GEDCOM and select that ancestor. Back up an existing tree before GEDCOM import, which replaces its contents.
-2. Mark the descendants whose tests you can use. Record database access; realizing the full represented coverage requires access to the tests in the same database. A mixed-database tree is not automatically an accessible combined research dataset. [H4]
+2. Mark the descendants whose tests you can use. Check every tester's descent paths to the root: a tester related to the root more than once must appear on each documented path and be marked as tested at each occurrence. These are occurrences of the same tester, not additional independent tests. Record database access; realizing the full represented coverage requires access to the tests in the same database. A mixed-database tree is not automatically an accessible combined research dataset. [H4]
 3. Mark deceased people and known testing willingness. Note the current estimate, request next-tester suggestions and compare feasible candidates. Suggestions exclude people marked willing as well as unwilling, so compare willing candidates manually too. A tested child of an already-tested parent does not add coverage in this model. [S9]
 4. Record the proposed tester and expected change, then compare feasibility with the research question. This is a planning estimate based on typical inheritance; actual inherited DNA can differ. [S9]
 5. Save to the account where available and download the Coverage tree text file as a recoverable artifact. A browser-local tree can disappear when browser data is cleared. [H4]
