@@ -19,20 +19,16 @@ class OpenClawPluginTests(unittest.TestCase):
         self.assertEqual(manifest["id"], PLUGIN)
         # OpenClaw rejects a native manifest without a schema, even for a plugin with no config.
         self.assertIsInstance(manifest["configSchema"], dict)
-        skill_roots = [ROOT / relative for relative in manifest["skills"]]
-        self.assertTrue(skill_roots, "The manifest lists no skill directory")
-        self.assertTrue(any((root / PLUGIN / "SKILL.md").is_file() for root in skill_roots))
+        self.assertEqual(manifest["skills"], ["./skills"])
+        self.assertTrue((ROOT / "skills" / PLUGIN / "SKILL.md").is_file())
 
     def test_package_entry_keeps_the_plugin_native(self):
         # With .claude-plugin/ present, OpenClaw loads the repository as a Claude bundle
         # unless package.json declares a native entrypoint.
-        entries = load("package.json")["openclaw"]["extensions"]
-
-        self.assertTrue(entries, "package.json declares no OpenClaw entrypoint")
-        for relative in entries:
-            entry = ROOT / relative
-            self.assertTrue(entry.is_file(), f"Missing OpenClaw entrypoint: {relative}")
-            self.assertIn(f'id: "{PLUGIN}"', entry.read_text(encoding="utf-8"))
+        self.assertEqual(load("package.json")["openclaw"]["extensions"], ["./index.js"])
+        entrypoint = ROOT / "index.js"
+        self.assertTrue(entrypoint.is_file(), "Native OpenClaw entrypoint is missing")
+        self.assertIn(f'id: "{PLUGIN}"', entrypoint.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

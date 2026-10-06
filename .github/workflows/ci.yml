@@ -66,7 +66,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "24"
-      # Freeze the runtime that installs and loads the native plugin.
       - name: Install the pinned OpenClaw CLI
         run: npm install -g openclaw@2026.9.8
       - name: Run native plugin unit tests

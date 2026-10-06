@@ -24,29 +24,17 @@ def main():
         state = home / ".openclaw"
         # Drop inherited OPENCLAW_* selectors so only the temporary profile is used.
         env = {name: value for name, value in os.environ.items() if not name.startswith("OPENCLAW_")}
-        env.update(HOME=str(home), OPENCLAW_STATE_DIR=str(state), NO_COLOR="1")
+        env.update(HOME=str(home), OPENCLAW_STATE_DIR=str(state))
+
+        def run_openclaw(*arguments, **options):
+            return subprocess.run(
+                [openclaw, *arguments], cwd=home, env=env, stdin=subprocess.DEVNULL, check=True, timeout=300, **options
+            )
 
         def openclaw_json(*arguments):
-            completed = subprocess.run(
-                [openclaw, *arguments, "--json"],
-                cwd=home,
-                env=env,
-                stdin=subprocess.DEVNULL,
-                capture_output=True,
-                text=True,
-                check=True,
-                timeout=300,
-            )
-            return json.loads(completed.stdout)
+            return json.loads(run_openclaw(*arguments, "--json", stdout=subprocess.PIPE, text=True).stdout)
 
-        subprocess.run(
-            [openclaw, "plugins", "install", str(ROOT), "--force", "--accept-capabilities"],
-            cwd=home,
-            env=env,
-            stdin=subprocess.DEVNULL,
-            check=True,
-            timeout=300,
-        )
+        run_openclaw("plugins", "install", str(ROOT), "--force", "--accept-capabilities")
 
         report = openclaw_json("plugins", "inspect", PLUGIN, "--runtime")
         plugin = report["plugin"]
@@ -61,9 +49,8 @@ def main():
         assert listed[PLUGIN]["eligible"] and listed[PLUGIN]["modelVisible"], listed[PLUGIN]
 
         source_skill = ROOT / "skills" / PLUGIN
-        installed_skill = Path(openclaw_json("skills", "info", PLUGIN)["baseDir"])
-        expected_skill = state / "extensions" / PLUGIN / "skills" / PLUGIN
-        assert installed_skill.resolve() == expected_skill, f"Skill served from {installed_skill.resolve()}"
+        installed_skill = Path(openclaw_json("skills", "info", PLUGIN)["baseDir"]).resolve()
+        assert installed_skill == state / "extensions" / PLUGIN / "skills" / PLUGIN, f"Skill served from {installed_skill}"
         for relative in (
             "SKILL.md",
             "recipes/ai-for-dna-research.md",
@@ -75,7 +62,7 @@ def main():
         lookup = subprocess.run(
             [sys.executable, "-B", str(installed_skill / "scripts" / "lookup_beider_name.py"), "--sex", "male", "--name", "Гершель"],
             cwd=home,
-            capture_output=True,
+            stdout=subprocess.PIPE,
             text=True,
             check=True,
             timeout=30,

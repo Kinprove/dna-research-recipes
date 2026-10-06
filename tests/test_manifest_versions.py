@@ -14,9 +14,9 @@ class ManifestVersionTests(unittest.TestCase):
         versions = {
             name: json.loads((ROOT / name).read_text(encoding="utf-8"))["version"] for name in JSON_MANIFESTS
         }
-        hermes = re.search(r"^version:\s*(\S+)\s*$", (ROOT / "plugin.yaml").read_text(encoding="utf-8"), re.MULTILINE)
+        hermes = re.search(r"^version:\s*(\S+)", (ROOT / "plugin.yaml").read_text(encoding="utf-8"), re.MULTILINE)
         assert hermes is not None, "plugin.yaml has no version"
-        versions["plugin.yaml"] = hermes.group(1).strip("'\"")
+        versions["plugin.yaml"] = hermes.group(1)
 
         self.assertEqual(len(set(versions.values())), 1, versions)
 
