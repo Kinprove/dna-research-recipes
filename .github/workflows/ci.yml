@@ -57,6 +57,26 @@ jobs:
           TMPDIR: ${{ runner.temp }}
         run: uv run --project "$HERMES_RUNTIME" --frozen --no-dev python -B tests/check_hermes_runtime.py
 
+  openclaw:
+    name: OpenClaw native plugin
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      # Freeze the runtime that installs and loads the native plugin.
+      - name: Install the pinned OpenClaw CLI
+        run: npm install -g openclaw@2026.9.8
+      - name: Run native plugin unit tests
+        run: python3 -B -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Install and inspect the native plugin in an isolated profile
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+          TMPDIR: ${{ runner.temp }}
+        run: python3 -B tests/check_openclaw_runtime.py
+
   validate:
     name: Plugin validate (--strict)
     runs-on: ubuntu-latest

@@ -1,0 +1,12 @@
+{
+  "id": "genealogy-research-recipes",
+  "name": "Genealogy Research Recipes",
+  "description": "Fact-checked genealogy recipes for DNA evidence, record searches and proof judgment.",
+  "version": "1.1.0",
+  "skills": ["./skills"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

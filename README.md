@@ -39,6 +39,24 @@ Update the installed plugin with:
 hermes plugins update genealogy-research-recipes
 ```
 
+**OpenClaw** — install the native plugin:
+
+```sh
+openclaw plugins install git:github.com/Kinprove/genealogy-research-recipes
+```
+
+OpenClaw asks you to confirm the source and the plugin's skills. Restart the Gateway
+after installing. The `genealogy-research-recipes` skill then loads like any other
+OpenClaw skill, with every recipe file beside it. The plugin registers no tools or
+hooks, needs no Node dependencies, API keys or Kinprove account and does not
+configure the optional MCP connector.
+
+Update the installed plugin with:
+
+```sh
+openclaw plugins update genealogy-research-recipes
+```
+
 ## Recipes
 
 - **DNA reasoning:** [unknown parentage and WATO](skills/genealogy-research-recipes/recipes/unknown-parentage-wato.md), [AI for DNA research](skills/genealogy-research-recipes/recipes/ai-for-dna-research.md), [Y-DNA and mtDNA](skills/genealogy-research-recipes/recipes/ydna-mtdna-interpretation.md), [X-DNA and phasing](skills/genealogy-research-recipes/recipes/xdna-phasing-judgment.md)
