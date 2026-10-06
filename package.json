@@ -1,9 +1,33 @@
 {
-  "name": "genealogy-research-recipes",
-  "version": "1.1.0",
-  "private": true,
+  "name": "@kinprove/genealogy-research-recipes",
+  "version": "1.1.1",
+  "private": false,
+  "description": "Fact-checked genealogy recipes for DNA evidence, record searches and proof judgment.",
+  "license": "FSL-1.1-MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kinprove/genealogy-research-recipes.git"
+  },
   "type": "module",
+  "files": [
+    "index.js",
+    "openclaw.plugin.json",
+    "NOTICE",
+    "skills/genealogy-research-recipes/SKILL.md",
+    "skills/genealogy-research-recipes/LICENSE",
+    "skills/genealogy-research-recipes/NOTICE",
+    "skills/genealogy-research-recipes/recipes/**/*.md",
+    "skills/genealogy-research-recipes/sources/**/*.md",
+    "skills/genealogy-research-recipes/scripts/**/*.py",
+    "skills/genealogy-research-recipes/resources/**/*.json"
+  ],
   "openclaw": {
-    "extensions": ["./index.js"]
+    "extensions": ["./index.js"],
+    "compat": {
+      "pluginApi": ">=2026.9.8"
+    },
+    "build": {
+      "openclawVersion": "2026.9.8"
+    }
   }
 }
