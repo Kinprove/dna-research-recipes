@@ -23,6 +23,59 @@ jobs:
           PYTHONDONTWRITEBYTECODE: "1"
         run: python -B -m unittest discover -s skills/genealogy-research-recipes/tests -p 'test_*.py'
 
+  hermes:
+    name: Hermes native plugin
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: NousResearch/hermes-agent
+          # Freeze the runtime that exercises the public register_skill contract.
+          ref: 6cf3104d749b49151a22a5cdbe40dc729577b505
+          path: .hermes-runtime
+      - uses: astral-sh/setup-uv@94527f2e458b27549849d47d273a16bec83a01e9 # v7
+        with:
+          version: "0.12.10"
+      - name: Prepare the pinned Hermes runtime
+        run: |
+          HERMES_RUNTIME="$RUNNER_TEMP/hermes-runtime"
+          printf 'HERMES_RUNTIME=%s\n' "$HERMES_RUNTIME" >> "$GITHUB_ENV"
+          mv .hermes-runtime "$HERMES_RUNTIME"
+          uv sync --project "$HERMES_RUNTIME" --frozen --no-dev --python 3.14
+      - name: Run native plugin unit tests
+        run: uv run --project "$HERMES_RUNTIME" --frozen --no-dev python -B -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Validate native plugin and real registration
+        run: |
+          uv run --project "$HERMES_RUNTIME" --frozen --no-dev hermes plugins validate . --json
+          uv run --project "$HERMES_RUNTIME" --frozen --no-dev hermes plugins doctor . --ci
+      - name: Exercise namespaced skill and recipe access in an isolated profile
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+          PYTHONPATH: ${{ runner.temp }}/hermes-runtime
+          TMPDIR: ${{ runner.temp }}
+        run: uv run --project "$HERMES_RUNTIME" --frozen --no-dev python -B tests/check_hermes_runtime.py
+
+  openclaw:
+    name: OpenClaw native plugin
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Install the pinned OpenClaw CLI
+        run: npm install -g openclaw@2026.9.8
+      - name: Run native plugin unit tests
+        run: python3 -B -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Install and inspect the native plugin in an isolated profile
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+          TMPDIR: ${{ runner.temp }}
+        run: python3 -B tests/check_openclaw_runtime.py
+
   validate:
     name: Plugin validate (--strict)
     runs-on: ubuntu-latest

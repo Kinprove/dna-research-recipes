@@ -16,6 +16,47 @@ evidence and for record searches. One [Agent Skill](https://code.claude.com/docs
 **Claude.ai and the Claude desktop app** — open **Customize → Plugins → Add → Add marketplace**,
 enter `Kinprove/genealogy-research-recipes`, then add `genealogy-research-recipes`.
 
+**Hermes Agent** — install and explicitly enable the native plugin:
+
+```sh
+hermes plugins install Kinprove/genealogy-research-recipes --no-enable
+hermes plugins enable genealogy-research-recipes
+```
+
+Start a new Hermes session after enabling. Ask the agent to load
+`genealogy-research-recipes:genealogy-research-recipes` with `skill_view`, or discover
+it with `skills_list`. To load an individual recipe, use the same qualified name
+and a relative `file_path`, for example `recipes/ai-for-dna-research.md`.
+
+Native plugin skills are read-only, namespaced and explicitly loaded; Hermes does
+not add them to the automatic system-prompt skill index. Existing skills with the
+same bare name remain separate. The plugin needs no Python dependencies, API keys
+or Kinprove account and does not configure the optional MCP connector.
+
+Update the installed plugin with:
+
+```sh
+hermes plugins update genealogy-research-recipes
+```
+
+**OpenClaw** — install the native plugin:
+
+```sh
+openclaw plugins install git:github.com/Kinprove/genealogy-research-recipes
+```
+
+OpenClaw asks you to confirm the source and the plugin's skills. Restart the Gateway
+after installing. The `genealogy-research-recipes` skill then loads like any other
+OpenClaw skill, with every recipe file beside it. The plugin registers no tools or
+hooks, needs no Node dependencies, API keys or Kinprove account and does not
+configure the optional MCP connector.
+
+Update the installed plugin with:
+
+```sh
+openclaw plugins update genealogy-research-recipes
+```
+
 ## Recipes
 
 - **DNA reasoning:** [unknown parentage and WATO](skills/genealogy-research-recipes/recipes/unknown-parentage-wato.md), [AI for DNA research](skills/genealogy-research-recipes/recipes/ai-for-dna-research.md), [Y-DNA and mtDNA](skills/genealogy-research-recipes/recipes/ydna-mtdna-interpretation.md), [X-DNA and phasing](skills/genealogy-research-recipes/recipes/xdna-phasing-judgment.md)
