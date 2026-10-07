@@ -27,6 +27,12 @@
 23. *How to Know if You've Met the Genealogical Proof Standard* — Family Locket, 2025-11-05 — <https://www.youtube.com/watch?v=-2uRQYUHMzA> — Rights: cited reference, not reproduced.
 24. *Getting to Know the New Merge Experience with Kathryn Grant* — BYU Family History Library, 2025-08-16 — <https://www.youtube.com/watch?v=92Psj3REPs0> — Rights: cited reference, not reproduced.
 25. *RLP 391: Revisiting the Father of Cynthia (Dillard) Royston, Part 4* — Family Locket, 2026-01-05 — <https://www.youtube.com/watch?v=q6KP5K1edGM> — Rights: cited reference, not reproduced.
+26. *Genealogy Methodology: Using Hypotheses in Genealogy* — Ancestry, 2017-11-21 — <https://www.youtube.com/watch?v=QqUssIZyVXs> — Rights: cited reference, not reproduced.
+27. *RLP 187: Revisiting Research Planning Again* — Nicole Elder Dyer / Family Locket, 2022-02-07 — <https://familylocket.com/rlp-187-revisiting-research-planning-again/> — Rights: cited reference, not reproduced.
+28. *Genealogy Proof Series – Creating Genealogy Proof Tables* — Roberta Estes, 2024-11-11 — <https://dna-explained.com/2024/11/11/genealogy-proof-series-creating-genealogy-proof-tables/> — Rights: cited reference, not reproduced.
+29. *QuickLesson 16: Speculation, Hypothesis, Interpretation & Proof* — Elizabeth Shown Mills / Evidence Explained, accessed 2026-10-07 — <https://evidenceexplained.com/content/quicklesson-16-speculation-hypothesis-interpretation-proof> — Rights: cited reference, not reproduced.
+30. *QuickLesson 27: Verifying Historical 'Facts'—A Blueprint* — Elizabeth Shown Mills / Evidence Explained, accessed 2026-10-07 — <https://evidenceexplained.com/content/quicklesson-27-verifying-historical-facts-a-blueprint> — Rights: cited reference, not reproduced.
+31. *Ethics and Standards* — Board for Certification of Genealogists, accessed 2026-10-07 — <https://www.bcgcertification.org/ethics-standards> — Rights: cited reference, not reproduced.
 
 ## Credits
 

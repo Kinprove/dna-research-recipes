@@ -4,6 +4,10 @@
 
 Keep a usable FamilyTreeDNA (FTDNA) match/segment dataset through exports, name collisions and tree
 relinking. The output is a paired export, a name-safe joined table and a dated link/bucket inventory.
+
+For a public Y-DNA project, the output can instead be a dated Group Time Tree view packet:
+selected subgroups, visible branches/estimates, display exceptions and any authorized
+administrator configuration check. This route does not require Family Finder exports.
 All examples are synthetic.
 
 ## The failure to prevent
@@ -14,11 +18,11 @@ export choice and kit with the rows, and refresh match metadata after relinking.
 
 ## Before starting
 
-Use authorized account access and start with the paired export in workflow 1. FTDNA downloads
+For workflows 1–4, use authorized account access and start with the paired export in workflow 1. FTDNA downloads
 require two-factor authentication. [H6]
 Keep original files and profile details private; use opaque handles in shared summaries.
 
-## Four workflows
+## Five workflows
 
 ### 1. Export the match and segment pair, and record its scope
 
@@ -135,6 +139,64 @@ Preserve the provider's assignments exactly, including unassigned rows, in each 
 relationship range and shared-DNA validation, and included in a post-link export. Record
 unavailable anchors separately. Compare that export with the baseline and send any remaining
 side/path conflicts to `ai-for-dna-research.md` with the two exports and the link ledger.
+
+### 5. Record a Group Time Tree view and its display scope
+
+Use this workflow for a project's public Y-DNA Group Time Tree. It does not require the
+Family Finder exports above. A public project view contains selected participating Big Y
+lineages; it is shaped by subgroup selection and publication settings. [S6–S8]
+
+1. Open the project's public website and its **DNA Results → Group Time Tree** entry, or find
+   the project through Discover's **Group Project** search. Select the relevant subgroup(s)
+   before reading the tree. Record the project URL, retrieval time and selected subgroup names.
+   A broad selection can combine distant branches and compress the recent part of the
+   timeline; narrow the selection to the documented project question. [S6, S8]
+2. Save the visible view and record the displayed branch label, time estimate and interval
+   exactly as shown, together with the selected display options. Distinguish a branch estimate
+   from a named historical person's dates. A dashed connection can represent collapsed
+   intermediate branches in this selected view. It does not show that those branches or their
+   SNPs are absent from the underlying tree. [S6, S8]
+3. If the view is blank or a known participant's details are missing, diagnose the display in
+   order: selected subgroup, presence of participating Big Y results, public project results
+   settings, member sharing and update timing. A padlock can hide a member's name or earliest
+   known ancestor. Record `details withheld` rather than inventing the missing identity or
+   classifying that kit as absent. Save the retrieval date and recheck date; the 2023 instructions
+   describe periodic updates, not an immediate reflection of every change. [S6, S7]
+
+**Optional administrator branch:** use authorized Group Administrator access to inspect the
+project's public-results configuration. Save the previous settings before any change. The
+Group Time Tree instructions require public Y-SNP or Y-STR results; use a public report only
+within the project's agreed publication scope. Arrange the relevant Big Y kits into useful
+subgroups and verify the entered display names and earliest known ancestors. Those ancestor
+fields are maintained in the account; the administrator guide does not derive them from an
+uploaded tree. Preserve member sharing choices. [S6, S7]
+
+The 2023 S6 instructions locate report-publication options at GAP → **Public Website**,
+per-member Y-DNA result display at **Public Results Display Settings**, and subgroup assignment
+at **Member Subgrouping**. Use these dated entry points to locate the corresponding functions;
+record the current screen names and controls actually offered before any change. [S6]
+
+A member's **Account Settings → Project Preferences → Group Project Profile** sharing choice
+controls permission to publish that project profile. Administrator access levels are a separate
+setting. Having access to a kit does not by itself authorize its public display. Check the
+public tree after an update and record unresolved display exceptions instead of changing a
+member's opt-in to make a row appear. [H8]
+
+**Artifact:** one dated view record: project URL, selected subgroups, display options, branch
+label, displayed estimate/interval, screenshot reference and participant-display exceptions.
+If you administer the project, add a private configuration record: prior/current public-report
+settings, subgroup assignment, member sharing state observed, change time and next public check.
+
+**Stop when** the saved view can be reproduced from its recorded subgroup/display selection,
+and each expected but unresolved display is labeled `selection mismatch`,
+`no participating Big Y result verified`, `details withheld`, `update pending` or
+`unresolved`. A publication change remains pending until checked in the public view.
+
+**Synthetic example:** project `P1`, subgroup `Documented branch A`, retrieved
+`2026-10-07T10:00:00Z`, branch `synthetic node N1`, displayed interval `copied from view V1`,
+exception `K2: details withheld`. This record establishes what was visible in that selection,
+not that a historical ancestor has been identified. Send lineage, SNP or date interpretation
+with the saved view to `genealogy-research-recipes` → `ydna-mtdna-interpretation.md`.
 
 ## Hand off interpretation
 

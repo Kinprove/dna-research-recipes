@@ -18,6 +18,14 @@ promise about current controls.
 - **S10:** Ancestry Support, [Newspapers.com Collections FAQ](https://help.ancestry.com/hc/en-us/articles/53933301811859-Newspapers-com-Collections-FAQ), publication date unspecified; accessed 2026-10-03.
 - **S11:** Devon Noel Lee, Family History Fanatics, [8 Effective Online Genealogy Research Strategies](https://www.youtube.com/watch?v=YAMXdoNTjF0), published 2022-01-10; supplemental example of historical husband-name identification, not platform-specific syntax.
 
+Additional title/holding resolver sources:
+
+- **S12:** Joyce Whiting, BYU Family History Library, [Chronicling America](https://www.youtube.com/watch?v=rP72UQp_taU), published 2016-03-23; title-directory and name-change example, historical interface.
+- **S13:** Richard Miller, BYU Family History Library, [Goldie May as a Newspaper Finding Aid](https://www.youtube.com/watch?v=FcRWWrth0JM), published 2025-10-17; locality/collection finding-aid route, not a complete holdings guarantee.
+- **S14:** James Tanner, BYU Family History Library, [Free Online Newspaper Websites](https://www.youtube.com/watch?v=k6E3ZJu1Txg), published 2023-11-21; title-directory versus newspaper pages, print/microfilm/digital formats and institutional holdings.
+- **H1:** Library of Congress, [Chronicling America Website Migration](https://loc.gov/ndnp/migration/), updated 2026-04-01; checked 2026-10-07.
+- **H2:** Library of Congress, [Newspapers — Collections and Access](https://www.loc.gov/research-centers/newspaper-and-current-periodical/collections/newspapers/), publication date unspecified; checked 2026-10-07 through indexed primary-page content.
+
 ## Credits
 
 - Kinprove — original distillation and synthesis — FSL-1.1-MIT (kinprove-original)
