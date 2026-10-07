@@ -5,7 +5,8 @@
 Recover an ancestral newspaper notice when an exact-name search fails, and distinguish a
 page containing search terms from a notice that actually reports the person's event.
 
-Use this recipe for retrieval on Newspapers.com. For evaluating a recovered person's
+Use this recipe for retrieval on Newspapers.com and for resolving an alternate holding when its
+coverage is insufficient. For evaluating a recovered person's
 identity, use [Evidence and Proof Judgment](evidence-proof-judgment.md). For difficult
 image transcription or translation, use [AI for Documentary Records](ai-for-documentary-records.md).
 
@@ -29,6 +30,63 @@ image transcription or translation, use [AI for Documentary Records](ai-for-docu
 6. **Publication location and date describe the newspaper.** They do not automatically
    identify the person's residence or the event's date. Travel, regional circulation,
    reprints and later proceedings can move the useful notice elsewhere. (S2, S3, S6)
+
+## Resolve a title to a holding and an issue
+
+Use this step when Browse lacks the expected title/issue, or when a newspaper catalog gives a
+promising title without accessible pages. Keep three dates separate: the newspaper's publication
+span, a repository's held span and the issues you actually inspected. A title directory or a
+finding-aid collection link supplies a locator, not proof that the target issue is digitized.
+(S12–S14)
+
+1. **Resolve the historical title.** Begin with the event interval, likely publication locality
+   and relevant language/community. For U.S. titles, search the
+   [Directory of U.S. Newspapers in American Libraries](https://www.loc.gov/collections/directory-of-us-newspapers-in-american-libraries/).
+   Open each plausible title record; record its title identifier (such as LCCN), place,
+   publication span and catalog URL. Follow predecessor/successor records across a title change
+   and keep their identifiers separate. A newspaper that changed its name can require a
+   different title record for the target year. (S12, H1)
+2. **Resolve the holder and format.** Follow the title record's holdings links and the identified
+   institution's catalog. For each relevant holding, record institution, holding identifier or
+   call number, format, stated held dates/gaps and access route. Print, microfilm and digital
+   holdings can cover different date ranges. If you use a locality-based finding aid, follow
+   its collection link to the actual provider or repository before recording coverage.
+   A collection-level lead stays `holding unverified` until its holdings are checked. (S13,
+   S14, H2)
+3. **Verify the target issue.** For a digital holding, open its issue calendar/list and then the
+   required date and edition; record the pages present and what you could inspect. For a print
+   or microfilm holding, prepare a bounded request or visit plan with title identifier, call
+   number, format and exact dates. Record `physical issue not inspected` until the actual issue
+   has been checked. A catalog's held date span alone does not settle a particular issue/page.
+   Apply the OCR/name tactics below to accessible images; an access problem needs the recorded
+   alternate holding or request, rather than more spelling probes. (S14, H2; authored check)
+
+**Artifact:** one register row for each title–holding–target-issue combination:
+
+| Field group | Record |
+| --- | --- |
+| Title | Title ID/URL, printed title, publication place, publication span, predecessor/successor IDs relevant to the target year |
+| Holding | Repository, holding ID/call number and catalog URL, print/microfilm/digital format, stated held dates and explicit gaps |
+| Issue | Target date and edition, issue/page URL or physical locator, pages present, pages actually inspected, OCR availability observed |
+| Decision | Retrieval date, status, next holding/request to check and next-check date |
+
+Use `title lead only`, `holding unverified`, `digital issue inspected`, `physical issue inspected`,
+`digital issue inaccessible`, `physical issue not inspected` or `issue absent from checked holding`.
+Keep a no-match search in an inspected issue separate from those coverage/access states.
+If several holders cover the interval, retain separate rows so the format and access result
+remain traceable.
+
+**Stop when** each selected title has an identified holding and an inspected target issue, or an
+explicit unresolved status with its next action. If the necessary issue remains inaccessible
+or absent, report that boundary and proceed only with the available scope under the stopping
+rules below. Once an issue is inspected, use its identifier/URL in the recovered notice's source
+record; the directory record remains the locator.
+
+The Library of Congress migrated Chronicling America on **2025-08-04**. Its title directory is
+now a separate searchable collection covering newspapers in all formats; digitized newspaper
+pages are in [Chronicling America](https://www.loc.gov/collections/chronicling-america/).
+The 2016/2023 tutorials' old tabs and screen positions are historical examples. Use current
+collection links and inspect the destination rather than reproducing those old controls. (H1)
 
 ## Search recipes
 
@@ -101,6 +159,9 @@ Check actual issue availability first. Inspect the title's naming style; try ini
 middle names and relevant maiden/married/husband-name forms. If OCR fails, search an
 associate or distinctive clue, then browse selected issues. Expand place/date only with
 a stated reason. Use only currently documented query syntax.
+
+When Browse coverage is insufficient, follow the title–holding–issue workflow and
+return its register with the documented fields, statuses and next action.
 
 Inspect the complete notice before attaching an event to the person. A surname and verb
 elsewhere on the same page are not a match. Treat a letter-list entry as a connection
