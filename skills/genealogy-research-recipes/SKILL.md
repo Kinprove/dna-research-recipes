@@ -1,7 +1,7 @@
 ---
 name: genealogy-research-recipes
 description: >-
-  Genealogy: unknown parentage/adoptees, WATO, ancestral couples; Ashkenazi/endogamous matches, segments, relative testing; Y-DNA haplogroups/SNP no-calls/Y-STR distance, mtDNA, X-DNA/phasing, half-sister versus aunt; identity conflicts, negative evidence, Genealogical Proof Standard; transcription/translation, hints/photos; Russian Empire names, revision lists, приписка, recruit evasion, emigrant-origin recovery (U.S. arrivals, Canadian transit, manifests, contacts, localities/archives); JewishGen, Beider, natal families; MyHeritage records/DNA/shared matches/triangulation/theories; Newspapers.com OCR; Ancestry records/DNA/Pro Tools/ThruLines; FamilySearch Catalog/DGS/Full Text/Simple Search/Tree; HebrewBooks OCR/Shafeh/indexes; 23andMe exports/permissions/painting/matrices/bucketing/reconstructed ancestors/research trees; FTDNA; DNA Painter painting/transfers/segment generators/coverage; GEDmatch comparisons/groups/triangulation/phasing/Lazarus; Geni; U.S. census; U.S. immigration/naturalization, borders.
+  Genealogy: unknown parentage/adoptees, WATO, ancestral couples/endogamy/testing; Y-DNA/SNP/STR/mtDNA/X-DNA/phasing; DNA/documentary identity conflicts, negative evidence, conditional hypotheses, Genealogical Proof Standard, standards audits; AI transcription/translation, hints/photos; Russian Empire names/registration/revision lists/emigrant origins; JewishGen, Beider, HebrewBooks; Ancestry records/DNA/Pro Tools/ThruLines; MyHeritage records/DNA/shared matches/theories; FamilySearch Catalog/DGS/Full Text/Source Linker; 23andMe exports/matrices/painting; FTDNA exports/Family Matching/Group Time Tree; DNA Painter painting/coverage/segment generators; GEDmatch comparisons/triangulation/phasing/Lazarus; Newspapers.com OCR/title holdings; Geni, WikiTree DNA tester/kit links, RootsMagic reconciliation; U.S. census/immigration/naturalization/military pensions; burial/cemetery, city directories, probate inventories, land indexes/book series; Irish Catholic NLI registers; Polish Geneteka/Metryki/Szukaj originals.
 ---
 
 # Genealogy research recipes
@@ -25,6 +25,83 @@ authorship does not require a Kinprove account, connector or scoring engine.
 4. If no recipe matches, answer normally — don't force-fit.
 
 ## Recipes
+
+- **`recipes/genealogy-standards-audit.md`** — Audit a dossier, report, proof draft or
+  documented tree by tracing each claim through examined sources and explained reasoning.
+  *Use for:* citation gaps, search coverage, negative-evidence claims, GPS review,
+  dependent conclusions, or choosing a research report, proof statement, summary or argument.
+  *Core guardrail:* a completed checklist does not establish proof; name the inspected
+  evidence and remaining gaps, and leave evidentiary sufficiency to the researcher.
+
+- **`recipes/jewish-genealogy-conditional-hypotheses.md`** — Apply working hypotheses
+  to Jewish naming, locality and DNA clues while keeping each proposition separate.
+  *Use for:* proposed parentage, name equivalence, namesakes, naming customs, ancestral
+  towns, conditional branches or segment attribution through an endogamous pedigree.
+  *Core guardrail:* settling kinship does not settle birthplace, namesake or every segment;
+  preserve the premises and dependencies in `recipes/evidence-proof-judgment.md`.
+
+- **`recipes/burial-evidence-packet.md`** — Recover a cemetery entry, its photograph
+  or inscription, and the plot and cemetery-record locators needed to inspect the burial.
+  *Use for:* cemetery coverage, surname variants, Hebrew and civil inscriptions,
+  death/burial discrepancies or a database hit that needs a cemetery-record follow-up.
+  *Core guardrail:* distinguish death, burial, inscription and database statements;
+  keep missing fields and conflicting observations visible in the evidence packet.
+
+- **`recipes/city-directory-observation-workflow.md`** — Build a comparable series
+  of city-directory names, addresses and occupations from checked editions and sections.
+  *Use for:* surrounding locality sections, abbreviation keys, index errors,
+  address/occupation changes or a person missing from one directory edition.
+  *Core guardrail:* separate unavailable and uninspected editions from inspected
+  sections with no hit; a gap does not establish a move, death or identity.
+
+- **`recipes/land-index-book-series-recovery.md`** — Follow a land-record lead through
+  both relevant index directions to the correct instrument and record-book series.
+  *Use for:* grantor/grantee indexes, ambiguous book locators, separate book series,
+  delayed recording or a surname search that missed the alternative index entry.
+  *Core guardrail:* copy the original locator, distinguish instrument and recording
+  dates, and report bounded retrieval coverage before interpreting title or kinship.
+
+- **`recipes/probate-case-document-inventory.md`** — Recover the documents behind
+  a probate index, will or administrator's bond as a case inventory with unresolved leads.
+  *Use for:* probate record series, references to other documents, later actions,
+  non-will proceedings or an estate search that stopped at the first useful document.
+  *Core guardrail:* finding a will does not finish the case; retain each document's
+  locator and remaining retrieval gaps, then hand off evidence interpretation.
+
+- **`recipes/us-military-pension-file-recovery.md`** — Carry a service clue or pension
+  index card to the appropriate application file and inventory the claim's documents.
+  *Use for:* pension-card identifiers, record custodians, complete versus abbreviated
+  copy products, widow/dependent applications, objections or later claim decisions.
+  *Core guardrail:* distinguish the index, service record, pension file and copy product;
+  preserve original image order beside the claim timeline and explicit missing material.
+
+- **`recipes/irish-catholic-parish-image-recovery.md`** — Carry an Irish Catholic
+  baptism or marriage lead into the NLI parish-register images and locate the actual entry.
+  *Use for:* RootsIreland/Findmypast transcriptions, Catholic parish/register selection,
+  a link opening the register's first page, date browsing or exact image citations.
+  *Core guardrail:* verify the opened route and entry; preserve register and image
+  locators, and keep baptism distinct from birth unless the original records both.
+
+- **`recipes/polish-index-original-record-recovery.md`** — Recover an original Polish
+  register entry from Geneteka, Metryki or Szukaj w Archiwach, or document the retrieval gap.
+  *Use for:* SKAN links, locality/confession/year/act locators, PRADZIAD descriptions,
+  archival fonds and units, missing scans or alternative holding routes.
+  *Core guardrail:* an index or holding description is not an inspected original;
+  preserve the act's locator and the exact level where access or retrieval stopped.
+
+- **`recipes/rootsmagic-tree-reconciliation-workflow.md`** — Reconcile selected
+  facts and sources between RootsMagic, Ancestry TreeShare and FamilySearch.
+  *Use for:* person crosswalks, staged additions/replacements, citation and media transfer,
+  duplicate sources, destination checks or resuming a bounded synchronization batch.
+  *Core guardrail:* review each object and direction, then reopen the destination
+  to verify the saved content; the three trees are not an automatic mirror.
+
+- **`recipes/wikitree-dna-tester-links.md`** — Register a DNA test on the actual
+  tester's WikiTree profile and verify its FamilyTreeDNA or GEDmatch link destination.
+  *Use for:* tester/kit crosswalks, external tree links, visibility settings,
+  propagated DNA Connections or pedigree leads needing documentary follow-up.
+  *Core guardrail:* a registered test or tree-derived connection is not a measured
+  comparison or DNA-confirmed relationship; preserve each observation separately.
 
 - **`recipes/usa-immigration-search-recovery.md`** — Twelve historical U.S. immigration
   workflows: reconstruct journeys, test port and border coverage, recover name variants,
@@ -157,12 +234,15 @@ authorship does not require a Kinprove account, connector or scoring engine.
 - **`recipes/evidence-proof-judgment.md`** — Correlating evidence & proving identity: the judgment an AI gets
   WRONG when it recites the Genealogical Proof Standard but misapplies it — same-name conflation, conflict-
   flattening, over-reading a document, negative-evidence errors, DNA/documentary siloing, de-novo fabrication,
-  and sycophancy toward the answer you want.
+  and sycophancy toward the answer you want. Includes a premise and dependency register
+  for investigating a tentative branch without silently inheriting its assumptions.
   *Use for:* separating same-named people, resolving conflicting records, weighing indirect vs negative evidence,
-  or combining DNA with documents into ONE proof — **and** whenever you (the assistant) are about to state a
-  genealogical conclusion.
+  combining DNA with documents into ONE proof, conditional placements, discriminating
+  hypothesis tests or revising dependent claims — **and** whenever you (the assistant)
+  are about to state a genealogical conclusion.
   *Core guardrail:* the human owns every ruling (merge/separate, conflict resolution, exhaustiveness, the final
-  "therefore proven"); the model assembles and drafts but NEVER concludes.
+  "therefore proven"); a provisional link can direct a search without establishing
+  dependent ancestry. The model assembles and drafts but NEVER concludes.
 - **`recipes/russian-empire-jewish-identity-attribution.md`** — A Russian-Empire Jewish ancestor who turns up
   under a given name, patronymic or surname that fits neither candidate branch: the inverse of same-name
   collapse (one person, several names), read through the imperial record system — revision lists (ревизские
@@ -209,11 +289,12 @@ authorship does not require a Kinprove account, connector or scoring engine.
   at a time, preserve original text, and treat structured or translated values as search leads.
 
 - **`recipes/newspapers-com-search-recovery.md`** — Recovering newspaper notices when issue
-  coverage, printed names or OCR hide an ancestor on Newspapers.com. Search initials, married
-  names, associates, occupations and addresses; follow travel, social and legal notices across
-  relevant newspapers, then verify the original notice.
+  coverage, printed names or OCR hide an ancestor on Newspapers.com. Build a title–holding–issue
+  register first, resolve another holding when coverage is insufficient, then search initials,
+  married names, associates, occupations and addresses and verify the original notice.
   *Use for:* a failed newspaper name search, an unknown maiden name, a missing obituary,
-  immigration or family-reconstruction leads, incomplete issue coverage, or unreadable OCR.
+  immigration or family-reconstruction leads, title changes, incomplete issue coverage,
+  alternate holdings or unreadable OCR.
   *Core guardrail:* a page-level hit can join different notices; verify each person, relationship,
   event date and place in its actual notice. A failed query is not evidence that an event never
   happened, and a second index of the same newspaper image is not independent corroboration.
@@ -245,12 +326,16 @@ authorship does not require a Kinprove account, connector or scoring engine.
   *Core guardrail:* verify actual access and quantity scope; keep shared-list
   membership, matching intervals, ancestry estimates and documentary identity separate.
 
-- **`recipes/ftdna-practical-dna-workflows.md`** — Four FTDNA workflows for paired
-  match/segment exports, duplicate-name joins, MyHeritage tree links and Family Matching.
+- **`recipes/ftdna-practical-dna-workflows.md`** — Five FTDNA workflows for paired
+  match/segment exports, duplicate-name joins, MyHeritage tree links, Family Matching
+  and public Y-DNA Group Time Tree view packets.
   *Use for:* Family Finder CSV scope, opaque note handles, selected-match segment files,
-  transferred links that need confirmation, and dated parental-bucket inventories.
+  transferred links that need confirmation, dated parental-bucket inventories,
+  subgroup selections, branch estimates, hidden details or authorized project-display checks.
   *Core guardrail:* reconcile export scope before joining; hold out ambiguous names;
   confirm each tree link and preserve observed vendor assignments separately from pedigree proof.
+  A selected Group Time Tree view has its own scope; missing or withheld details
+  do not establish an absent lineage, and kit access does not authorize public display.
 
 - **`recipes/dnapainter-practical-dna-workflows.md`** — Six practical DNA Painter operations:
   paint measured matches, copy or merge maps of one tester, intersect phased inheritance,
